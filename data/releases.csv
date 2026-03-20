@@ -1,0 +1,6 @@
+name,status,owner
+autopilot,complete,alice
+summon,in progress,bob
+sentry mode,complete,alice
+dog mode,delayed,bob
+lane change,delayed,alice

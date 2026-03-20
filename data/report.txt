@@ -1,0 +1,7 @@
+Release: Tesla Release Tracker
+Version: 1.0
+---
+Feature: autopilot | Status: complete
+Feature: summon | Status: in progress
+Feature: sentry mode | Status: complete
+Feature: dog mode | Status: delayed
