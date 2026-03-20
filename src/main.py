@@ -20,25 +20,34 @@ def check_status(features):
             delayed.append(feature["name"])
     return delayed, counts
 
-def print_report(features, delayed, counts):
-    print("=== Tesla Release Tracker ===")
-    print("Date:", date.today())
-    print("---")
-    print("SUMMARY:")
-    print(f"  Total features : {len(features)}")
-    print(f"  Complete       : {counts['complete']}")
-    print(f"  In progress    : {counts['in progress']}")
-    print(f"  Delayed        : {counts['delayed']}")
-    print("---")
+def build_report(features, delayed, counts):
+    lines = []
+    lines.append("=== Tesla Release Tracker ===")
+    lines.append(f"Date: {date.today()}")
+    lines.append("---")
+    lines.append("SUMMARY:")
+    lines.append(f"  Total features : {len(features)}")
+    lines.append(f"  Complete       : {counts['complete']}")
+    lines.append(f"  In progress    : {counts['in progress']}")
+    lines.append(f"  Delayed        : {counts['delayed']}")
+    lines.append("---")
     for feature in features:
-        print("Feature:", feature["name"], "| Status:", feature["status"], "| Owner:", feature["owner"])
-    print("---")
+        lines.append(f"Feature: {feature['name']} | Status: {feature['status']} | Owner: {feature['owner']}")
+    lines.append("---")
     if delayed:
-        print("FLAGGED AS DELAYED:")
+        lines.append("FLAGGED AS DELAYED:")
         for item in delayed:
-            print(" -", item)
+            lines.append(f" - {item}")
     else:
-        print("No delayed features.")
+        lines.append("No delayed features.")
+    return lines
+
+def print_report(features, delayed, counts, output_path="data/report.txt"):
+    lines = build_report(features, delayed, counts)
+    for line in lines:
+        print(line)
+    with open(output_path, "w") as f:
+        f.write("\n".join(lines) + "\n")
 
 features = load_features("data/releases.csv")
 delayed, counts = check_status(features)

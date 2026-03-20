@@ -1,7 +1,18 @@
-Release: Tesla Release Tracker
-Version: 1.0
+=== Tesla Release Tracker ===
+Date: 2026-03-20
 ---
-Feature: autopilot | Status: complete
-Feature: summon | Status: in progress
-Feature: sentry mode | Status: complete
-Feature: dog mode | Status: delayed
+SUMMARY:
+  Total features : 5
+  Complete       : 2
+  In progress    : 1
+  Delayed        : 2
+---
+Feature: autopilot | Status: complete | Owner: alice
+Feature: summon | Status: in progress | Owner: bob
+Feature: sentry mode | Status: complete | Owner: alice
+Feature: dog mode | Status: delayed | Owner: bob
+Feature: lane change | Status: delayed | Owner: alice
+---
+FLAGGED AS DELAYED:
+ - dog mode
+ - lane change
