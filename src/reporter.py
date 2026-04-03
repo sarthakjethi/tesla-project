@@ -366,3 +366,101 @@ def velocity_report(snap: dict) -> list[str]:
         lines.append(_bar(cat, n, total_rel))
     lines.append("")
     return lines
+
+
+# ---------------------------------------------------------------------------
+# 7. Comparison Report
+# ---------------------------------------------------------------------------
+
+def comparison_report(comp: dict) -> list[str]:
+    """Format a get_comparison() result into printable lines."""
+    d1, d2, days = comp["date1_str"], comp["date2_str"], comp["days"]
+    g_names = comp["g_names"]
+    eng_map = comp["eng_map"]
+
+    lines = _box(f"  COMPARISON REPORT: {d1} -> {d2}  ({days} days)")
+
+    # ── WHAT SHIPPED ─────────────────────────────────────────────────────────
+    lines += _section("WHAT SHIPPED IN THIS WINDOW")
+    released = comp["released_in_window"]
+    versions = comp["versions_in_window"]
+
+    lines.append(f"  Total features released : {len(released)}")
+    lines.append(f"  New versions shipped    : {len(versions)}")
+    if versions:
+        ver_list = ", ".join(v["version"] for v in versions)
+        # wrap at ~60 chars
+        chunk, buf = [], ""
+        for tok in ver_list.split(", "):
+            if len(buf) + len(tok) > 58:
+                chunk.append(buf.rstrip(", "))
+                buf = ""
+            buf += tok + ", "
+        if buf:
+            chunk.append(buf.rstrip(", "))
+        for i, c in enumerate(chunk):
+            prefix = "    Versions: " if i == 0 else "              "
+            lines.append(prefix + c)
+
+    fsd_s = comp["fsd_at_start"] or "N/A"
+    fsd_e = comp["fsd_at_end"]   or "N/A"
+    lines.append(f"  FSD                    : {fsd_s} -> {fsd_e}")
+
+    lines.append("  Features by group:")
+    # Use known group ordering from g_names
+    for gid in sorted(comp["group_counts"].keys()):
+        cnt   = comp["group_counts"][gid]
+        gname = g_names.get(gid, f"Group {gid}")
+        lines.append(f"    {gname:<28} {cnt:4d}")
+
+    # ── PROGRESS MADE ─────────────────────────────────────────────────────────
+    lines += _section("PROGRESS MADE (features that moved status)")
+    trans_labels = {
+        "planned":          "Planned          -> Released",
+        "in_development":   "In Development   -> Released",
+        "feature_complete": "Feature Complete -> Released",
+        "release_complete": "Release Complete -> Released",
+    }
+    for key in ["planned", "in_development", "feature_complete", "release_complete"]:
+        n = comp["transitions"].get(key, 0)
+        if n:
+            lines.append(f"  {trans_labels[key]}: {n}")
+
+    # ── ENGINEER PRODUCTIVITY ─────────────────────────────────────────────────
+    lines += _section("ENGINEER PRODUCTIVITY IN WINDOW")
+    eng_counts = comp["eng_counts"]
+    if eng_counts:
+        top_eid = max(eng_counts, key=lambda e: eng_counts[e])
+        top_name = eng_map.get(top_eid, {"name": top_eid})["name"]
+        lines.append(f"  Most active engineer: {top_name} ({eng_counts[top_eid]} features shipped)")
+        lines.append("")
+        lines.append(f"  {'Engineer':<20} {'Shipped':>7}")
+        lines.append("  " + "-" * 30)
+        for eid, cnt in sorted(eng_counts.items(), key=lambda x: -x[1]):
+            name = eng_map.get(eid, {"name": eid})["name"]
+            lines.append(f"  {name:<20} {cnt:>7}")
+    else:
+        lines.append("  No engineer activity recorded in this window.")
+
+    # ── VELOCITY ──────────────────────────────────────────────────────────────
+    lines += _section("VELOCITY IN WINDOW vs OVERALL")
+    wfpm = comp["window_fpm"]
+    ofpm = comp["overall_fpm"]
+    lines.append(f"  Features per month in window  : {wfpm:.1f}")
+    lines.append(f"  Overall avg features per month: {ofpm:.1f}")
+    if ofpm > 0:
+        ratio = wfpm / ofpm
+        pace = "faster" if ratio > 1.1 else ("slower" if ratio < 0.9 else "same")
+    else:
+        pace = "N/A"
+    lines.append(f"  Pace                          : {pace}")
+
+    # ── RISKS ─────────────────────────────────────────────────────────────────
+    lines += _section("RISKS ACTIVE DURING WINDOW")
+    sev_order = {"critical": 0, "high": 1, "medium": 2, "low": 3}
+    open_risks = [r for r in comp["risks"] if r.get("status", "open") == "open"]
+    for r in sorted(open_risks, key=lambda x: sev_order.get(x["severity"], 9)):
+        lines.append(f"  [{r['severity'].upper():<8}] {r['title']:<40}  owner: {r['owner_team']}")
+
+    lines.append("")
+    return lines
