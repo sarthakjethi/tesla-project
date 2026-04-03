@@ -1,6 +1,6 @@
 assignment_id,feature_id,engineer_id,version,feature_name,group_id,lifecycle_status,progress_pct
 A0001,F0001,E06,2023.12,Phone Call Controls,6,released,100
-A0002,F0002,E04,2023.12,Text Size,3,released,100
+A0002,F0002,E09,2023.12,Text Size,3,released,100
 A0003,F0003,E04,2023.12,Scroll Wheel Customization,3,released,100
 A0004,F0004,E04,2023.12,Controls Search,3,released,100
 A0005,F0005,E04,2023.12,Gear Chimes,3,released,100
@@ -14,12 +14,12 @@ A0012,F0012,E06,2023.12,Handwriting,6,released,100
 A0013,F0013,E04,2023.12,Rename Vehicle in App,3,released,100
 A0014,F0014,E03,2023.12,Improvements to Automatic Emergency Braking,2,released,100
 A0015,F0015,E04,2023.12,Parked Visualization,3,released,100
-A0016,F0016,E04,2023.12,Speedometer Font,3,released,100
+A0016,F0016,E09,2023.12,Speedometer Font,3,released,100
 A0017,F0017,E05,2023.12,Nav Improvements,4,released,100
-A0018,F0018,E04,2023.12,Favoriting Songs,5,released,100
+A0018,F0018,E10,2023.12,Favoriting Songs,5,released,100
 A0019,F0019,E04,2023.12,Adjust Wiper Speed,3,released,100
 A0020,F0020,E08,2023.12,Air Suspension,7,released,100
-A0021,F0021,E04,2023.12,Tesla Theater Icons,5,released,100
+A0021,F0021,E10,2023.12,Tesla Theater Icons,5,released,100
 A0022,F0022,E04,2023.12,App Drawer,3,released,100
 A0023,F0023,E04,2023.12,New Labels,3,released,100
 A0024,F0024,E04,2023.12,Charging Screen,3,released,100
@@ -30,7 +30,7 @@ A0028,F0028,E04,2023.12.10,Driving Visualization Improvements,3,released,100
 A0029,F0029,E02,2023.12.10,Full Self-Driving (Beta) Suspension,1,released,100
 A0030,F0030,E01,2023.12.10,Park Assist,1,released,100
 A0031,F0031,E06,2023.12.10,Phone Call Controls,6,released,100
-A0032,F0032,E04,2023.12.10,Text Size,3,released,100
+A0032,F0032,E09,2023.12.10,Text Size,3,released,100
 A0033,F0033,E04,2023.12.10,Scroll Wheel Customization,3,released,100
 A0034,F0034,E04,2023.12.10,Controls Search,3,released,100
 A0035,F0035,E04,2023.12.10,Gear Chimes,3,released,100
@@ -41,12 +41,12 @@ A0039,F0039,E04,2023.12.10,Get to Know Your Tesla,3,released,100
 A0040,F0040,E04,2023.12.10,Rename Vehicle in App,3,released,100
 A0041,F0041,E07,2023.12.10,Improvements to Automatic Emergency Braking,2,released,100
 A0042,F0042,E04,2023.12.10,Parked Visualization,3,released,100
-A0043,F0043,E04,2023.12.10,Speedometer Font,3,released,100
+A0043,F0043,E09,2023.12.10,Speedometer Font,3,released,100
 A0044,F0044,E05,2023.12.10,Nav Improvements,4,released,100
-A0045,F0045,E04,2023.12.10,Favoriting Songs,5,released,100
+A0045,F0045,E10,2023.12.10,Favoriting Songs,5,released,100
 A0046,F0046,E04,2023.12.10,Adjust Wiper Speed,3,released,100
 A0047,F0047,E08,2023.12.10,Air Suspension,7,released,100
-A0048,F0048,E04,2023.12.10,Tesla Theater Icons,5,released,100
+A0048,F0048,E10,2023.12.10,Tesla Theater Icons,5,released,100
 A0049,F0049,E04,2023.12.10,App Drawer,3,released,100
 A0050,F0050,E04,2023.12.10,New Labels,3,released,100
 A0051,F0051,E04,2023.12.10,Charging Screen,3,released,100
@@ -55,7 +55,7 @@ A0053,F0053,E04,2023.12.8,Regenerative Braking,3,released,100
 A0054,F0054,E04,2023.12.8,Power Meter,3,released,100
 A0055,F0055,E04,2023.12.8,Track Mode,3,released,100
 A0056,F0056,E06,2023.12.8,Phone Call Controls,6,released,100
-A0057,F0057,E04,2023.12.8,Text Size,3,released,100
+A0057,F0057,E09,2023.12.8,Text Size,3,released,100
 A0058,F0058,E04,2023.12.8,Scroll Wheel Customization,3,released,100
 A0059,F0059,E04,2023.12.8,Controls Search,3,released,100
 A0060,F0060,E04,2023.12.8,Gear Chimes,3,released,100
@@ -69,12 +69,12 @@ A0067,F0067,E06,2023.12.8,Handwriting,6,released,100
 A0068,F0068,E04,2023.12.8,Rename Vehicle in App,3,released,100
 A0069,F0069,E03,2023.12.8,Improvements to Automatic Emergency Braking,2,released,100
 A0070,F0070,E04,2023.12.8,Parked Visualization,3,released,100
-A0071,F0071,E04,2023.12.8,Speedometer Font,3,released,100
+A0071,F0071,E09,2023.12.8,Speedometer Font,3,released,100
 A0072,F0072,E05,2023.12.8,Nav Improvements,4,released,100
-A0073,F0073,E04,2023.12.8,Favoriting Songs,5,released,100
+A0073,F0073,E10,2023.12.8,Favoriting Songs,5,released,100
 A0074,F0074,E04,2023.12.8,Adjust Wiper Speed,3,released,100
 A0075,F0075,E08,2023.12.8,Air Suspension,7,released,100
-A0076,F0076,E04,2023.12.8,Tesla Theater Icons,5,released,100
+A0076,F0076,E10,2023.12.8,Tesla Theater Icons,5,released,100
 A0077,F0077,E04,2023.12.8,App Drawer,3,released,100
 A0078,F0078,E04,2023.12.8,New Labels,3,released,100
 A0079,F0079,E04,2023.12.8,Charging Screen,3,released,100
@@ -85,7 +85,7 @@ A0083,F0083,E04,2023.12.9,Regenerative Braking,3,released,100
 A0084,F0084,E04,2023.12.9,Power Meter,3,released,100
 A0085,F0085,E04,2023.12.9,Track Mode,3,released,100
 A0086,F0086,E06,2023.12.9,Phone Call Controls,6,released,100
-A0087,F0087,E04,2023.12.9,Text Size,3,released,100
+A0087,F0087,E09,2023.12.9,Text Size,3,released,100
 A0088,F0088,E04,2023.12.9,Scroll Wheel Customization,3,released,100
 A0089,F0089,E04,2023.12.9,Controls Search,3,released,100
 A0090,F0090,E04,2023.12.9,Gear Chimes,3,released,100
@@ -99,12 +99,12 @@ A0097,F0097,E06,2023.12.9,Handwriting,6,released,100
 A0098,F0098,E04,2023.12.9,Rename Vehicle in App,3,released,100
 A0099,F0099,E07,2023.12.9,Improvements to Automatic Emergency Braking,2,released,100
 A0100,F0100,E04,2023.12.9,Parked Visualization,3,released,100
-A0101,F0101,E04,2023.12.9,Speedometer Font,3,released,100
+A0101,F0101,E09,2023.12.9,Speedometer Font,3,released,100
 A0102,F0102,E05,2023.12.9,Nav Improvements,4,released,100
-A0103,F0103,E04,2023.12.9,Favoriting Songs,5,released,100
+A0103,F0103,E10,2023.12.9,Favoriting Songs,5,released,100
 A0104,F0104,E04,2023.12.9,Adjust Wiper Speed,3,released,100
 A0105,F0105,E08,2023.12.9,Air Suspension,7,released,100
-A0106,F0106,E04,2023.12.9,Tesla Theater Icons,5,released,100
+A0106,F0106,E10,2023.12.9,Tesla Theater Icons,5,released,100
 A0107,F0107,E04,2023.12.9,App Drawer,3,released,100
 A0108,F0108,E04,2023.12.9,New Labels,3,released,100
 A0109,F0109,E04,2023.12.9,Charging Screen,3,released,100
@@ -114,33 +114,33 @@ A0112,F0112,E02,2023.2.0.5,Speed Assist,1,released,100
 A0113,F0113,E06,2023.2.0.5,Thai Voice Navigation,6,released,100
 A0114,F0114,E06,2023.2.0.5,Handwriting Keyboard,6,released,100
 A0115,F0115,E06,2023.2.0.5,WeChat Mini Programs,6,released,100
-A0116,F0116,E04,2023.2.0.5,Mango TV,5,released,100
+A0116,F0116,E10,2023.2.0.5,Mango TV,5,released,100
 A0117,F0117,E04,2023.2.0.5,Improvements to Service Mode,3,released,100
 A0118,F0118,E05,2023.2.0.5,Supercharger Prices,4,released,100
 A0119,F0119,E07,2023.2.0.5,View Cabin Camera,2,released,100
-A0120,F0120,E04,2023.2.0.5,Seat Heater Icons,3,released,100
+A0120,F0120,E09,2023.2.0.5,Seat Heater Icons,3,released,100
 A0121,F0121,E08,2023.2.0.5,Suspension Menu,7,released,100
 A0122,F0122,E04,2023.2.10,Auto Steering Wheel Heat,3,released,100
 A0123,F0123,E03,2023.2.10,Sentry Mode Lighting,2,released,100
 A0124,F0124,E01,2023.2.10,Speed Assist,1,released,100
-A0125,F0125,E04,2023.2.10,Mahjong,5,released,100
+A0125,F0125,E10,2023.2.10,Mahjong,5,released,100
 A0126,F0126,E06,2023.2.10,Thai Voice Navigation,6,released,100
 A0127,F0127,E06,2023.2.10,Handwriting Keyboard,6,released,100
 A0128,F0128,E06,2023.2.10,WeChat Mini Programs,6,released,100
-A0129,F0129,E04,2023.2.10,Mango TV,5,released,100
+A0129,F0129,E10,2023.2.10,Mango TV,5,released,100
 A0130,F0130,E04,2023.2.10,Improvements to Service Mode,3,released,100
 A0131,F0131,E05,2023.2.10,Supercharger Prices,4,released,100
 A0132,F0132,E07,2023.2.10,View Cabin Camera,2,released,100
-A0133,F0133,E04,2023.2.10,Seat Heater Icons,3,released,100
+A0133,F0133,E09,2023.2.10,Seat Heater Icons,3,released,100
 A0134,F0134,E08,2023.2.10,Suspension Menu,7,released,100
-A0135,F0135,E04,2023.20,Text Size,3,released,100
+A0135,F0135,E09,2023.20,Text Size,3,released,100
 A0136,F0136,E04,2023.20,Tire Service Mileage,3,released,100
 A0137,F0137,E04,2023.20,Windshield Wiper Control,3,released,100
 A0138,F0138,E06,2023.20,Phone Key,6,released,100
 A0139,F0139,E04,2023.20,New Data Sharing Policy,3,released,100
 A0140,F0140,E04,2023.20.4.1,Tire Service,3,released,100
 A0141,F0141,E04,2023.20.4.1,Tire Service Mileage,3,released,100
-A0142,F0142,E04,2023.20.4.1,Text Size,3,released,100
+A0142,F0142,E09,2023.20.4.1,Text Size,3,released,100
 A0143,F0143,E06,2023.20.4.1,Pinyin Keyboard,6,released,100
 A0144,F0144,E04,2023.20.4.1,Windshield Wiper Control,3,released,100
 A0145,F0145,E06,2023.20.4.1,Phone Key,6,released,100
@@ -156,7 +156,7 @@ A0154,F0154,E02,2023.20.6,FSD Beta v11.3.6,1,released,100
 A0155,F0155,E01,2023.20.6,Full Self-Driving (Beta) Suspension,1,released,100
 A0156,F0156,E04,2023.20.6,Tire Service,3,released,100
 A0157,F0157,E04,2023.20.6,Tire Service Mileage,3,released,100
-A0158,F0158,E04,2023.20.6,Text Size,3,released,100
+A0158,F0158,E09,2023.20.6,Text Size,3,released,100
 A0159,F0159,E06,2023.20.6,Pinyin Keyboard,6,released,100
 A0160,F0160,E04,2023.20.6,Windshield Wiper Control,3,released,100
 A0161,F0161,E06,2023.20.6,Phone Key,6,released,100
@@ -169,19 +169,19 @@ A0167,F0167,E04,2023.20.6,Passenger Climate Temperature,3,released,100
 A0168,F0168,E03,2023.26,Blind Spot Camera,2,released,100
 A0169,F0169,E04,2023.26,Customize the Scroll Wheel,3,released,100
 A0170,F0170,E04,2023.26,Destination Closing Soon,3,released,100
-A0171,F0171,E04,2023.26,Spotify Refresh,5,released,100
+A0171,F0171,E10,2023.26,Spotify Refresh,5,released,100
 A0172,F0172,E06,2023.26,Bluetooth Game Controllers,6,released,100
 A0173,F0173,E08,2023.26,Warmer Display Colors,7,released,100
 A0174,F0174,E08,2023.26,Automatic Headlights,7,released,100
 A0175,F0175,E05,2023.26,Charge On Solar,4,released,100
 A0176,F0176,E08,2023.26,Camera View on Tesla App,7,released,100
-A0177,F0177,E04,2023.26,Vampire Survivors Game,5,released,100
+A0177,F0177,E10,2023.26,Vampire Survivors Game,5,released,100
 A0178,F0178,E04,2023.26,Other Updates,3,released,100
 A0179,F0179,E06,2023.26,Improved Phone Calls,6,released,100
 A0180,F0180,E04,2023.26,Service Mode Improvements,3,released,100
 A0181,F0181,E05,2023.26,Supercharging Details,4,released,100
 A0182,F0182,E05,2023.26,Automatic Navigation Improvements,4,released,100
-A0183,F0183,E04,2023.26,Updated Apps Badge,3,released,100
+A0183,F0183,E09,2023.26,Updated Apps Badge,3,released,100
 A0184,F0184,E05,2023.26,Daily Charge Limit,4,released,100
 A0185,F0185,E04,2023.26,Updated Manual App,3,released,100
 A0186,F0186,E07,2023.26.10,Cabin Camera,2,released,100
@@ -192,19 +192,19 @@ A0190,F0190,E02,2023.26.10,Full Self-Driving (Beta) Suspension,1,released,100
 A0191,F0191,E03,2023.26.10,Blind Spot Camera,2,released,100
 A0192,F0192,E04,2023.26.10,Customize the Scroll Wheel,3,released,100
 A0193,F0193,E04,2023.26.10,Destination Closing Soon,3,released,100
-A0194,F0194,E04,2023.26.10,Spotify Refresh,5,released,100
+A0194,F0194,E10,2023.26.10,Spotify Refresh,5,released,100
 A0195,F0195,E06,2023.26.10,Bluetooth Game Controllers,6,released,100
 A0196,F0196,E08,2023.26.10,Warmer Display Colors,7,released,100
 A0197,F0197,E08,2023.26.10,Automatic Headlights,7,released,100
 A0198,F0198,E05,2023.26.10,Charge On Solar,4,released,100
 A0199,F0199,E08,2023.26.10,Camera View on Tesla App,7,released,100
-A0200,F0200,E04,2023.26.10,Vampire Survivors Game,5,released,100
+A0200,F0200,E10,2023.26.10,Vampire Survivors Game,5,released,100
 A0201,F0201,E04,2023.26.10,Other Updates,3,released,100
 A0202,F0202,E06,2023.26.10,Improved Phone Calls,6,released,100
 A0203,F0203,E04,2023.26.10,Service Mode Improvements,3,released,100
 A0204,F0204,E05,2023.26.10,Supercharging Details,4,released,100
 A0205,F0205,E05,2023.26.10,Automatic Navigation Improvements,4,released,100
-A0206,F0206,E04,2023.26.10,Updated Apps Badge,3,released,100
+A0206,F0206,E09,2023.26.10,Updated Apps Badge,3,released,100
 A0207,F0207,E05,2023.26.10,Daily Charge Limit,4,released,100
 A0208,F0208,E04,2023.26.10,Updated Manual App,3,released,100
 A0209,F0209,E07,2023.31.600,Drowsiness Warning,2,released,100
@@ -216,7 +216,7 @@ A0214,F0214,E08,2023.32,Improved Reverse Camera View,7,released,100
 A0215,F0215,E04,2023.32,Service Mode Release Notes,3,released,100
 A0216,F0216,E08,2023.32,Improved Camera Clarity,7,released,100
 A0217,F0217,E04,2023.32,Service Mode ECU Status,3,released,100
-A0218,F0218,E04,2023.32,Volume Indicator,5,released,100
+A0218,F0218,E10,2023.32,Volume Indicator,5,released,100
 A0219,F0219,E04,2023.32.4,Detailed Intersection View,3,released,100
 A0220,F0220,E06,2023.32.4,Hebrew Language Added,6,released,100
 A0221,F0221,E02,2023.32.4,FSD Beta v11.4.4,1,released,100
@@ -225,10 +225,10 @@ A0223,F0223,E08,2023.32.4,Improved Reverse Camera View,7,released,100
 A0224,F0224,E04,2023.32.4,Service Mode Release Notes,3,released,100
 A0225,F0225,E08,2023.32.4,Improved Camera Clarity,7,released,100
 A0226,F0226,E04,2023.32.4,Service Mode ECU Status,3,released,100
-A0227,F0227,E04,2023.32.4,Volume Indicator,5,released,100
+A0227,F0227,E10,2023.32.4,Volume Indicator,5,released,100
 A0228,F0228,E03,2023.38,Faster Hazard Lights After a Crash,2,released,100
 A0229,F0229,E04,2023.38,Predictive Charger Availability,3,released,100
-A0230,F0230,E04,2023.38,Multiplayer Vampire Survivors,5,released,100
+A0230,F0230,E10,2023.38,Multiplayer Vampire Survivors,5,released,100
 A0231,F0231,E06,2023.38,Location Sharing,6,released,100
 A0232,F0232,E04,2023.38,Windows During Update,3,released,100
 A0233,F0233,E04,2023.38,Improvements to Service Mode,3,released,100
@@ -236,7 +236,7 @@ A0234,F0234,E04,2023.38,New Privacy Options,3,released,100
 A0235,F0235,E04,2023.38.8,Rear Passenger Headphones,3,released,100
 A0236,F0236,E07,2023.38.8,Faster Hazard Lights After a Crash,2,released,100
 A0237,F0237,E04,2023.38.8,Predictive Charger Availability,3,released,100
-A0238,F0238,E04,2023.38.8,Multiplayer Vampire Survivors,5,released,100
+A0238,F0238,E10,2023.38.8,Multiplayer Vampire Survivors,5,released,100
 A0239,F0239,E06,2023.38.8,Location Sharing,6,released,100
 A0240,F0240,E04,2023.38.8,Windows During Update,3,released,100
 A0241,F0241,E04,2023.38.8,Improvements to Service Mode,3,released,100
@@ -245,7 +245,7 @@ A0243,F0243,E04,2023.38.8,New Privacy Options,3,released,100
 A0244,F0244,E01,2023.44,Single Pull to Start Autopilot,1,released,100
 A0245,F0245,E02,2023.44,Speed Assist,1,released,100
 A0246,F0246,E05,2023.44,Destination Charging Availability,4,released,100
-A0247,F0247,E04,2023.44,Radio Favorites,5,released,100
+A0247,F0247,E10,2023.44,Radio Favorites,5,released,100
 A0248,F0248,E04,2023.44,Messages App,3,released,100
 A0249,F0249,E04,2023.44,Calendar App,3,released,100
 A0250,F0250,E04,2023.44,All Apps Menu,3,released,100
@@ -257,17 +257,17 @@ A0255,F0255,E03,2023.44.25,Cabin Camera,2,released,100
 A0256,F0256,E05,2023.44.25,Alternate Routes While Driving,4,released,100
 A0257,F0257,E04,2023.44.25,Custom Lock Sounds,3,released,100
 A0258,F0258,E01,2023.44.25,Park Assist Upgrade,1,released,100
-A0259,F0259,E04,2023.44.25,Castle Doombad Game,5,released,100
-A0260,F0260,E04,2023.44.25,Play Games on Rear Screen,5,released,100
-A0261,F0261,E04,2023.44.25,Apple Podcasts,5,released,100
+A0259,F0259,E10,2023.44.25,Castle Doombad Game,5,released,100
+A0260,F0260,E10,2023.44.25,Play Games on Rear Screen,5,released,100
+A0261,F0261,E10,2023.44.25,Apple Podcasts,5,released,100
 A0262,F0262,E04,2023.44.25,Rear Passenger Headphones,3,released,100
-A0263,F0263,E04,2023.44.25,Tesla Arcade Updates,5,released,100
+A0263,F0263,E10,2023.44.25,Tesla Arcade Updates,5,released,100
 A0264,F0264,E07,2023.44.25,Automatic 911 Calls,2,released,100
 A0265,F0265,E02,2023.44.25,Speed Cameras on Your Route,1,released,100
 A0266,F0266,E05,2023.44.25,Trip Planner on Mobile App,4,released,100
 A0267,F0267,E08,2023.44.25,More Cameras in Live Camera View,7,released,100
 A0268,F0268,E03,2023.44.25,Automatic Blind Spot Camera,2,released,100
-A0269,F0269,E04,2023.44.25,Light Show,5,released,100
+A0269,F0269,E10,2023.44.25,Light Show,5,released,100
 A0270,F0270,E04,2023.44.25,Minor Updates,3,released,100
 A0271,F0271,E07,2023.44.25,Cabin Camera,2,released,100
 A0272,F0272,E06,2023.44.25,Improved Transition to Cellular,6,released,100
@@ -278,7 +278,7 @@ A0276,F0276,E03,2023.44.25,Cabin Camera Privacy,2,released,100
 A0277,F0277,E08,2023.44.25,Dashcam,7,released,100
 A0278,F0278,E04,2023.44.25,Automatic Wipers,3,released,100
 A0279,F0279,E08,2023.44.25,Dashcam Viewer Improvements,7,released,100
-A0280,F0280,E04,2023.44.25,Tesla Theater Improvements,5,released,100
+A0280,F0280,E10,2023.44.25,Tesla Theater Improvements,5,released,100
 A0281,F0281,E07,2023.44.25,Automatic Emergency Braking,2,released,100
 A0282,F0282,E03,2023.44.25,Turn Off Automatic 911 Call,2,released,100
 A0283,F0283,E02,2023.44.30.10,FSD Beta v12.1,1,released,100
@@ -308,14 +308,14 @@ A0306,F0306,E07,2023.6.1,Dog Mode,2,released,100
 A0307,F0307,E03,2023.6.1,Sentry Mode Live Camera Access,2,released,100
 A0308,F0308,E05,2023.6.1,Trip Planner,4,released,100
 A0309,F0309,E06,2023.6.1,Zoom Meetings,6,released,100
-A0310,F0310,E04,2023.6.1,Apple Music,5,released,100
+A0310,F0310,E10,2023.6.1,Apple Music,5,released,100
 A0311,F0311,E06,2023.6.1,App Displays the Vehicle's Route,6,released,100
 A0312,F0312,E04,2023.6.1,Manual App,3,released,100
 A0313,F0313,E08,2023.6.1,Reverse Camera,7,released,100
 A0314,F0314,E04,2023.6.1,Climate System Warming Up,3,released,100
 A0315,F0315,E04,2023.6.1,Browser,3,released,100
 A0316,F0316,E04,2023.6.1,Tire Pressure Card,3,released,100
-A0317,F0317,E04,2023.6.1,Improvements to Apple Music,5,released,100
+A0317,F0317,E10,2023.6.1,Improvements to Apple Music,5,released,100
 A0318,F0318,E04,2023.6.1,Welcome Screen,3,released,100
 A0319,F0319,E04,2023.6.100.1,Regenerative Braking,3,released,100
 A0320,F0320,E04,2023.6.100.1,Power Meter,3,released,100
@@ -336,10 +336,10 @@ A0334,F0334,E04,2023.6.15,Climate System Warming Up,3,released,100
 A0335,F0335,E04,2023.6.15,Improvements to Service Mode,3,released,100
 A0336,F0336,E04,2023.6.15,Browser,3,released,100
 A0337,F0337,E04,2023.6.15,Tire Pressure Card,3,released,100
-A0338,F0338,E04,2023.6.15,Improvements to Apple Music,5,released,100
+A0338,F0338,E10,2023.6.15,Improvements to Apple Music,5,released,100
 A0339,F0339,E05,2023.6.15,Supercharger Prices,4,released,100
 A0340,F0340,E04,2023.6.15,Welcome Screen,3,released,100
-A0341,F0341,E04,2023.6.15,Seat Heater Icons,3,released,100
+A0341,F0341,E09,2023.6.15,Seat Heater Icons,3,released,100
 A0342,F0342,E02,2023.6.15,Updated Autopilot Menu,1,released,100
 A0343,F0343,E08,2023.6.15,Suspension Menu,7,released,100
 A0344,F0344,E01,2023.6.9,Park Assist,1,released,100
@@ -349,47 +349,47 @@ A0347,F0347,E03,2023.6.9,Dog Mode,2,released,100
 A0348,F0348,E07,2023.6.9,Sentry Mode Live Camera Access,2,released,100
 A0349,F0349,E05,2023.6.9,Trip Planner,4,released,100
 A0350,F0350,E06,2023.6.9,Zoom Meetings,6,released,100
-A0351,F0351,E04,2023.6.9,Apple Music,5,released,100
+A0351,F0351,E10,2023.6.9,Apple Music,5,released,100
 A0352,F0352,E06,2023.6.9,App Displays the Vehicle's Route,6,released,100
 A0353,F0353,E04,2023.6.9,Manual App,3,released,100
 A0354,F0354,E08,2023.6.9,Reverse Camera,7,released,100
 A0355,F0355,E04,2023.6.9,Climate System Warming Up,3,released,100
 A0356,F0356,E04,2023.6.9,Browser,3,released,100
 A0357,F0357,E04,2023.6.9,Tire Pressure Card,3,released,100
-A0358,F0358,E04,2023.6.9,Improvements to Apple Music,5,released,100
+A0358,F0358,E10,2023.6.9,Improvements to Apple Music,5,released,100
 A0359,F0359,E04,2023.6.9,Welcome Screen,3,released,100
 A0360,F0360,E04,2024.14,Visual Updates,3,released,100
 A0361,F0361,E04,2024.14,Hands-Free Trunk,3,released,100
 A0362,F0362,E03,2024.14,Preview of Sentry Mode Recordings,2,released,100
 A0363,F0363,E05,2024.14,Trip Progress Bar,4,released,100
-A0364,F0364,E04,2024.14,Spotify Queue and Playback Speed,5,released,100
+A0364,F0364,E10,2024.14,Spotify Queue and Playback Speed,5,released,100
 A0365,F0365,E05,2024.14,Better Route Available,4,released,100
 A0366,F0366,E04,2024.14,Wiper Controls,3,released,100
 A0367,F0367,E04,2024.14,Other Updates,3,released,100
 A0368,F0368,E02,2024.14,Speed Camera Chime,1,released,100
 A0369,F0369,E01,2024.14,Average Speed Zones,1,released,100
 A0370,F0370,E08,2024.14,Adaptive High Beams,7,released,100
-A0371,F0371,E04,2024.14,Audible,5,released,100
-A0372,F0372,E04,2024.14,Beach Buggy Racing 2,5,released,100
+A0371,F0371,E10,2024.14,Audible,5,released,100
+A0372,F0372,E10,2024.14,Beach Buggy Racing 2,5,released,100
 A0373,F0373,E07,2024.14,Cabin Overheat Protection,2,released,100
 A0374,F0374,E04,2024.14,Customize Scroll Wheel Functions,3,released,100
-A0375,F0375,E04,2024.14,Cybertruck Colorizer,5,released,100
+A0375,F0375,E10,2024.14,Cybertruck Colorizer,5,released,100
 A0376,F0376,E08,2024.14,Improved Turning Circle,7,released,100
 A0377,F0377,E04,2024.14,Front Passenger Air Vent,3,released,100
 A0378,F0378,E04,2024.14,New Lock Sounds,3,released,100
 A0379,F0379,E04,2024.14,Zoom,3,released,100
 A0380,F0380,E04,2024.14,Security Improvements,3,released,100
-A0381,F0381,E04,2024.14,New Media Player,5,released,100
+A0381,F0381,E10,2024.14,New Media Player,5,released,100
 A0382,F0382,E04,2024.14,Charging Display,3,released,100
 A0383,F0383,E04,2024.14,Pause Trunk Opening,3,released,100
-A0384,F0384,E04,2024.14,Larger Speedometer,3,released,100
+A0384,F0384,E09,2024.14,Larger Speedometer,3,released,100
 A0385,F0385,E04,2024.14,Power Meter,3,released,100
 A0386,F0386,E04,2024.14.3,Visual Updates,3,released,100
-A0387,F0387,E04,2024.14.3,Audible,5,released,100
+A0387,F0387,E10,2024.14.3,Audible,5,released,100
 A0388,F0388,E04,2024.14.3,Hands-Free Trunk,3,released,100
 A0389,F0389,E03,2024.14.3,Preview of Sentry Mode Recordings,2,released,100
 A0390,F0390,E05,2024.14.3,Trip Progress Bar,4,released,100
-A0391,F0391,E04,2024.14.3,Spotify Queue and Playback Speed,5,released,100
+A0391,F0391,E10,2024.14.3,Spotify Queue and Playback Speed,5,released,100
 A0392,F0392,E05,2024.14.3,Better Route Available,4,released,100
 A0393,F0393,E04,2024.14.3,Wiper Controls,3,released,100
 A0394,F0394,E04,2024.14.3,Other Updates,3,released,100
@@ -404,121 +404,121 @@ A0402,F0402,E01,2024.14.3,Ride and Handling with a Load,1,released,100
 A0403,F0403,E04,2024.14.3,CyberTent Mode,3,released,100
 A0404,F0404,E08,2024.14.3,Off-Road Mode,7,released,100
 A0405,F0405,E08,2024.14.3,Terrain Options in Baja Mode,7,released,100
-A0406,F0406,E04,2024.14.3,Beach Buggy Racing 2,5,released,100
+A0406,F0406,E10,2024.14.3,Beach Buggy Racing 2,5,released,100
 A0407,F0407,E07,2024.14.3,Cabin Overheat Protection,2,released,100
 A0408,F0408,E04,2024.14.3,Customize Scroll Wheel Functions,3,released,100
-A0409,F0409,E04,2024.14.3,Cybertruck Colorizer,5,released,100
+A0409,F0409,E10,2024.14.3,Cybertruck Colorizer,5,released,100
 A0410,F0410,E08,2024.14.3,Improved Turning Circle,7,released,100
 A0411,F0411,E04,2024.14.3,Front Passenger Air Vent,3,released,100
 A0412,F0412,E04,2024.14.3,New Lock Sounds,3,released,100
 A0413,F0413,E04,2024.14.3,Zoom,3,released,100
 A0414,F0414,E04,2024.14.3,Security Improvements,3,released,100
-A0415,F0415,E04,2024.14.3,Entertainment Apps UI,3,released,100
-A0416,F0416,E04,2024.14.3,Tesla Theater UI,5,released,100
-A0417,F0417,E04,2024.14.3,Status Bar Icons,3,released,100
-A0418,F0418,E04,2024.14.3,New Auto Shift User Interface,3,released,100
-A0419,F0419,E04,2024.14.3,New Media Player,5,released,100
+A0415,F0415,E09,2024.14.3,Entertainment Apps UI,3,released,100
+A0416,F0416,E10,2024.14.3,Tesla Theater UI,5,released,100
+A0417,F0417,E09,2024.14.3,Status Bar Icons,3,released,100
+A0418,F0418,E09,2024.14.3,New Auto Shift User Interface,3,released,100
+A0419,F0419,E10,2024.14.3,New Media Player,5,released,100
 A0420,F0420,E04,2024.14.3,Charging Display,3,released,100
-A0421,F0421,E04,2024.14.3,Pause Trunk Opening,3,released,100
-A0422,F0422,E04,2024.14.3,Larger Speedometer,3,released,100
-A0423,F0423,E04,2024.14.3,Power Meter,3,released,100
+A0421,F0421,E09,2024.14.3,Pause Trunk Opening,3,released,100
+A0422,F0422,E09,2024.14.3,Larger Speedometer,3,released,100
+A0423,F0423,E09,2024.14.3,Power Meter,3,released,100
 A0424,F0424,E02,2024.14.5,FSD (Supervised) v12.3.6,1,released,100
 A0425,F0425,E01,2024.14.5,Full Self-Driving (Supervised),1,released,100
 A0426,F0426,E02,2024.14.5,Tesla Vision Park Assist,1,released,100
-A0427,F0427,E04,2024.14.5,Visual Updates,3,released,100
-A0428,F0428,E04,2024.14.5,Audible,5,released,100
-A0429,F0429,E04,2024.14.5,Hands-Free Trunk,3,released,100
+A0427,F0427,E09,2024.14.5,Visual Updates,3,released,100
+A0428,F0428,E10,2024.14.5,Audible,5,released,100
+A0429,F0429,E09,2024.14.5,Hands-Free Trunk,3,released,100
 A0430,F0430,E03,2024.14.5,Preview of Sentry Mode Recordings,2,released,100
 A0431,F0431,E05,2024.14.5,Trip Progress Bar,4,released,100
-A0432,F0432,E04,2024.14.5,Spotify Queue and Playback Speed,5,released,100
+A0432,F0432,E10,2024.14.5,Spotify Queue and Playback Speed,5,released,100
 A0433,F0433,E05,2024.14.5,Better Route Available,4,released,100
-A0434,F0434,E04,2024.14.5,Wiper Controls,3,released,100
-A0435,F0435,E04,2024.14.5,Other Updates,3,released,100
-A0436,F0436,E04,2024.14.5,Auto Shift (Beta),3,released,100
+A0434,F0434,E09,2024.14.5,Wiper Controls,3,released,100
+A0435,F0435,E09,2024.14.5,Other Updates,3,released,100
+A0436,F0436,E09,2024.14.5,Auto Shift (Beta),3,released,100
 A0437,F0437,E01,2024.14.5,Speed Camera Chime,1,released,100
 A0438,F0438,E02,2024.14.5,Average Speed Zones,1,released,100
 A0439,F0439,E08,2024.14.5,Adaptive High Beams,7,released,100
 A0440,F0440,E08,2024.14.5,Locking Differentials,7,released,100
 A0441,F0441,E01,2024.14.5,Trail Assist,1,released,100
-A0442,F0442,E04,2024.14.5,Slippery Surface,3,released,100
+A0442,F0442,E09,2024.14.5,Slippery Surface,3,released,100
 A0443,F0443,E02,2024.14.5,Ride and Handling with a Load,1,released,100
-A0444,F0444,E04,2024.14.5,CyberTent Mode,3,released,100
+A0444,F0444,E09,2024.14.5,CyberTent Mode,3,released,100
 A0445,F0445,E08,2024.14.5,Off-Road Mode,7,released,100
 A0446,F0446,E08,2024.14.5,Terrain Options in Baja Mode,7,released,100
-A0447,F0447,E04,2024.14.5,Beach Buggy Racing 2,5,released,100
+A0447,F0447,E10,2024.14.5,Beach Buggy Racing 2,5,released,100
 A0448,F0448,E07,2024.14.5,Cabin Overheat Protection,2,released,100
-A0449,F0449,E04,2024.14.5,Customize Scroll Wheel Functions,3,released,100
-A0450,F0450,E04,2024.14.5,Cybertruck Colorizer,5,released,100
+A0449,F0449,E09,2024.14.5,Customize Scroll Wheel Functions,3,released,100
+A0450,F0450,E10,2024.14.5,Cybertruck Colorizer,5,released,100
 A0451,F0451,E08,2024.14.5,Improved Turning Circle,7,released,100
-A0452,F0452,E04,2024.14.5,Front Passenger Air Vent,3,released,100
-A0453,F0453,E04,2024.14.5,New Lock Sounds,3,released,100
-A0454,F0454,E04,2024.14.5,Zoom,3,released,100
-A0455,F0455,E04,2024.14.5,Security Improvements,3,released,100
-A0456,F0456,E04,2024.14.5,Entertainment Apps UI,3,released,100
-A0457,F0457,E04,2024.14.5,Tesla Theater UI,5,released,100
-A0458,F0458,E04,2024.14.5,Status Bar Icons,3,released,100
-A0459,F0459,E04,2024.14.5,New Auto Shift User Interface,3,released,100
-A0460,F0460,E04,2024.14.5,New Media Player,5,released,100
+A0452,F0452,E09,2024.14.5,Front Passenger Air Vent,3,released,100
+A0453,F0453,E09,2024.14.5,New Lock Sounds,3,released,100
+A0454,F0454,E09,2024.14.5,Zoom,3,released,100
+A0455,F0455,E09,2024.14.5,Security Improvements,3,released,100
+A0456,F0456,E09,2024.14.5,Entertainment Apps UI,3,released,100
+A0457,F0457,E10,2024.14.5,Tesla Theater UI,5,released,100
+A0458,F0458,E09,2024.14.5,Status Bar Icons,3,released,100
+A0459,F0459,E09,2024.14.5,New Auto Shift User Interface,3,released,100
+A0460,F0460,E10,2024.14.5,New Media Player,5,released,100
 A0461,F0461,E04,2024.14.5,Charging Display,3,released,100
-A0462,F0462,E04,2024.14.5,Pause Trunk Opening,3,released,100
-A0463,F0463,E04,2024.14.5,Larger Speedometer,3,released,100
-A0464,F0464,E04,2024.14.5,Power Meter,3,released,100
+A0462,F0462,E09,2024.14.5,Pause Trunk Opening,3,released,100
+A0463,F0463,E09,2024.14.5,Larger Speedometer,3,released,100
+A0464,F0464,E09,2024.14.5,Power Meter,3,released,100
 A0465,F0465,E01,2024.14.6,FSD (Supervised) v12.3.6,1,released,100
 A0466,F0466,E02,2024.14.6,Full Self-Driving (Supervised),1,released,100
 A0467,F0467,E01,2024.14.6,Tesla Vision Park Assist,1,released,100
-A0468,F0468,E04,2024.14.6,Visual Updates,3,released,100
-A0469,F0469,E04,2024.14.6,Audible,5,released,100
-A0470,F0470,E04,2024.14.6,Hands-Free Trunk,3,released,100
+A0468,F0468,E09,2024.14.6,Visual Updates,3,released,100
+A0469,F0469,E10,2024.14.6,Audible,5,released,100
+A0470,F0470,E09,2024.14.6,Hands-Free Trunk,3,released,100
 A0471,F0471,E03,2024.14.6,Preview of Sentry Mode Recordings,2,released,100
 A0472,F0472,E05,2024.14.6,Trip Progress Bar,4,released,100
-A0473,F0473,E04,2024.14.6,Spotify Queue and Playback Speed,5,released,100
+A0473,F0473,E10,2024.14.6,Spotify Queue and Playback Speed,5,released,100
 A0474,F0474,E05,2024.14.6,Better Route Available,4,released,100
-A0475,F0475,E04,2024.14.6,Wiper Controls,3,released,100
-A0476,F0476,E04,2024.14.6,Other Updates,3,released,100
-A0477,F0477,E04,2024.14.6,Auto Shift (Beta),3,released,100
+A0475,F0475,E09,2024.14.6,Wiper Controls,3,released,100
+A0476,F0476,E09,2024.14.6,Other Updates,3,released,100
+A0477,F0477,E09,2024.14.6,Auto Shift (Beta),3,released,100
 A0478,F0478,E02,2024.14.6,Speed Camera Chime,1,released,100
 A0479,F0479,E01,2024.14.6,Average Speed Zones,1,released,100
 A0480,F0480,E08,2024.14.6,Adaptive High Beams,7,released,100
 A0481,F0481,E08,2024.14.6,Locking Differentials,7,released,100
 A0482,F0482,E02,2024.14.6,Trail Assist,1,released,100
-A0483,F0483,E04,2024.14.6,Slippery Surface,3,released,100
+A0483,F0483,E09,2024.14.6,Slippery Surface,3,released,100
 A0484,F0484,E01,2024.14.6,Ride and Handling with a Load,1,released,100
-A0485,F0485,E04,2024.14.6,CyberTent Mode,3,released,100
+A0485,F0485,E09,2024.14.6,CyberTent Mode,3,released,100
 A0486,F0486,E08,2024.14.6,Off-Road Mode,7,released,100
 A0487,F0487,E08,2024.14.6,Terrain Options in Baja Mode,7,released,100
-A0488,F0488,E04,2024.14.6,Beach Buggy Racing 2,5,released,100
+A0488,F0488,E10,2024.14.6,Beach Buggy Racing 2,5,released,100
 A0489,F0489,E07,2024.14.6,Cabin Overheat Protection,2,released,100
-A0490,F0490,E04,2024.14.6,Customize Scroll Wheel Functions,3,released,100
-A0491,F0491,E04,2024.14.6,Cybertruck Colorizer,5,released,100
+A0490,F0490,E09,2024.14.6,Customize Scroll Wheel Functions,3,released,100
+A0491,F0491,E10,2024.14.6,Cybertruck Colorizer,5,released,100
 A0492,F0492,E08,2024.14.6,Improved Turning Circle,7,released,100
-A0493,F0493,E04,2024.14.6,Front Passenger Air Vent,3,released,100
-A0494,F0494,E04,2024.14.6,New Lock Sounds,3,released,100
-A0495,F0495,E04,2024.14.6,Zoom,3,released,100
-A0496,F0496,E04,2024.14.6,Security Improvements,3,released,100
-A0497,F0497,E04,2024.14.6,Driver Profile,3,released,100
-A0498,F0498,E04,2024.14.6,Entertainment Apps UI,3,released,100
+A0493,F0493,E09,2024.14.6,Front Passenger Air Vent,3,released,100
+A0494,F0494,E09,2024.14.6,New Lock Sounds,3,released,100
+A0495,F0495,E09,2024.14.6,Zoom,3,released,100
+A0496,F0496,E09,2024.14.6,Security Improvements,3,released,100
+A0497,F0497,E09,2024.14.6,Driver Profile,3,released,100
+A0498,F0498,E09,2024.14.6,Entertainment Apps UI,3,released,100
 A0499,F0499,E04,2024.14.6,Cybertruck New Icon,3,released,100
-A0500,F0500,E04,2024.14.6,Tesla Theater UI,5,released,100
+A0500,F0500,E10,2024.14.6,Tesla Theater UI,5,released,100
 A0501,F0501,E02,2024.14.6,FSD Version,1,released,100
 A0502,F0502,E05,2024.14.6,Navigation Path,4,released,100
 A0503,F0503,E04,2024.14.6,Vehicle Visualization,3,released,100
-A0504,F0504,E04,2024.14.6,Nav App,3,released,100
-A0505,F0505,E04,2024.14.6,Climate Icon,3,released,100
-A0506,F0506,E04,2024.14.6,Explicit Content Filter for Apple Music,5,released,100
-A0507,F0507,E04,2024.14.6,Pedals & Steering Menu Updated,3,released,100
-A0508,F0508,E04,2024.14.6,Quick Controls Updated,3,released,100
+A0504,F0504,E09,2024.14.6,Nav App,3,released,100
+A0505,F0505,E09,2024.14.6,Climate Icon,3,released,100
+A0506,F0506,E10,2024.14.6,Explicit Content Filter for Apple Music,5,released,100
+A0507,F0507,E09,2024.14.6,Pedals & Steering Menu Updated,3,released,100
+A0508,F0508,E09,2024.14.6,Quick Controls Updated,3,released,100
 A0509,F0509,E05,2024.14.6,Search Menus,4,released,100
 A0510,F0510,E03,2024.14.6,Sentry Mode Video,2,released,100
-A0511,F0511,E04,2024.14.6,New Media Player,5,released,100
-A0512,F0512,E04,2024.14.6,Status Bar Icons,3,released,100
-A0513,F0513,E04,2024.14.6,New Auto Shift User Interface,3,released,100
+A0511,F0511,E10,2024.14.6,New Media Player,5,released,100
+A0512,F0512,E09,2024.14.6,Status Bar Icons,3,released,100
+A0513,F0513,E09,2024.14.6,New Auto Shift User Interface,3,released,100
 A0514,F0514,E04,2024.14.6,Charging Display,3,released,100
-A0515,F0515,E04,2024.14.6,Pause Trunk Opening,3,released,100
-A0516,F0516,E04,2024.14.6,Larger Speedometer,3,released,100
-A0517,F0517,E04,2024.14.6,Power Meter,3,released,100
+A0515,F0515,E09,2024.14.6,Pause Trunk Opening,3,released,100
+A0516,F0516,E09,2024.14.6,Larger Speedometer,3,released,100
+A0517,F0517,E09,2024.14.6,Power Meter,3,released,100
 A0518,F0518,E01,2024.14.6,Improved Autopilot Visualizations,1,released,100
 A0519,F0519,E08,2024.2,Adaptive High Beams,7,released,100
-A0520,F0520,E04,2024.2,Security Improvements,3,released,100
+A0520,F0520,E09,2024.2,Security Improvements,3,released,100
 A0521,F0521,E05,2024.2,Supercharging Tips,4,released,100
 A0522,F0522,E07,2024.2,PIN to Drive,2,released,100
 A0523,F0523,E04,2024.2.11,Improved Driving Visualization,3,released,100
@@ -532,39 +532,39 @@ A0530,F0530,E01,2024.2.11,Improved Ride and Handling,1,released,100
 A0531,F0531,E03,2024.2.11,Over-the-Air Recall: Telltale Text Size,2,released,100
 A0532,F0532,E08,2024.2.11,Adaptive High Beams,7,released,100
 A0533,F0533,E05,2024.2.11,More Efficient Charging,4,released,100
-A0534,F0534,E04,2024.2.11,Security Improvements,3,released,100
-A0535,F0535,E04,2024.2.11,Unlock Buttons,3,released,100
-A0536,F0536,E04,2024.2.11,Trips Menu Redesign,3,released,100
+A0534,F0534,E09,2024.2.11,Security Improvements,3,released,100
+A0535,F0535,E09,2024.2.11,Unlock Buttons,3,released,100
+A0536,F0536,E09,2024.2.11,Trips Menu Redesign,3,released,100
 A0537,F0537,E05,2024.2.11,Supercharging Tips,4,released,100
 A0538,F0538,E07,2024.2.11,PIN to Drive,2,released,100
-A0539,F0539,E04,2024.2.11,All Apps Menu,3,released,100
-A0540,F0540,E04,2024.2.11,Additional Vehicle Info,3,released,100
-A0541,F0541,E04,2024.2.11,Software Version in App,3,released,100
+A0539,F0539,E09,2024.2.11,All Apps Menu,3,released,100
+A0540,F0540,E09,2024.2.11,Additional Vehicle Info,3,released,100
+A0541,F0541,E09,2024.2.11,Software Version in App,3,released,100
 A0542,F0542,E03,2024.2.2.1,Over-the-Air Recall: Telltale Text Size,2,released,100
 A0543,F0543,E08,2024.2.2.1,Adaptive High Beams,7,released,100
 A0544,F0544,E05,2024.2.2.1,More Efficient Charging,4,released,100
-A0545,F0545,E04,2024.2.2.1,Security Improvements,3,released,100
-A0546,F0546,E04,2024.2.2.1,Unlock Buttons,3,released,100
-A0547,F0547,E04,2024.2.2.1,Trips Menu Redesign,3,released,100
+A0545,F0545,E09,2024.2.2.1,Security Improvements,3,released,100
+A0546,F0546,E09,2024.2.2.1,Unlock Buttons,3,released,100
+A0547,F0547,E09,2024.2.2.1,Trips Menu Redesign,3,released,100
 A0548,F0548,E05,2024.2.2.1,Supercharging Tips,4,released,100
 A0549,F0549,E07,2024.2.2.1,PIN to Drive,2,released,100
-A0550,F0550,E04,2024.2.2.1,All Apps Menu,3,released,100
-A0551,F0551,E04,2024.2.2.1,Additional Vehicle Info,3,released,100
-A0552,F0552,E04,2024.2.2.1,Software Version in App,3,released,100
+A0550,F0550,E09,2024.2.2.1,All Apps Menu,3,released,100
+A0551,F0551,E09,2024.2.2.1,Additional Vehicle Info,3,released,100
+A0552,F0552,E09,2024.2.2.1,Software Version in App,3,released,100
 A0553,F0553,E06,2024.2.3,Ultra-Wideband Phone Key,6,released,100
 A0554,F0554,E05,2024.2.3,Reminder to Plug In at Home,4,released,100
 A0555,F0555,E02,2024.2.3,Improved Ride and Handling,1,released,100
 A0556,F0556,E03,2024.2.3,Over-the-Air Recall: Telltale Text Size,2,released,100
 A0557,F0557,E08,2024.2.3,Adaptive High Beams,7,released,100
 A0558,F0558,E05,2024.2.3,More Efficient Charging,4,released,100
-A0559,F0559,E04,2024.2.3,Security Improvements,3,released,100
-A0560,F0560,E04,2024.2.3,Unlock Buttons,3,released,100
-A0561,F0561,E04,2024.2.3,Trips Menu Redesign,3,released,100
+A0559,F0559,E09,2024.2.3,Security Improvements,3,released,100
+A0560,F0560,E09,2024.2.3,Unlock Buttons,3,released,100
+A0561,F0561,E09,2024.2.3,Trips Menu Redesign,3,released,100
 A0562,F0562,E05,2024.2.3,Supercharging Tips,4,released,100
 A0563,F0563,E07,2024.2.3,PIN to Drive,2,released,100
-A0564,F0564,E04,2024.2.3,All Apps Menu,3,released,100
-A0565,F0565,E04,2024.2.3,Additional Vehicle Info,3,released,100
-A0566,F0566,E04,2024.2.3,Software Version in App,3,released,100
+A0564,F0564,E09,2024.2.3,All Apps Menu,3,released,100
+A0565,F0565,E09,2024.2.3,Additional Vehicle Info,3,released,100
+A0566,F0566,E09,2024.2.3,Software Version in App,3,released,100
 A0567,F0567,E05,2024.2.6,Time Until Charging Starts,4,released,100
 A0568,F0568,E04,2024.2.6,Estimated Battery Range Update,3,released,100
 A0569,F0569,E05,2024.2.6,Supercharging in Cold Weather,4,released,100
@@ -574,390 +574,390 @@ A0572,F0572,E01,2024.2.6,Improved Ride and Handling,1,released,100
 A0573,F0573,E03,2024.2.6,Over-the-Air Recall: Telltale Text Size,2,released,100
 A0574,F0574,E08,2024.2.6,Adaptive High Beams,7,released,100
 A0575,F0575,E05,2024.2.6,More Efficient Charging,4,released,100
-A0576,F0576,E04,2024.2.6,Security Improvements,3,released,100
-A0577,F0577,E04,2024.2.6,Unlock Buttons,3,released,100
-A0578,F0578,E04,2024.2.6,Trips Menu Redesign,3,released,100
+A0576,F0576,E09,2024.2.6,Security Improvements,3,released,100
+A0577,F0577,E09,2024.2.6,Unlock Buttons,3,released,100
+A0578,F0578,E09,2024.2.6,Trips Menu Redesign,3,released,100
 A0579,F0579,E05,2024.2.6,Supercharging Tips,4,released,100
 A0580,F0580,E07,2024.2.6,PIN to Drive,2,released,100
-A0581,F0581,E04,2024.2.6,All Apps Menu,3,released,100
-A0582,F0582,E04,2024.2.6,Additional Vehicle Info,3,released,100
-A0583,F0583,E04,2024.2.6,Software Version in App,3,released,100
+A0581,F0581,E09,2024.2.6,All Apps Menu,3,released,100
+A0582,F0582,E09,2024.2.6,Additional Vehicle Info,3,released,100
+A0583,F0583,E09,2024.2.6,Software Version in App,3,released,100
 A0584,F0584,E08,2024.20,Headlights Adapt for Curves,7,released,100
 A0585,F0585,E08,2024.20,Adaptive Headlight Improvements,7,released,100
 A0586,F0586,E02,2024.20,Autopilot Suspension,1,released,100
 A0587,F0587,E05,2024.20,Beach Buggy Racing 2 - Supercharger Races,4,released,100
-A0588,F0588,E04,2024.20,Hot Weather Improvements,3,released,100
-A0589,F0589,E04,2024.20,Hot Weather Improvements,3,released,100
-A0590,F0590,E04,2024.20,Security Improvements,3,released,100
-A0591,F0591,E04,2024.20,Sharing Location Indicator,3,released,100
+A0588,F0588,E09,2024.20,Hot Weather Improvements,3,released,100
+A0589,F0589,E09,2024.20,Hot Weather Improvements,3,released,100
+A0590,F0590,E09,2024.20,Security Improvements,3,released,100
+A0591,F0591,E09,2024.20,Sharing Location Indicator,3,released,100
 A0592,F0592,E01,2024.20,Autopilot Attention Warning,1,released,100
-A0593,F0593,E04,2024.20,Tesla Atari Games Removed,5,released,100
-A0594,F0594,E04,2024.20,Explicit Content Filter for TIDAL,5,released,100
-A0595,F0595,E04,2024.20.1,Power Front Door,3,released,100
+A0593,F0593,E10,2024.20,Tesla Atari Games Removed,5,released,100
+A0594,F0594,E10,2024.20,Explicit Content Filter for TIDAL,5,released,100
+A0595,F0595,E09,2024.20.1,Power Front Door,3,released,100
 A0596,F0596,E08,2024.20.1,Headlights Adapt for Curves,7,released,100
 A0597,F0597,E08,2024.20.1,Adaptive Headlight Improvements,7,released,100
 A0598,F0598,E02,2024.20.1,Autopilot Suspension,1,released,100
 A0599,F0599,E05,2024.20.1,Beach Buggy Racing 2 - Supercharger Races,4,released,100
-A0600,F0600,E04,2024.20.1,Hot Weather Improvements,3,released,100
-A0601,F0601,E04,2024.20.1,Hot Weather Improvements,3,released,100
-A0602,F0602,E04,2024.20.1,Security Improvements,3,released,100
-A0603,F0603,E04,2024.20.1,Sharing Location Indicator,3,released,100
+A0600,F0600,E09,2024.20.1,Hot Weather Improvements,3,released,100
+A0601,F0601,E09,2024.20.1,Hot Weather Improvements,3,released,100
+A0602,F0602,E09,2024.20.1,Security Improvements,3,released,100
+A0603,F0603,E09,2024.20.1,Sharing Location Indicator,3,released,100
 A0604,F0604,E01,2024.20.1,Autopilot Attention Warning,1,released,100
-A0605,F0605,E04,2024.20.1,Tesla Atari Games Removed,5,released,100
-A0606,F0606,E04,2024.20.1,Explicit Content Filter for TIDAL,5,released,100
+A0605,F0605,E10,2024.20.1,Tesla Atari Games Removed,5,released,100
+A0606,F0606,E10,2024.20.1,Explicit Content Filter for TIDAL,5,released,100
 A0607,F0607,E02,2024.20.10,FSD (Supervised) v12.5,1,released,100
 A0608,F0608,E03,2024.20.10,Vision-Based Attention Monitoring,2,released,100
 A0609,F0609,E01,2024.20.10,Full Self-Driving (Supervised),1,released,100
 A0610,F0610,E02,2024.20.10,Autopilot Suspension,1,released,100
-A0611,F0611,E04,2024.20.10,Power Front Door,3,released,100
+A0611,F0611,E09,2024.20.10,Power Front Door,3,released,100
 A0612,F0612,E08,2024.20.10,Headlights Adapt for Curves,7,released,100
 A0613,F0613,E05,2024.20.10,Beach Buggy Racing 2 - Supercharger Races,4,released,100
-A0614,F0614,E04,2024.20.10,Hot Weather Improvements,3,released,100
-A0615,F0615,E04,2024.20.10,Security Improvements,3,released,100
+A0614,F0614,E09,2024.20.10,Hot Weather Improvements,3,released,100
+A0615,F0615,E09,2024.20.10,Security Improvements,3,released,100
 A0616,F0616,E07,2024.20.10,OTA Recall,2,released,100
 A0617,F0617,E01,2024.20.10,Autopilot Attention Warning,1,released,100
-A0618,F0618,E04,2024.20.10,Sharing Location Indicator,3,released,100
-A0619,F0619,E04,2024.20.10,Tesla Atari Games Removed,5,released,100
-A0620,F0620,E04,2024.20.10,Explicit Content Filter for TIDAL,5,released,100
+A0618,F0618,E09,2024.20.10,Sharing Location Indicator,3,released,100
+A0619,F0619,E10,2024.20.10,Tesla Atari Games Removed,5,released,100
+A0620,F0620,E10,2024.20.10,Explicit Content Filter for TIDAL,5,released,100
 A0621,F0621,E03,2024.20.10,Green Dot When Monitoring is Active,2,released,100
 A0622,F0622,E02,2024.20.15,FSD (Supervised) v12.5.1,1,released,100
 A0623,F0623,E07,2024.20.15,Vision-Based Attention Monitoring,2,released,100
 A0624,F0624,E01,2024.20.15,Full Self-Driving (Supervised),1,released,100
 A0625,F0625,E02,2024.20.15,Autopilot Suspension,1,released,100
-A0626,F0626,E04,2024.20.15,Power Front Door,3,released,100
+A0626,F0626,E09,2024.20.15,Power Front Door,3,released,100
 A0627,F0627,E08,2024.20.15,Headlights Adapt for Curves,7,released,100
 A0628,F0628,E05,2024.20.15,Beach Buggy Racing 2 - Supercharger Races,4,released,100
-A0629,F0629,E04,2024.20.15,Hot Weather Improvements,3,released,100
-A0630,F0630,E04,2024.20.15,Security Improvements,3,released,100
+A0629,F0629,E09,2024.20.15,Hot Weather Improvements,3,released,100
+A0630,F0630,E09,2024.20.15,Security Improvements,3,released,100
 A0631,F0631,E03,2024.20.15,OTA Recall,2,released,100
 A0632,F0632,E01,2024.20.15,Autopilot Attention Warning,1,released,100
-A0633,F0633,E04,2024.20.15,Sharing Location Indicator,3,released,100
-A0634,F0634,E04,2024.20.15,Tesla Atari Games Removed,5,released,100
-A0635,F0635,E04,2024.20.15,Explicit Content Filter for TIDAL,5,released,100
+A0633,F0633,E09,2024.20.15,Sharing Location Indicator,3,released,100
+A0634,F0634,E10,2024.20.15,Tesla Atari Games Removed,5,released,100
+A0635,F0635,E10,2024.20.15,Explicit Content Filter for TIDAL,5,released,100
 A0636,F0636,E07,2024.20.15,Green Dot When Monitoring is Active,2,released,100
-A0637,F0637,E04,2024.20.3,Power Front Door,3,released,100
+A0637,F0637,E09,2024.20.3,Power Front Door,3,released,100
 A0638,F0638,E08,2024.20.3,Headlights Adapt for Curves,7,released,100
 A0639,F0639,E08,2024.20.3,Adaptive Headlight Improvements,7,released,100
 A0640,F0640,E02,2024.20.3,Autopilot Suspension,1,released,100
 A0641,F0641,E05,2024.20.3,Beach Buggy Racing 2 - Supercharger Races,4,released,100
-A0642,F0642,E04,2024.20.3,Hot Weather Improvements,3,released,100
-A0643,F0643,E04,2024.20.3,Hot Weather Improvements,3,released,100
-A0644,F0644,E04,2024.20.3,Security Improvements,3,released,100
+A0642,F0642,E09,2024.20.3,Hot Weather Improvements,3,released,100
+A0643,F0643,E09,2024.20.3,Hot Weather Improvements,3,released,100
+A0644,F0644,E09,2024.20.3,Security Improvements,3,released,100
 A0645,F0645,E03,2024.20.3,OTA Recall,2,released,100
-A0646,F0646,E04,2024.20.3,Sharing Location Indicator,3,released,100
+A0646,F0646,E09,2024.20.3,Sharing Location Indicator,3,released,100
 A0647,F0647,E01,2024.20.3,Autopilot Attention Warning,1,released,100
-A0648,F0648,E04,2024.20.3,Tesla Atari Games Removed,5,released,100
-A0649,F0649,E04,2024.20.3,Explicit Content Filter for TIDAL,5,released,100
+A0648,F0648,E10,2024.20.3,Tesla Atari Games Removed,5,released,100
+A0649,F0649,E10,2024.20.3,Explicit Content Filter for TIDAL,5,released,100
 A0650,F0650,E02,2024.20.6,Autopark,1,released,100
-A0651,F0651,E04,2024.20.6,Power Front Door,3,released,100
+A0651,F0651,E09,2024.20.6,Power Front Door,3,released,100
 A0652,F0652,E08,2024.20.6,Headlights Adapt for Curves,7,released,100
 A0653,F0653,E08,2024.20.6,Adaptive Headlight Improvements,7,released,100
 A0654,F0654,E01,2024.20.6,Autopilot Suspension,1,released,100
 A0655,F0655,E05,2024.20.6,Beach Buggy Racing 2 - Supercharger Races,4,released,100
-A0656,F0656,E04,2024.20.6,Hot Weather Improvements,3,released,100
-A0657,F0657,E04,2024.20.6,Hot Weather Improvements,3,released,100
-A0658,F0658,E04,2024.20.6,Security Improvements,3,released,100
+A0656,F0656,E09,2024.20.6,Hot Weather Improvements,3,released,100
+A0657,F0657,E09,2024.20.6,Hot Weather Improvements,3,released,100
+A0658,F0658,E09,2024.20.6,Security Improvements,3,released,100
 A0659,F0659,E07,2024.20.6,OTA Recall,2,released,100
-A0660,F0660,E04,2024.20.6,Sharing Location Indicator,3,released,100
+A0660,F0660,E09,2024.20.6,Sharing Location Indicator,3,released,100
 A0661,F0661,E02,2024.20.6,Autopilot Attention Warning,1,released,100
-A0662,F0662,E04,2024.20.6,Tesla Atari Games Removed,5,released,100
-A0663,F0663,E04,2024.20.6,Explicit Content Filter for TIDAL,5,released,100
+A0662,F0662,E10,2024.20.6,Tesla Atari Games Removed,5,released,100
+A0663,F0663,E10,2024.20.6,Explicit Content Filter for TIDAL,5,released,100
 A0664,F0664,E05,2024.20.7,DC Fast Charging,4,released,100
 A0665,F0665,E01,2024.20.7,Autopark,1,released,100
-A0666,F0666,E04,2024.20.7,Power Front Door,3,released,100
+A0666,F0666,E09,2024.20.7,Power Front Door,3,released,100
 A0667,F0667,E08,2024.20.7,Headlights Adapt for Curves,7,released,100
 A0668,F0668,E08,2024.20.7,Adaptive Headlight Improvements,7,released,100
 A0669,F0669,E02,2024.20.7,Autopilot Suspension,1,released,100
 A0670,F0670,E05,2024.20.7,Beach Buggy Racing 2 - Supercharger Races,4,released,100
-A0671,F0671,E04,2024.20.7,Hot Weather Improvements,3,released,100
-A0672,F0672,E04,2024.20.7,Hot Weather Improvements,3,released,100
-A0673,F0673,E04,2024.20.7,Security Improvements,3,released,100
+A0671,F0671,E09,2024.20.7,Hot Weather Improvements,3,released,100
+A0672,F0672,E09,2024.20.7,Hot Weather Improvements,3,released,100
+A0673,F0673,E09,2024.20.7,Security Improvements,3,released,100
 A0674,F0674,E03,2024.20.7,OTA Recall,2,released,100
-A0675,F0675,E04,2024.20.7,Sharing Location Indicator,3,released,100
+A0675,F0675,E09,2024.20.7,Sharing Location Indicator,3,released,100
 A0676,F0676,E01,2024.20.7,Autopilot Attention Warning,1,released,100
-A0677,F0677,E04,2024.20.7,Tesla Atari Games Removed,5,released,100
-A0678,F0678,E04,2024.20.7,Explicit Content Filter for TIDAL,5,released,100
-A0679,F0679,E04,2024.26,YouTube Music,5,released,100
+A0677,F0677,E10,2024.20.7,Tesla Atari Games Removed,5,released,100
+A0678,F0678,E10,2024.20.7,Explicit Content Filter for TIDAL,5,released,100
+A0679,F0679,E10,2024.26,YouTube Music,5,released,100
 A0680,F0680,E02,2024.26,Go on Green,1,released,100
-A0681,F0681,E04,2024.26,Amazon Music,5,released,100
-A0682,F0682,E04,2024.26,Vision Speed Limits,3,released,100
-A0683,F0683,E04,2024.26,Parental Controls,3,released,100
+A0681,F0681,E10,2024.26,Amazon Music,5,released,100
+A0682,F0682,E09,2024.26,Vision Speed Limits,3,released,100
+A0683,F0683,E09,2024.26,Parental Controls,3,released,100
 A0684,F0684,E05,2024.26,Weather Forecast and Air Quality,4,released,100
 A0685,F0685,E05,2024.26,Schedule Charge and Preconditioning,4,released,100
 A0686,F0686,E05,2024.26,Navigate to Sub-Destinations,4,released,100
-A0687,F0687,E04,2024.26,Other Updates,3,released,100
-A0688,F0688,E04,2024.26,Other Updates,3,released,100
-A0689,F0689,E04,2024.26,Security Improvements,3,released,100
-A0690,F0690,E04,2024.26,Security Improvements,3,released,100
+A0687,F0687,E09,2024.26,Other Updates,3,released,100
+A0688,F0688,E09,2024.26,Other Updates,3,released,100
+A0689,F0689,E09,2024.26,Security Improvements,3,released,100
+A0690,F0690,E09,2024.26,Security Improvements,3,released,100
 A0691,F0691,E05,2024.26,Show Next Preconditioning / Charging Event,4,released,100
-A0692,F0692,E04,2024.26,Hide Music Services Per Profile,5,released,100
-A0693,F0693,E04,2024.26,Audio Balance Per Profile,5,released,100
-A0694,F0694,E04,2024.26,Service Center Tips,3,released,100
-A0695,F0695,E04,2024.26,Reduce Fan Speed Hint,3,released,100
-A0696,F0696,E04,2024.26,Improved Climate Panel,3,released,100
-A0697,F0697,E04,2024.26.1,YouTube Music,5,released,100
+A0692,F0692,E10,2024.26,Hide Music Services Per Profile,5,released,100
+A0693,F0693,E10,2024.26,Audio Balance Per Profile,5,released,100
+A0694,F0694,E09,2024.26,Service Center Tips,3,released,100
+A0695,F0695,E09,2024.26,Reduce Fan Speed Hint,3,released,100
+A0696,F0696,E09,2024.26,Improved Climate Panel,3,released,100
+A0697,F0697,E10,2024.26.1,YouTube Music,5,released,100
 A0698,F0698,E01,2024.26.1,Go on Green,1,released,100
-A0699,F0699,E04,2024.26.1,Vision Speed Limits,3,released,100
-A0700,F0700,E04,2024.26.1,Amazon Music,5,released,100
-A0701,F0701,E04,2024.26.1,Castle Doombad Classic,5,released,100
-A0702,F0702,E04,2024.26.1,Parental Controls,3,released,100
+A0699,F0699,E09,2024.26.1,Vision Speed Limits,3,released,100
+A0700,F0700,E10,2024.26.1,Amazon Music,5,released,100
+A0701,F0701,E10,2024.26.1,Castle Doombad Classic,5,released,100
+A0702,F0702,E09,2024.26.1,Parental Controls,3,released,100
 A0703,F0703,E05,2024.26.1,Weather Forecast and Air Quality,4,released,100
 A0704,F0704,E05,2024.26.1,Schedule Charge and Preconditioning,4,released,100
 A0705,F0705,E05,2024.26.1,Navigate to Sub-Destinations,4,released,100
-A0706,F0706,E04,2024.26.1,Other Updates,3,released,100
-A0707,F0707,E04,2024.26.1,Security Improvements,3,released,100
+A0706,F0706,E09,2024.26.1,Other Updates,3,released,100
+A0707,F0707,E09,2024.26.1,Security Improvements,3,released,100
 A0708,F0708,E05,2024.26.1,Show Next Preconditioning / Charging Event,4,released,100
-A0709,F0709,E04,2024.26.1,Hide Music Services Per Profile,5,released,100
-A0710,F0710,E04,2024.26.1,Audio Balance Per Profile,5,released,100
-A0711,F0711,E04,2024.26.1,Service Center Tips,3,released,100
-A0712,F0712,E04,2024.26.1,Reduce Fan Speed Hint,3,released,100
+A0709,F0709,E10,2024.26.1,Hide Music Services Per Profile,5,released,100
+A0710,F0710,E10,2024.26.1,Audio Balance Per Profile,5,released,100
+A0711,F0711,E09,2024.26.1,Service Center Tips,3,released,100
+A0712,F0712,E09,2024.26.1,Reduce Fan Speed Hint,3,released,100
 A0713,F0713,E08,2024.26.1,Improved Front Camera Clarity,7,released,100
 A0714,F0714,E02,2024.26.1,Traffic-Aware Cruise Control Chime,1,released,100
 A0715,F0715,E08,2024.26.1,New Ambient Lighting Options,7,released,100
-A0716,F0716,E04,2024.26.1,Improved Climate Panel,3,released,100
+A0716,F0716,E09,2024.26.1,Improved Climate Panel,3,released,100
 A0717,F0717,E01,2024.26.10,FSD (Supervised) v12.5.1.3,1,released,100
 A0718,F0718,E07,2024.26.10,Vision-Based Attention Monitoring,2,released,100
 A0719,F0719,E02,2024.26.10,Full Self-Driving (Supervised),1,released,100
 A0720,F0720,E01,2024.26.10,Go on Green,1,released,100
-A0721,F0721,E04,2024.26.10,YouTube Music,5,released,100
-A0722,F0722,E04,2024.26.10,Vision Speed Limits,3,released,100
-A0723,F0723,E04,2024.26.10,Amazon Music,5,released,100
-A0724,F0724,E04,2024.26.10,Castle Doombad Classic,5,released,100
-A0725,F0725,E04,2024.26.10,Parental Controls,3,released,100
+A0721,F0721,E10,2024.26.10,YouTube Music,5,released,100
+A0722,F0722,E09,2024.26.10,Vision Speed Limits,3,released,100
+A0723,F0723,E10,2024.26.10,Amazon Music,5,released,100
+A0724,F0724,E10,2024.26.10,Castle Doombad Classic,5,released,100
+A0725,F0725,E09,2024.26.10,Parental Controls,3,released,100
 A0726,F0726,E05,2024.26.10,Weather Forecast and Air Quality,4,released,100
 A0727,F0727,E05,2024.26.10,Schedule Charge and Preconditioning,4,released,100
 A0728,F0728,E05,2024.26.10,Navigate to Sub-Destinations,4,released,100
-A0729,F0729,E04,2024.26.10,Other Updates,3,released,100
-A0730,F0730,E04,2024.26.10,Security Improvements,3,released,100
-A0731,F0731,E04,2024.26.10,Reduce Fan Speed Option,3,released,100
-A0732,F0732,E04,2024.26.10,New Key Required Screen,3,released,100
+A0729,F0729,E09,2024.26.10,Other Updates,3,released,100
+A0730,F0730,E09,2024.26.10,Security Improvements,3,released,100
+A0731,F0731,E09,2024.26.10,Reduce Fan Speed Option,3,released,100
+A0732,F0732,E09,2024.26.10,New Key Required Screen,3,released,100
 A0733,F0733,E08,2024.26.10,Improved Front Camera Clarity,7,released,100
 A0734,F0734,E02,2024.26.10,Traffic-Aware Cruise Control Chime,1,released,100
 A0735,F0735,E08,2024.26.10,New Ambient Lighting Options,7,released,100
-A0736,F0736,E04,2024.26.10,Improved Climate Panel,3,released,100
+A0736,F0736,E09,2024.26.10,Improved Climate Panel,3,released,100
 A0737,F0737,E01,2024.26.11,Tesla Vision Park Assist,1,released,100
-A0738,F0738,E04,2024.26.11,Over-the-Air (OTA) Recall,3,released,100
-A0739,F0739,E04,2024.26.11,YouTube Music,5,released,100
+A0738,F0738,E09,2024.26.11,Over-the-Air (OTA) Recall,3,released,100
+A0739,F0739,E10,2024.26.11,YouTube Music,5,released,100
 A0740,F0740,E02,2024.26.11,Go on Green,1,released,100
-A0741,F0741,E04,2024.26.11,Vision Speed Limits,3,released,100
-A0742,F0742,E04,2024.26.11,Amazon Music,5,released,100
-A0743,F0743,E04,2024.26.11,Castle Doombad Classic,5,released,100
-A0744,F0744,E04,2024.26.11,Parental Controls,3,released,100
+A0741,F0741,E09,2024.26.11,Vision Speed Limits,3,released,100
+A0742,F0742,E10,2024.26.11,Amazon Music,5,released,100
+A0743,F0743,E10,2024.26.11,Castle Doombad Classic,5,released,100
+A0744,F0744,E09,2024.26.11,Parental Controls,3,released,100
 A0745,F0745,E05,2024.26.11,Weather Forecast and Air Quality,4,released,100
 A0746,F0746,E05,2024.26.11,Schedule Charge and Preconditioning,4,released,100
 A0747,F0747,E05,2024.26.11,Navigate to Sub-Destinations,4,released,100
-A0748,F0748,E04,2024.26.11,Other Updates,3,released,100
-A0749,F0749,E04,2024.26.11,Security Improvements,3,released,100
+A0748,F0748,E09,2024.26.11,Other Updates,3,released,100
+A0749,F0749,E09,2024.26.11,Security Improvements,3,released,100
 A0750,F0750,E05,2024.26.11,Show Next Preconditioning / Charging Event,4,released,100
-A0751,F0751,E04,2024.26.11,Hide Music Services Per Profile,5,released,100
-A0752,F0752,E04,2024.26.11,Audio Balance Per Profile,5,released,100
-A0753,F0753,E04,2024.26.11,Service Center Tips,3,released,100
-A0754,F0754,E04,2024.26.11,Reduce Fan Speed Hint,3,released,100
-A0755,F0755,E04,2024.26.11,Reduce Fan Speed Option,3,released,100
-A0756,F0756,E04,2024.26.11,New Key Required Screen,3,released,100
+A0751,F0751,E10,2024.26.11,Hide Music Services Per Profile,5,released,100
+A0752,F0752,E10,2024.26.11,Audio Balance Per Profile,5,released,100
+A0753,F0753,E09,2024.26.11,Service Center Tips,3,released,100
+A0754,F0754,E09,2024.26.11,Reduce Fan Speed Hint,3,released,100
+A0755,F0755,E09,2024.26.11,Reduce Fan Speed Option,3,released,100
+A0756,F0756,E09,2024.26.11,New Key Required Screen,3,released,100
 A0757,F0757,E08,2024.26.11,Improved Front Camera Clarity,7,released,100
 A0758,F0758,E01,2024.26.11,Traffic-Aware Cruise Control Chime,1,released,100
 A0759,F0759,E08,2024.26.11,New Ambient Lighting Options,7,released,100
-A0760,F0760,E04,2024.26.11,Improved Climate Panel,3,released,100
+A0760,F0760,E09,2024.26.11,Improved Climate Panel,3,released,100
 A0761,F0761,E02,2024.26.15,FSD (Supervised) v12.5.1.4,1,released,100
 A0762,F0762,E03,2024.26.15,Vision-Based Attention Monitoring,2,released,100
 A0763,F0763,E01,2024.26.15,Full Self-Driving (Supervised),1,released,100
-A0764,F0764,E04,2024.26.15,YouTube Music,5,released,100
+A0764,F0764,E10,2024.26.15,YouTube Music,5,released,100
 A0765,F0765,E02,2024.26.15,Go on Green,1,released,100
-A0766,F0766,E04,2024.26.15,Vision Speed Limits,3,released,100
-A0767,F0767,E04,2024.26.15,Amazon Music,5,released,100
-A0768,F0768,E04,2024.26.15,Castle Doombad Classic,5,released,100
-A0769,F0769,E04,2024.26.15,Parental Controls,3,released,100
+A0766,F0766,E09,2024.26.15,Vision Speed Limits,3,released,100
+A0767,F0767,E10,2024.26.15,Amazon Music,5,released,100
+A0768,F0768,E10,2024.26.15,Castle Doombad Classic,5,released,100
+A0769,F0769,E09,2024.26.15,Parental Controls,3,released,100
 A0770,F0770,E05,2024.26.15,Weather Forecast and Air Quality,4,released,100
 A0771,F0771,E05,2024.26.15,Schedule Charge and Preconditioning,4,released,100
 A0772,F0772,E05,2024.26.15,Navigate to Sub-Destinations,4,released,100
-A0773,F0773,E04,2024.26.15,Other Updates,3,released,100
-A0774,F0774,E04,2024.26.15,Security Improvements,3,released,100
+A0773,F0773,E09,2024.26.15,Other Updates,3,released,100
+A0774,F0774,E09,2024.26.15,Security Improvements,3,released,100
 A0775,F0775,E05,2024.26.15,Show Next Preconditioning / Charging Event,4,released,100
-A0776,F0776,E04,2024.26.15,Hide Music Services Per Profile,5,released,100
-A0777,F0777,E04,2024.26.15,Audio Balance Per Profile,5,released,100
-A0778,F0778,E04,2024.26.15,Service Center Tips,3,released,100
-A0779,F0779,E04,2024.26.15,Reduce Fan Speed Hint,3,released,100
-A0780,F0780,E04,2024.26.15,Reduce Fan Speed Option,3,released,100
-A0781,F0781,E04,2024.26.15,New Key Required Screen,3,released,100
+A0776,F0776,E10,2024.26.15,Hide Music Services Per Profile,5,released,100
+A0777,F0777,E10,2024.26.15,Audio Balance Per Profile,5,released,100
+A0778,F0778,E09,2024.26.15,Service Center Tips,3,released,100
+A0779,F0779,E09,2024.26.15,Reduce Fan Speed Hint,3,released,100
+A0780,F0780,E09,2024.26.15,Reduce Fan Speed Option,3,released,100
+A0781,F0781,E09,2024.26.15,New Key Required Screen,3,released,100
 A0782,F0782,E08,2024.26.15,Improved Front Camera Clarity,7,released,100
 A0783,F0783,E01,2024.26.15,Traffic-Aware Cruise Control Chime,1,released,100
 A0784,F0784,E08,2024.26.15,New Ambient Lighting Options,7,released,100
-A0785,F0785,E04,2024.26.15,Improved Climate Panel,3,released,100
+A0785,F0785,E09,2024.26.15,Improved Climate Panel,3,released,100
 A0786,F0786,E02,2024.26.20,FSD (Supervised) v12.5.1.5,1,released,100
 A0787,F0787,E07,2024.26.20,Vision-Based Attention Monitoring,2,released,100
 A0788,F0788,E01,2024.26.20,Full Self-Driving (Supervised),1,released,100
-A0789,F0789,E04,2024.26.20,YouTube Music,5,released,100
+A0789,F0789,E10,2024.26.20,YouTube Music,5,released,100
 A0790,F0790,E02,2024.26.20,Go on Green,1,released,100
-A0791,F0791,E04,2024.26.20,Vision Speed Limits,3,released,100
-A0792,F0792,E04,2024.26.20,Amazon Music,5,released,100
-A0793,F0793,E04,2024.26.20,Castle Doombad Classic,5,released,100
-A0794,F0794,E04,2024.26.20,Parental Controls,3,released,100
+A0791,F0791,E09,2024.26.20,Vision Speed Limits,3,released,100
+A0792,F0792,E10,2024.26.20,Amazon Music,5,released,100
+A0793,F0793,E10,2024.26.20,Castle Doombad Classic,5,released,100
+A0794,F0794,E09,2024.26.20,Parental Controls,3,released,100
 A0795,F0795,E05,2024.26.20,Weather Forecast and Air Quality,4,released,100
 A0796,F0796,E05,2024.26.20,Schedule Charge and Preconditioning,4,released,100
 A0797,F0797,E05,2024.26.20,Navigate to Sub-Destinations,4,released,100
-A0798,F0798,E04,2024.26.20,Other Updates,3,released,100
-A0799,F0799,E04,2024.26.20,Security Improvements,3,released,100
+A0798,F0798,E09,2024.26.20,Other Updates,3,released,100
+A0799,F0799,E09,2024.26.20,Security Improvements,3,released,100
 A0800,F0800,E05,2024.26.20,Show Next Preconditioning / Charging Event,4,released,100
-A0801,F0801,E04,2024.26.20,Hide Music Services Per Profile,5,released,100
-A0802,F0802,E04,2024.26.20,Audio Balance Per Profile,5,released,100
-A0803,F0803,E04,2024.26.20,Service Center Tips,3,released,100
-A0804,F0804,E04,2024.26.20,Reduce Fan Speed Hint,3,released,100
-A0805,F0805,E04,2024.26.20,Reduce Fan Speed Option,3,released,100
-A0806,F0806,E04,2024.26.20,New Key Required Screen,3,released,100
+A0801,F0801,E10,2024.26.20,Hide Music Services Per Profile,5,released,100
+A0802,F0802,E10,2024.26.20,Audio Balance Per Profile,5,released,100
+A0803,F0803,E09,2024.26.20,Service Center Tips,3,released,100
+A0804,F0804,E09,2024.26.20,Reduce Fan Speed Hint,3,released,100
+A0805,F0805,E09,2024.26.20,Reduce Fan Speed Option,3,released,100
+A0806,F0806,E09,2024.26.20,New Key Required Screen,3,released,100
 A0807,F0807,E08,2024.26.20,Improved Front Camera Clarity,7,released,100
 A0808,F0808,E01,2024.26.20,Traffic-Aware Cruise Control Chime,1,released,100
 A0809,F0809,E08,2024.26.20,New Ambient Lighting Options,7,released,100
-A0810,F0810,E04,2024.26.20,Improved Climate Panel,3,released,100
-A0811,F0811,E04,2024.26.3.1,YouTube Music,5,released,100
+A0810,F0810,E09,2024.26.20,Improved Climate Panel,3,released,100
+A0811,F0811,E10,2024.26.3.1,YouTube Music,5,released,100
 A0812,F0812,E02,2024.26.3.1,Go on Green,1,released,100
-A0813,F0813,E04,2024.26.3.1,Vision Speed Limits,3,released,100
-A0814,F0814,E04,2024.26.3.1,Amazon Music,5,released,100
-A0815,F0815,E04,2024.26.3.1,Castle Doombad Classic,5,released,100
-A0816,F0816,E04,2024.26.3.1,Parental Controls,3,released,100
+A0813,F0813,E09,2024.26.3.1,Vision Speed Limits,3,released,100
+A0814,F0814,E10,2024.26.3.1,Amazon Music,5,released,100
+A0815,F0815,E10,2024.26.3.1,Castle Doombad Classic,5,released,100
+A0816,F0816,E09,2024.26.3.1,Parental Controls,3,released,100
 A0817,F0817,E05,2024.26.3.1,Weather Forecast and Air Quality,4,released,100
 A0818,F0818,E05,2024.26.3.1,Schedule Charge and Preconditioning,4,released,100
 A0819,F0819,E05,2024.26.3.1,Navigate to Sub-Destinations,4,released,100
-A0820,F0820,E04,2024.26.3.1,Other Updates,3,released,100
-A0821,F0821,E04,2024.26.3.1,Security Improvements,3,released,100
+A0820,F0820,E09,2024.26.3.1,Other Updates,3,released,100
+A0821,F0821,E09,2024.26.3.1,Security Improvements,3,released,100
 A0822,F0822,E03,2024.26.3.1,Automatic Emergency Braking in Reverse,2,released,100
 A0823,F0823,E07,2024.26.3.1,Forward Collision Warning Improvements,2,released,100
 A0824,F0824,E01,2024.26.3.1,Autopilot Suspension,1,released,100
 A0825,F0825,E02,2024.26.3.1,FSD (Supervised) v12.3.6,1,released,100
 A0826,F0826,E01,2024.26.3.1,Full Self-Driving (Supervised),1,released,100
 A0827,F0827,E05,2024.26.3.1,Show Next Preconditioning / Charging Event,4,released,100
-A0828,F0828,E04,2024.26.3.1,Hide Music Services Per Profile,5,released,100
-A0829,F0829,E04,2024.26.3.1,Audio Balance Per Profile,5,released,100
-A0830,F0830,E04,2024.26.3.1,Service Center Tips,3,released,100
-A0831,F0831,E04,2024.26.3.1,Reduce Fan Speed Hint,3,released,100
+A0828,F0828,E10,2024.26.3.1,Hide Music Services Per Profile,5,released,100
+A0829,F0829,E10,2024.26.3.1,Audio Balance Per Profile,5,released,100
+A0830,F0830,E09,2024.26.3.1,Service Center Tips,3,released,100
+A0831,F0831,E09,2024.26.3.1,Reduce Fan Speed Hint,3,released,100
 A0832,F0832,E08,2024.26.3.1,Improved Front Camera Clarity,7,released,100
 A0833,F0833,E02,2024.26.3.1,Traffic-Aware Cruise Control Chime,1,released,100
 A0834,F0834,E08,2024.26.3.1,New Ambient Lighting Options,7,released,100
-A0835,F0835,E04,2024.26.3.1,Improved Climate Panel,3,released,100
+A0835,F0835,E09,2024.26.3.1,Improved Climate Panel,3,released,100
 A0836,F0836,E01,2024.26.5,FSD (Supervised) v12.5.1.2,1,released,100
 A0837,F0837,E03,2024.26.5,Vision-Based Attention Monitoring,2,released,100
 A0838,F0838,E02,2024.26.5,Full Self-Driving (Supervised),1,released,100
-A0839,F0839,E04,2024.26.5,YouTube Music,5,released,100
+A0839,F0839,E10,2024.26.5,YouTube Music,5,released,100
 A0840,F0840,E01,2024.26.5,Go on Green,1,released,100
-A0841,F0841,E04,2024.26.5,Vision Speed Limits,3,released,100
-A0842,F0842,E04,2024.26.5,Amazon Music,5,released,100
-A0843,F0843,E04,2024.26.5,Castle Doombad Classic,5,released,100
-A0844,F0844,E04,2024.26.5,Parental Controls,3,released,100
+A0841,F0841,E09,2024.26.5,Vision Speed Limits,3,released,100
+A0842,F0842,E10,2024.26.5,Amazon Music,5,released,100
+A0843,F0843,E10,2024.26.5,Castle Doombad Classic,5,released,100
+A0844,F0844,E09,2024.26.5,Parental Controls,3,released,100
 A0845,F0845,E05,2024.26.5,Weather Forecast and Air Quality,4,released,100
 A0846,F0846,E05,2024.26.5,Schedule Charge and Preconditioning,4,released,100
 A0847,F0847,E05,2024.26.5,Navigate to Sub-Destinations,4,released,100
-A0848,F0848,E04,2024.26.5,Other Updates,3,released,100
-A0849,F0849,E04,2024.26.5,Security Improvements,3,released,100
+A0848,F0848,E09,2024.26.5,Other Updates,3,released,100
+A0849,F0849,E09,2024.26.5,Security Improvements,3,released,100
 A0850,F0850,E05,2024.26.5,Show Next Preconditioning / Charging Event,4,released,100
-A0851,F0851,E04,2024.26.5,Hide Music Services Per Profile,5,released,100
-A0852,F0852,E04,2024.26.5,Audio Balance Per Profile,5,released,100
-A0853,F0853,E04,2024.26.5,Service Center Tips,3,released,100
-A0854,F0854,E04,2024.26.5,Reduce Fan Speed Hint,3,released,100
-A0855,F0855,E04,2024.26.5,Reduce Fan Speed Option,3,released,100
-A0856,F0856,E04,2024.26.5,New Key Required Screen,3,released,100
+A0851,F0851,E10,2024.26.5,Hide Music Services Per Profile,5,released,100
+A0852,F0852,E10,2024.26.5,Audio Balance Per Profile,5,released,100
+A0853,F0853,E09,2024.26.5,Service Center Tips,3,released,100
+A0854,F0854,E09,2024.26.5,Reduce Fan Speed Hint,3,released,100
+A0855,F0855,E09,2024.26.5,Reduce Fan Speed Option,3,released,100
+A0856,F0856,E09,2024.26.5,New Key Required Screen,3,released,100
 A0857,F0857,E08,2024.26.5,Improved Front Camera Clarity,7,released,100
 A0858,F0858,E02,2024.26.5,Traffic-Aware Cruise Control Chime,1,released,100
 A0859,F0859,E08,2024.26.5,New Ambient Lighting Options,7,released,100
-A0860,F0860,E04,2024.26.5,Improved Climate Panel,3,released,100
-A0861,F0861,E04,2024.26.7,Over-the-Air (OTA) Recall,3,released,100
-A0862,F0862,E04,2024.26.7,YouTube Music,5,released,100
+A0860,F0860,E09,2024.26.5,Improved Climate Panel,3,released,100
+A0861,F0861,E09,2024.26.7,Over-the-Air (OTA) Recall,3,released,100
+A0862,F0862,E10,2024.26.7,YouTube Music,5,released,100
 A0863,F0863,E01,2024.26.7,Go on Green,1,released,100
-A0864,F0864,E04,2024.26.7,Vision Speed Limits,3,released,100
-A0865,F0865,E04,2024.26.7,Amazon Music,5,released,100
-A0866,F0866,E04,2024.26.7,Castle Doombad Classic,5,released,100
-A0867,F0867,E04,2024.26.7,Parental Controls,3,released,100
+A0864,F0864,E09,2024.26.7,Vision Speed Limits,3,released,100
+A0865,F0865,E10,2024.26.7,Amazon Music,5,released,100
+A0866,F0866,E10,2024.26.7,Castle Doombad Classic,5,released,100
+A0867,F0867,E09,2024.26.7,Parental Controls,3,released,100
 A0868,F0868,E05,2024.26.7,Weather Forecast and Air Quality,4,released,100
 A0869,F0869,E05,2024.26.7,Schedule Charge and Preconditioning,4,released,100
 A0870,F0870,E05,2024.26.7,Navigate to Sub-Destinations,4,released,100
-A0871,F0871,E04,2024.26.7,Other Updates,3,released,100
-A0872,F0872,E04,2024.26.7,Security Improvements,3,released,100
+A0871,F0871,E09,2024.26.7,Other Updates,3,released,100
+A0872,F0872,E09,2024.26.7,Security Improvements,3,released,100
 A0873,F0873,E05,2024.26.7,Show Next Preconditioning / Charging Event,4,released,100
-A0874,F0874,E04,2024.26.7,Hide Music Services Per Profile,5,released,100
-A0875,F0875,E04,2024.26.7,Audio Balance Per Profile,5,released,100
-A0876,F0876,E04,2024.26.7,Service Center Tips,3,released,100
-A0877,F0877,E04,2024.26.7,Reduce Fan Speed Hint,3,released,100
-A0878,F0878,E04,2024.26.7,Reduce Fan Speed Option,3,released,100
-A0879,F0879,E04,2024.26.7,New Key Required Screen,3,released,100
+A0874,F0874,E10,2024.26.7,Hide Music Services Per Profile,5,released,100
+A0875,F0875,E10,2024.26.7,Audio Balance Per Profile,5,released,100
+A0876,F0876,E09,2024.26.7,Service Center Tips,3,released,100
+A0877,F0877,E09,2024.26.7,Reduce Fan Speed Hint,3,released,100
+A0878,F0878,E09,2024.26.7,Reduce Fan Speed Option,3,released,100
+A0879,F0879,E09,2024.26.7,New Key Required Screen,3,released,100
 A0880,F0880,E08,2024.26.7,Improved Front Camera Clarity,7,released,100
 A0881,F0881,E02,2024.26.7,Traffic-Aware Cruise Control Chime,1,released,100
 A0882,F0882,E08,2024.26.7,New Ambient Lighting Options,7,released,100
-A0883,F0883,E04,2024.26.7,Improved Climate Panel,3,released,100
+A0883,F0883,E09,2024.26.7,Improved Climate Panel,3,released,100
 A0884,F0884,E07,2024.26.8,Automatic Emergency Braking Improvements,2,released,100
-A0885,F0885,E04,2024.26.8,Over-the-Air (OTA) Recall,3,released,100
-A0886,F0886,E04,2024.26.8,YouTube Music,5,released,100
+A0885,F0885,E09,2024.26.8,Over-the-Air (OTA) Recall,3,released,100
+A0886,F0886,E10,2024.26.8,YouTube Music,5,released,100
 A0887,F0887,E01,2024.26.8,Go on Green,1,released,100
-A0888,F0888,E04,2024.26.8,Vision Speed Limits,3,released,100
-A0889,F0889,E04,2024.26.8,Amazon Music,5,released,100
-A0890,F0890,E04,2024.26.8,Castle Doombad Classic,5,released,100
-A0891,F0891,E04,2024.26.8,Parental Controls,3,released,100
+A0888,F0888,E09,2024.26.8,Vision Speed Limits,3,released,100
+A0889,F0889,E10,2024.26.8,Amazon Music,5,released,100
+A0890,F0890,E10,2024.26.8,Castle Doombad Classic,5,released,100
+A0891,F0891,E09,2024.26.8,Parental Controls,3,released,100
 A0892,F0892,E05,2024.26.8,Weather Forecast and Air Quality,4,released,100
 A0893,F0893,E05,2024.26.8,Schedule Charge and Preconditioning,4,released,100
 A0894,F0894,E05,2024.26.8,Navigate to Sub-Destinations,4,released,100
-A0895,F0895,E04,2024.26.8,Other Updates,3,released,100
-A0896,F0896,E04,2024.26.8,Security Improvements,3,released,100
+A0895,F0895,E09,2024.26.8,Other Updates,3,released,100
+A0896,F0896,E09,2024.26.8,Security Improvements,3,released,100
 A0897,F0897,E05,2024.26.8,Show Next Preconditioning / Charging Event,4,released,100
-A0898,F0898,E04,2024.26.8,Hide Music Services Per Profile,5,released,100
-A0899,F0899,E04,2024.26.8,Audio Balance Per Profile,5,released,100
-A0900,F0900,E04,2024.26.8,Service Center Tips,3,released,100
-A0901,F0901,E04,2024.26.8,Reduce Fan Speed Hint,3,released,100
-A0902,F0902,E04,2024.26.8,Reduce Fan Speed Option,3,released,100
-A0903,F0903,E04,2024.26.8,New Key Required Screen,3,released,100
+A0898,F0898,E10,2024.26.8,Hide Music Services Per Profile,5,released,100
+A0899,F0899,E10,2024.26.8,Audio Balance Per Profile,5,released,100
+A0900,F0900,E09,2024.26.8,Service Center Tips,3,released,100
+A0901,F0901,E09,2024.26.8,Reduce Fan Speed Hint,3,released,100
+A0902,F0902,E09,2024.26.8,Reduce Fan Speed Option,3,released,100
+A0903,F0903,E09,2024.26.8,New Key Required Screen,3,released,100
 A0904,F0904,E08,2024.26.8,Improved Front Camera Clarity,7,released,100
 A0905,F0905,E02,2024.26.8,Traffic-Aware Cruise Control Chime,1,released,100
 A0906,F0906,E08,2024.26.8,New Ambient Lighting Options,7,released,100
-A0907,F0907,E04,2024.26.8,Improved Climate Panel,3,released,100
+A0907,F0907,E09,2024.26.8,Improved Climate Panel,3,released,100
 A0908,F0908,E05,2024.32,Construction on Your Route,4,released,100
 A0909,F0909,E05,2024.32,Predictive Text for Navigation Searches,4,released,100
 A0910,F0910,E05,2024.32,Search This Area,4,released,100
-A0911,F0911,E04,2024.32,Mobile App Notification for Tire Service,3,released,100
-A0912,F0912,E04,2024.32,Security Improvements,3,released,100
+A0911,F0911,E09,2024.32,Mobile App Notification for Tire Service,3,released,100
+A0912,F0912,E09,2024.32,Security Improvements,3,released,100
 A0913,F0913,E01,2024.32,AutoPark Shift Change,1,released,100
 A0914,F0914,E02,2024.32.10,ASS (Actually Smart Summon),1,released,100
 A0915,F0915,E01,2024.32.10,New Summon Options,1,released,100
 A0916,F0916,E02,2024.32.10,FSD (Supervised) v12.5.4.1,1,released,100
 A0917,F0917,E03,2024.32.10,Vision-Based Attention Monitoring,2,released,100
 A0918,F0918,E01,2024.32.10,Full Self-Driving (Supervised),1,released,100
-A0919,F0919,E04,2024.32.10,LiveOne Powered by Slacker Radio,5,released,100
+A0919,F0919,E10,2024.32.10,LiveOne Powered by Slacker Radio,5,released,100
 A0920,F0920,E02,2024.32.10,Vision Autopark,1,released,100
-A0921,F0921,E04,2024.32.10,Exclude Home When Using Hands-Free Closures,3,released,100
+A0921,F0921,E09,2024.32.10,Exclude Home When Using Hands-Free Closures,3,released,100
 A0922,F0922,E01,2024.32.10,AutoPark Shift Change,1,released,100
-A0923,F0923,E04,2024.32.10,Exclude Home When Using Automatic and Hands-Free Closures,3,released,100
-A0924,F0924,E04,2024.32.10,Hands-Free Frunk,3,released,100
+A0923,F0923,E09,2024.32.10,Exclude Home When Using Automatic and Hands-Free Closures,3,released,100
+A0924,F0924,E09,2024.32.10,Hands-Free Frunk,3,released,100
 A0925,F0925,E07,2024.32.10,Sentry Mode Light Pulsing,2,released,100
 A0926,F0926,E05,2024.32.10,Construction on Your Route,4,released,100
 A0927,F0927,E05,2024.32.10,Predictive Text for Navigation Searches,4,released,100
 A0928,F0928,E05,2024.32.10,Search This Area,4,released,100
-A0929,F0929,E04,2024.32.10,Mobile App Notification for Tire Service,3,released,100
-A0930,F0930,E04,2024.32.10,Security Improvements,3,released,100
+A0929,F0929,E09,2024.32.10,Mobile App Notification for Tire Service,3,released,100
+A0930,F0930,E09,2024.32.10,Security Improvements,3,released,100
 A0931,F0931,E02,2024.32.10,Cancel Lane Change in Autopilot,1,released,100
-A0932,F0932,E04,2024.32.100.1,Minor Fixes,3,released,100
+A0932,F0932,E09,2024.32.100.1,Minor Fixes,3,released,100
 A0933,F0933,E01,2024.32.20,FSD (Supervised) v12.5.5,1,released,100
 A0934,F0934,E02,2024.32.20,Full Self-Driving (Supervised),1,released,100
-A0935,F0935,E04,2024.32.20,LiveOne Powered by Slacker Radio,5,released,100
+A0935,F0935,E10,2024.32.20,LiveOne Powered by Slacker Radio,5,released,100
 A0936,F0936,E03,2024.32.20,Vision-Based Attention Monitoring,2,released,100
-A0937,F0937,E04,2024.32.20,Mirror in Full Screen,5,released,100
+A0937,F0937,E10,2024.32.20,Mirror in Full Screen,5,released,100
 A0938,F0938,E07,2024.32.20,Vision Attention Monitoring Icon,2,released,100
 A0939,F0939,E01,2024.32.20,AutoPark Shift Change,1,released,100
 A0940,F0940,E02,2024.32.20,Vision Autopark,1,released,100
-A0941,F0941,E04,2024.32.20,Exclude Home When Using Hands-Free Closures,3,released,100
-A0942,F0942,E04,2024.32.20,Exclude Home When Using Automatic and Hands-Free Closures,3,released,100
-A0943,F0943,E04,2024.32.20,Hands-Free Frunk,3,released,100
+A0941,F0941,E09,2024.32.20,Exclude Home When Using Hands-Free Closures,3,released,100
+A0942,F0942,E09,2024.32.20,Exclude Home When Using Automatic and Hands-Free Closures,3,released,100
+A0943,F0943,E09,2024.32.20,Hands-Free Frunk,3,released,100
 A0944,F0944,E03,2024.32.20,Sentry Mode Light Pulsing,2,released,100
 A0945,F0945,E05,2024.32.20,Construction on Your Route,4,released,100
 A0946,F0946,E05,2024.32.20,Predictive Text for Navigation Searches,4,released,100
 A0947,F0947,E05,2024.32.20,Search This Area,4,released,100
-A0948,F0948,E04,2024.32.20,Mobile App Notification for Tire Service,3,released,100
-A0949,F0949,E04,2024.32.20,Security Improvements,3,released,100
+A0948,F0948,E09,2024.32.20,Mobile App Notification for Tire Service,3,released,100
+A0949,F0949,E09,2024.32.20,Security Improvements,3,released,100
 A0950,F0950,E01,2024.32.20,Cancel Lane Change in Autopilot,1,released,100
-A0951,F0951,E04,2024.32.3,Exclude Home When Using Hands-Free Closures,3,released,100
-A0952,F0952,E04,2024.32.3,Exclude Home When Using Automatic and Hands-Free Closures,3,released,100
-A0953,F0953,E04,2024.32.3,Hands-Free Frunk,3,released,100
+A0951,F0951,E09,2024.32.3,Exclude Home When Using Hands-Free Closures,3,released,100
+A0952,F0952,E09,2024.32.3,Exclude Home When Using Automatic and Hands-Free Closures,3,released,100
+A0953,F0953,E09,2024.32.3,Hands-Free Frunk,3,released,100
 A0954,F0954,E07,2024.32.3,Sentry Mode Light Pulsing,2,released,100
 A0955,F0955,E05,2024.32.3,Construction on Your Route,4,released,100
 A0956,F0956,E05,2024.32.3,Predictive Text for Navigation Searches,4,released,100
 A0957,F0957,E05,2024.32.3,Search This Area,4,released,100
-A0958,F0958,E04,2024.32.3,Mobile App Notification for Tire Service,3,released,100
-A0959,F0959,E04,2024.32.3,Security Improvements,3,released,100
+A0958,F0958,E09,2024.32.3,Mobile App Notification for Tire Service,3,released,100
+A0959,F0959,E09,2024.32.3,Security Improvements,3,released,100
 A0960,F0960,E02,2024.32.3,AutoPark Shift Change,1,released,100
 A0961,F0961,E01,2024.32.3,Cancel Lane Change in Autopilot,1,released,100
 A0962,F0962,E02,2024.32.30,FSD (Supervised) v12.5.6,1,released,100
@@ -967,161 +967,161 @@ A0965,F0965,E03,2024.32.30,Vision-Based Attention Monitoring,2,released,100
 A0966,F0966,E01,2024.32.30,AutoPark Shift Change,1,released,100
 A0967,F0967,E04,2024.32.30,Smoother Visualizations,3,released,100
 A0968,F0968,E02,2024.32.30,Vision Autopark,1,released,100
-A0969,F0969,E04,2024.32.30,LiveOne Powered by Slacker Radio,5,released,100
-A0970,F0970,E04,2024.32.30,Exclude Home When Using Hands-Free Closures,3,released,100
-A0971,F0971,E04,2024.32.30,Exclude Home When Using Automatic and Hands-Free Closures,3,released,100
-A0972,F0972,E04,2024.32.30,Hands-Free Frunk,3,released,100
+A0969,F0969,E10,2024.32.30,LiveOne Powered by Slacker Radio,5,released,100
+A0970,F0970,E09,2024.32.30,Exclude Home When Using Hands-Free Closures,3,released,100
+A0971,F0971,E09,2024.32.30,Exclude Home When Using Automatic and Hands-Free Closures,3,released,100
+A0972,F0972,E09,2024.32.30,Hands-Free Frunk,3,released,100
 A0973,F0973,E07,2024.32.30,Sentry Mode Light Pulsing,2,released,100
 A0974,F0974,E05,2024.32.30,Construction on Your Route,4,released,100
 A0975,F0975,E05,2024.32.30,Predictive Text for Navigation Searches,4,released,100
 A0976,F0976,E05,2024.32.30,Search This Area,4,released,100
-A0977,F0977,E04,2024.32.30,Mobile App Notification for Tire Service,3,released,100
-A0978,F0978,E04,2024.32.30,Security Improvements,3,released,100
+A0977,F0977,E09,2024.32.30,Mobile App Notification for Tire Service,3,released,100
+A0978,F0978,E09,2024.32.30,Security Improvements,3,released,100
 A0979,F0979,E01,2024.32.30,Cancel Lane Change in Autopilot,1,released,100
 A0980,F0980,E03,2024.32.30,Vision Attention Monitoring Icon,2,released,100
-A0981,F0981,E04,2024.32.30,Mirror in Full Screen,5,released,100
+A0981,F0981,E10,2024.32.30,Mirror in Full Screen,5,released,100
 A0982,F0982,E02,2024.32.5,Vision Autopark,1,released,100
-A0983,F0983,E04,2024.32.5,Exclude Home When Using Hands-Free Closures,3,released,100
-A0984,F0984,E04,2024.32.5,Exclude Home When Using Automatic and Hands-Free Closures,3,released,100
-A0985,F0985,E04,2024.32.5,Hands-Free Frunk,3,released,100
+A0983,F0983,E09,2024.32.5,Exclude Home When Using Hands-Free Closures,3,released,100
+A0984,F0984,E09,2024.32.5,Exclude Home When Using Automatic and Hands-Free Closures,3,released,100
+A0985,F0985,E09,2024.32.5,Hands-Free Frunk,3,released,100
 A0986,F0986,E07,2024.32.5,Sentry Mode Light Pulsing,2,released,100
 A0987,F0987,E05,2024.32.5,Construction on Your Route,4,released,100
 A0988,F0988,E05,2024.32.5,Predictive Text for Navigation Searches,4,released,100
 A0989,F0989,E05,2024.32.5,Search This Area,4,released,100
-A0990,F0990,E04,2024.32.5,Mobile App Notification for Tire Service,3,released,100
-A0991,F0991,E04,2024.32.5,LiveOne Powered by Slacker Radio,5,released,100
-A0992,F0992,E04,2024.32.5,Security Improvements,3,released,100
+A0990,F0990,E09,2024.32.5,Mobile App Notification for Tire Service,3,released,100
+A0991,F0991,E10,2024.32.5,LiveOne Powered by Slacker Radio,5,released,100
+A0992,F0992,E09,2024.32.5,Security Improvements,3,released,100
 A0993,F0993,E01,2024.32.5,AutoPark Shift Change,1,released,100
 A0994,F0994,E02,2024.32.5,Cancel Lane Change in Autopilot,1,released,100
-A0995,F0995,E04,2024.38,Spotify Free,5,released,100
-A0996,F0996,E04,2024.38,Custom Mirror Tilted Positions,3,released,100
-A0997,F0997,E04,2024.38,LiveOne Powered by Slacker Radio,5,released,100
-A0998,F0998,E04,2024.38,Other Updates,3,released,100
-A0999,F0999,E04,2024.38,Service History,3,released,100
+A0995,F0995,E10,2024.38,Spotify Free,5,released,100
+A0996,F0996,E09,2024.38,Custom Mirror Tilted Positions,3,released,100
+A0997,F0997,E10,2024.38,LiveOne Powered by Slacker Radio,5,released,100
+A0998,F0998,E09,2024.38,Other Updates,3,released,100
+A0999,F0999,E09,2024.38,Service History,3,released,100
 A1000,F1000,E06,2024.38,Tesla App Commands,6,released,100
-A1001,F1001,E04,2024.38.100,Minor Fixes,3,released,100
+A1001,F1001,E09,2024.38.100,Minor Fixes,3,released,100
 A1002,F1002,E03,2024.38.2,Sentry Mode Improvements,2,released,100
-A1003,F1003,E04,2024.38.2,Spotify Free,5,released,100
-A1004,F1004,E04,2024.38.2,Custom Mirror Tilted Positions,3,released,100
-A1005,F1005,E04,2024.38.2,LiveOne Powered by Slacker Radio,5,released,100
-A1006,F1006,E04,2024.38.2,Other Updates,3,released,100
+A1003,F1003,E10,2024.38.2,Spotify Free,5,released,100
+A1004,F1004,E09,2024.38.2,Custom Mirror Tilted Positions,3,released,100
+A1005,F1005,E10,2024.38.2,LiveOne Powered by Slacker Radio,5,released,100
+A1006,F1006,E09,2024.38.2,Other Updates,3,released,100
 A1007,F1007,E06,2024.38.2,Tesla App Commands,6,released,100
 A1008,F1008,E01,2024.38.2,Curve Assist,1,released,100
 A1009,F1009,E02,2024.38.2,Autopilot Hardware Version,1,released,100
 A1010,F1010,E06,2024.38.2,WiFi Diagnostics Tool,6,released,100
 A1011,F1011,E06,2024.38.2,Improved Voice Recognition,6,released,100
 A1012,F1012,E07,2024.38.4,Sentry Mode Improvements,2,released,100
-A1013,F1013,E04,2024.38.4,Track Mode: Powertrain Endurance,3,released,100
-A1014,F1014,E04,2024.38.4,Spotify Free,5,released,100
-A1015,F1015,E04,2024.38.4,Custom Mirror Tilted Positions,3,released,100
-A1016,F1016,E04,2024.38.4,LiveOne Powered by Slacker Radio,5,released,100
-A1017,F1017,E04,2024.38.4,Other Updates,3,released,100
-A1018,F1018,E04,2024.38.4,Service History,3,released,100
+A1013,F1013,E09,2024.38.4,Track Mode: Powertrain Endurance,3,released,100
+A1014,F1014,E10,2024.38.4,Spotify Free,5,released,100
+A1015,F1015,E09,2024.38.4,Custom Mirror Tilted Positions,3,released,100
+A1016,F1016,E10,2024.38.4,LiveOne Powered by Slacker Radio,5,released,100
+A1017,F1017,E09,2024.38.4,Other Updates,3,released,100
+A1018,F1018,E09,2024.38.4,Service History,3,released,100
 A1019,F1019,E06,2024.38.4,Tesla App Commands,6,released,100
 A1020,F1020,E01,2024.38.4,Curve Assist,1,released,100
 A1021,F1021,E02,2024.38.4,Autopilot Hardware Version,1,released,100
 A1022,F1022,E06,2024.38.4,WiFi Diagnostics Tool,6,released,100
 A1023,F1023,E06,2024.38.4,Improved Voice Recognition,6,released,100
-A1024,F1024,E04,2024.44,Cold Weather Improvements,3,released,100
+A1024,F1024,E09,2024.44,Cold Weather Improvements,3,released,100
 A1025,F1025,E05,2024.44,Trailer-Friendly Superchargers,4,released,100
-A1026,F1026,E04,2024.44,Other Updates,3,released,100
+A1026,F1026,E09,2024.44,Other Updates,3,released,100
 A1027,F1027,E04,2024.44,Smoother Visualizations,3,released,100
 A1028,F1028,E04,2024.44,Steering Angle Visualization,3,released,100
 A1029,F1029,E01,2024.44,FSD Visualizations With A.S.S.,1,released,100
-A1030,F1030,E04,2024.44,Service Mode Improvements,3,released,100
+A1030,F1030,E09,2024.44,Service Mode Improvements,3,released,100
 A1031,F1031,E06,2024.44.25,Apple Watch,6,released,100
 A1032,F1032,E08,2024.44.25,Mobile App Dashcam Viewer,7,released,100
-A1033,F1033,E04,2024.44.25,SiriusXM,5,released,100
-A1034,F1034,E04,2024.44.25,Auto Shift (Beta),3,released,100
+A1033,F1033,E10,2024.44.25,SiriusXM,5,released,100
+A1034,F1034,E09,2024.44.25,Auto Shift (Beta),3,released,100
 A1035,F1035,E05,2024.44.25,Set Arrival Energy,4,released,100
 A1036,F1036,E05,2024.44.25,Search Along Route,4,released,100
 A1037,F1037,E05,2024.44.25,Weather at Destination,4,released,100
 A1038,F1038,E05,2024.44.25,Precipitation Map and Weather at Destination,4,released,100
 A1039,F1039,E03,2024.44.25,Rear Cross Traffic Alert,2,released,100
-A1040,F1040,E04,2024.44.25,TuneIn,5,released,100
-A1041,F1041,E04,2024.44.25,Light Show Update,5,released,100
-A1042,F1042,E04,2024.44.25,Theater and Video Updates,5,released,100
-A1043,F1043,E04,2024.44.25,Boomerang Fu,5,released,100
-A1044,F1044,E04,2024.44.25,Seats Control,3,released,100
-A1045,F1045,E04,2024.44.25,Maintenance Summary,3,released,100
-A1046,F1046,E04,2024.44.25,Minor Updates,3,released,100
+A1040,F1040,E10,2024.44.25,TuneIn,5,released,100
+A1041,F1041,E10,2024.44.25,Light Show Update,5,released,100
+A1042,F1042,E10,2024.44.25,Theater and Video Updates,5,released,100
+A1043,F1043,E10,2024.44.25,Boomerang Fu,5,released,100
+A1044,F1044,E09,2024.44.25,Seats Control,3,released,100
+A1045,F1045,E09,2024.44.25,Maintenance Summary,3,released,100
+A1046,F1046,E09,2024.44.25,Minor Updates,3,released,100
 A1047,F1047,E06,2024.44.25.2,Apple Watch,6,released,100
 A1048,F1048,E08,2024.44.25.2,Mobile App Dashcam Viewer,7,released,100
-A1049,F1049,E04,2024.44.25.2,SiriusXM,5,released,100
-A1050,F1050,E04,2024.44.25.2,Auto Shift (Beta),3,released,100
+A1049,F1049,E10,2024.44.25.2,SiriusXM,5,released,100
+A1050,F1050,E09,2024.44.25.2,Auto Shift (Beta),3,released,100
 A1051,F1051,E05,2024.44.25.2,Set Arrival Energy,4,released,100
 A1052,F1052,E05,2024.44.25.2,Search Along Route,4,released,100
 A1053,F1053,E05,2024.44.25.2,Weather at Destination,4,released,100
 A1054,F1054,E05,2024.44.25.2,Precipitation Map and Weather at Destination,4,released,100
 A1055,F1055,E07,2024.44.25.2,Rear Cross Traffic Alert,2,released,100
-A1056,F1056,E04,2024.44.25.2,TuneIn,5,released,100
-A1057,F1057,E04,2024.44.25.2,Light Show Update,5,released,100
-A1058,F1058,E04,2024.44.25.2,Theater and Video Updates,5,released,100
-A1059,F1059,E04,2024.44.25.2,Boomerang Fu,5,released,100
-A1060,F1060,E04,2024.44.25.2,Seats Control,3,released,100
-A1061,F1061,E04,2024.44.25.2,Maintenance Summary,3,released,100
-A1062,F1062,E04,2024.44.25.2,Minor Updates,3,released,100
-A1063,F1063,E04,2024.44.25.2,Fart on Sit,5,released,100
+A1056,F1056,E10,2024.44.25.2,TuneIn,5,released,100
+A1057,F1057,E10,2024.44.25.2,Light Show Update,5,released,100
+A1058,F1058,E10,2024.44.25.2,Theater and Video Updates,5,released,100
+A1059,F1059,E10,2024.44.25.2,Boomerang Fu,5,released,100
+A1060,F1060,E09,2024.44.25.2,Seats Control,3,released,100
+A1061,F1061,E09,2024.44.25.2,Maintenance Summary,3,released,100
+A1062,F1062,E09,2024.44.25.2,Minor Updates,3,released,100
+A1063,F1063,E10,2024.44.25.2,Fart on Sit,5,released,100
 A1064,F1064,E06,2024.44.25.2,Voice Assistant,6,released,100
-A1065,F1065,E04,2024.44.25.2,Equalizer,5,released,100
-A1066,F1066,E04,2024.44.25.2,Performance Improvements,3,released,100
-A1067,F1067,E04,2024.44.25.2,Service Mode Updates,3,released,100
-A1068,F1068,E04,2024.44.25.2,Rearranged Menus,3,released,100
-A1069,F1069,E04,2024.44.25.2,Custom Lock Sound,3,released,100
-A1070,F1070,E04,2024.44.25.2,Ambient Lighting Easter Eggs,5,released,100
+A1065,F1065,E10,2024.44.25.2,Equalizer,5,released,100
+A1066,F1066,E09,2024.44.25.2,Performance Improvements,3,released,100
+A1067,F1067,E09,2024.44.25.2,Service Mode Updates,3,released,100
+A1068,F1068,E09,2024.44.25.2,Rearranged Menus,3,released,100
+A1069,F1069,E09,2024.44.25.2,Custom Lock Sound,3,released,100
+A1070,F1070,E10,2024.44.25.2,Ambient Lighting Easter Eggs,5,released,100
 A1071,F1071,E04,2024.44.25.2,Updated Energy App,3,released,100
 A1072,F1072,E05,2024.44.25.2,Toll Roads,4,released,100
-A1073,F1073,E04,2024.44.25.2,Limiting Explicit Content on YouTube Music,5,released,100
-A1074,F1074,E04,2024.44.25.2,Charging Icons,3,released,100
+A1073,F1073,E10,2024.44.25.2,Limiting Explicit Content on YouTube Music,5,released,100
+A1074,F1074,E09,2024.44.25.2,Charging Icons,3,released,100
 A1075,F1075,E08,2024.44.25.2,Dashcam Viewer Speed,7,released,100
-A1076,F1076,E04,2024.44.25.2,Tire Pressure Indicator,3,released,100
-A1077,F1077,E04,2024.44.25.2,Full Screen Theater Improvements,5,released,100
+A1076,F1076,E09,2024.44.25.2,Tire Pressure Indicator,3,released,100
+A1077,F1077,E10,2024.44.25.2,Full Screen Theater Improvements,5,released,100
 A1078,F1078,E06,2024.44.25.2,Dictate Message Confirmation,6,released,100
 A1079,F1079,E03,2024.44.3,Blind Spot Warning While Parked,2,released,100
 A1080,F1080,E02,2024.44.3,Autopark Improvements,1,released,100
 A1081,F1081,E01,2024.44.3,ASS (Actually Smart Summon),1,released,100
-A1082,F1082,E04,2024.44.3,Cold Weather Improvements,3,released,100
+A1082,F1082,E09,2024.44.3,Cold Weather Improvements,3,released,100
 A1083,F1083,E05,2024.44.3,Trailer-Friendly Superchargers,4,released,100
 A1084,F1084,E02,2024.44.3,Vision Autopark,1,released,100
-A1085,F1085,E04,2024.44.3,Other Updates,3,released,100
+A1085,F1085,E09,2024.44.3,Other Updates,3,released,100
 A1086,F1086,E04,2024.44.3,Smoother Visualizations,3,released,100
 A1087,F1087,E04,2024.44.3,Steering Angle Visualization,3,released,100
 A1088,F1088,E01,2024.44.3,FSD Visualizations With A.S.S.,1,released,100
-A1089,F1089,E04,2024.44.3,Service Mode Improvements,3,released,100
+A1089,F1089,E09,2024.44.3,Service Mode Improvements,3,released,100
 A1090,F1090,E07,2024.44.3.1,Blind Spot Warning While Parked,2,released,100
 A1091,F1091,E02,2024.44.3.1,Autopark Improvements,1,released,100
 A1092,F1092,E01,2024.44.3.1,ASS (Actually Smart Summon),1,released,100
-A1093,F1093,E04,2024.44.3.1,Cold Weather Improvements,3,released,100
+A1093,F1093,E09,2024.44.3.1,Cold Weather Improvements,3,released,100
 A1094,F1094,E05,2024.44.3.1,Trailer-Friendly Superchargers,4,released,100
 A1095,F1095,E02,2024.44.3.1,Vision Autopark,1,released,100
-A1096,F1096,E04,2024.44.3.1,Minor Updates,3,released,100
+A1096,F1096,E09,2024.44.3.1,Minor Updates,3,released,100
 A1097,F1097,E04,2024.44.3.1,Smoother Visualizations,3,released,100
 A1098,F1098,E04,2024.44.3.1,Steering Angle Visualization,3,released,100
 A1099,F1099,E01,2024.44.3.1,FSD Visualizations With A.S.S.,1,released,100
-A1100,F1100,E04,2024.44.3.1,Service Mode Improvements,3,released,100
-A1101,F1101,E04,2024.44.300,Minor Fixes,3,released,100
+A1100,F1100,E09,2024.44.3.1,Service Mode Improvements,3,released,100
+A1101,F1101,E09,2024.44.300,Minor Fixes,3,released,100
 A1102,F1102,E05,2024.8.3,One-Time Charge Limit,4,released,100
 A1103,F1103,E05,2024.8.3,Danger Zones on Your Route,4,released,100
 A1104,F1104,E08,2024.8.3,Adaptive High Beams,7,released,100
 A1105,F1105,E02,2024.8.3,Speed Cameras on Your Route,1,released,100
-A1106,F1106,E04,2024.8.3,Security Improvements,3,released,100
-A1107,F1107,E04,2024.8.3,Windshield Washer,3,released,100
-A1108,F1108,E04,2024.8.3,Fold Mirrors Button,3,released,100
+A1106,F1106,E09,2024.8.3,Security Improvements,3,released,100
+A1107,F1107,E09,2024.8.3,Windshield Washer,3,released,100
+A1108,F1108,E09,2024.8.3,Fold Mirrors Button,3,released,100
 A1109,F1109,E06,2024.8.3,Connectivity Icon,6,released,100
 A1110,F1110,E08,2024.8.3,Turn Signals,7,released,100
 A1111,F1111,E06,2024.8.3,New WiFi Menu,6,released,100
 A1112,F1112,E06,2024.8.3,New Bluetooth Menu,6,released,100
 A1113,F1113,E03,2024.8.4,Vehicle Alarm Includes Trailer,2,released,100
 A1114,F1114,E05,2024.8.4,One-Time Charge Limit,4,released,100
-A1115,F1115,E04,2024.8.4,View or Reset Tire Mileage,3,released,100
-A1116,F1116,E04,2024.8.4,Rear Passenger Headphones,3,released,100
-A1117,F1117,E04,2024.8.4,Auto Wipers,3,released,100
+A1115,F1115,E09,2024.8.4,View or Reset Tire Mileage,3,released,100
+A1116,F1116,E09,2024.8.4,Rear Passenger Headphones,3,released,100
+A1117,F1117,E09,2024.8.4,Auto Wipers,3,released,100
 A1118,F1118,E05,2024.8.4,Danger Zones on Your Route,4,released,100
 A1119,F1119,E08,2024.8.4,Adaptive High Beams,7,released,100
 A1120,F1120,E01,2024.8.4,Speed Cameras on Your Route,1,released,100
-A1121,F1121,E04,2024.8.4,Security Improvements,3,released,100
-A1122,F1122,E04,2024.8.4,Windshield Washer,3,released,100
-A1123,F1123,E04,2024.8.4,Fold Mirrors Button,3,released,100
+A1121,F1121,E09,2024.8.4,Security Improvements,3,released,100
+A1122,F1122,E09,2024.8.4,Windshield Washer,3,released,100
+A1123,F1123,E09,2024.8.4,Fold Mirrors Button,3,released,100
 A1124,F1124,E06,2024.8.4,Connectivity Icon,6,released,100
 A1125,F1125,E08,2024.8.4,Turn Signals,7,released,100
 A1126,F1126,E06,2024.8.4,New WiFi Menu,6,released,100
@@ -1129,15 +1129,15 @@ A1127,F1127,E06,2024.8.4,New Bluetooth Menu,6,released,100
 A1128,F1128,E07,2024.8.7,Vehicle Alarm Includes Trailer,2,released,100
 A1129,F1129,E06,2024.8.7,Ultra-Wideband Phone Key,6,released,100
 A1130,F1130,E05,2024.8.7,One-Time Charge Limit,4,released,100
-A1131,F1131,E04,2024.8.7,View or Reset Tire Mileage,3,released,100
-A1132,F1132,E04,2024.8.7,Rear Passenger Headphones,3,released,100
-A1133,F1133,E04,2024.8.7,Auto Wipers,3,released,100
+A1131,F1131,E09,2024.8.7,View or Reset Tire Mileage,3,released,100
+A1132,F1132,E09,2024.8.7,Rear Passenger Headphones,3,released,100
+A1133,F1133,E09,2024.8.7,Auto Wipers,3,released,100
 A1134,F1134,E05,2024.8.7,Danger Zones on Your Route,4,released,100
 A1135,F1135,E08,2024.8.7,Adaptive High Beams,7,released,100
 A1136,F1136,E02,2024.8.7,Speed Cameras on Your Route,1,released,100
-A1137,F1137,E04,2024.8.7,Security Improvements,3,released,100
-A1138,F1138,E04,2024.8.7,Windshield Washer,3,released,100
-A1139,F1139,E04,2024.8.7,Fold Mirrors Button,3,released,100
+A1137,F1137,E09,2024.8.7,Security Improvements,3,released,100
+A1138,F1138,E09,2024.8.7,Windshield Washer,3,released,100
+A1139,F1139,E09,2024.8.7,Fold Mirrors Button,3,released,100
 A1140,F1140,E06,2024.8.7,Connectivity Icon,6,released,100
 A1141,F1141,E08,2024.8.7,Turn Signals,7,released,100
 A1142,F1142,E06,2024.8.7,New WiFi Menu,6,released,100
@@ -1147,210 +1147,210 @@ A1145,F1145,E03,2025.14,Blind Spot Camera on Driver Screen,2,released,100
 A1146,F1146,E05,2025.14,Alternative Trip Plans,4,released,100
 A1147,F1147,E05,2025.14,Avoid Highways,4,released,100
 A1148,F1148,E08,2025.14,Dashcam Update and Side Camera Recording,7,released,100
-A1149,F1149,E04,2025.14,Save Trunk Height Based on Location,3,released,100
+A1149,F1149,E09,2025.14,Save Trunk Height Based on Location,3,released,100
 A1150,F1150,E01,2025.14,Lane Departure Avoidance,1,released,100
-A1151,F1151,E04,2025.14,Save Frunk Height Based on Location,3,released,100
+A1151,F1151,E09,2025.14,Save Frunk Height Based on Location,3,released,100
 A1152,F1152,E02,2025.14,Comfort Drive Mode in Autopilot,1,released,100
 A1153,F1153,E06,2025.14,Keyboard Languages,6,released,100
-A1154,F1154,E04,2025.14,Keep Accessory Power On,3,released,100
-A1155,F1155,E04,2025.14,Minor Updates,3,released,100
-A1156,F1156,E04,2025.14,Improvements to Heated Steering Wheel,3,released,100
-A1157,F1157,E04,2025.14,Apple Music Improvements,5,released,100
+A1154,F1154,E09,2025.14,Keep Accessory Power On,3,released,100
+A1155,F1155,E09,2025.14,Minor Updates,3,released,100
+A1156,F1156,E09,2025.14,Improvements to Heated Steering Wheel,3,released,100
+A1157,F1157,E10,2025.14,Apple Music Improvements,5,released,100
 A1158,F1158,E06,2025.14,Language Support,6,released,100
 A1159,F1159,E07,2025.14,Sentry Mode Improvement,2,released,100
 A1160,F1160,E01,2025.14,Lane Departure Avoidance Updated to FSD,1,released,100
 A1161,F1161,E08,2025.14,Improved Dashcam Viewer,7,released,100
 A1162,F1162,E08,2025.14,Camera App,7,released,100
-A1163,F1163,E04,2025.14,Speedometer,3,released,100
+A1163,F1163,E09,2025.14,Speedometer,3,released,100
 A1164,F1164,E03,2025.14,Sentry Mode Menu,2,released,100
-A1165,F1165,E04,2025.14,Service Mode Release Notes,3,released,100
-A1166,F1166,E04,2025.14.100.1,Minor Fixes,3,released,100
-A1167,F1167,E04,2025.14.100.1,Improvements to Heated Steering Wheel,3,released,100
-A1168,F1168,E04,2025.14.100.1,Apple Music Improvements,5,released,100
+A1165,F1165,E09,2025.14,Service Mode Release Notes,3,released,100
+A1166,F1166,E09,2025.14.100.1,Minor Fixes,3,released,100
+A1167,F1167,E09,2025.14.100.1,Improvements to Heated Steering Wheel,3,released,100
+A1168,F1168,E10,2025.14.100.1,Apple Music Improvements,5,released,100
 A1169,F1169,E06,2025.14.100.1,Language Support,6,released,100
 A1170,F1170,E07,2025.14.100.1,Sentry Mode Improvement,2,released,100
 A1171,F1171,E02,2025.14.100.1,Lane Departure Avoidance Updated to FSD,1,released,100
 A1172,F1172,E08,2025.14.100.1,Improved Dashcam Viewer,7,released,100
 A1173,F1173,E08,2025.14.100.1,Camera App,7,released,100
-A1174,F1174,E04,2025.14.100.1,Speedometer,3,released,100
+A1174,F1174,E09,2025.14.100.1,Speedometer,3,released,100
 A1175,F1175,E03,2025.14.100.1,Sentry Mode Menu,2,released,100
-A1176,F1176,E04,2025.14.100.1,Service Mode Release Notes,3,released,100
+A1176,F1176,E09,2025.14.100.1,Service Mode Release Notes,3,released,100
 A1177,F1177,E07,2025.14.12,Child Left Alone Detection,2,released,100
 A1178,F1178,E08,2025.14.12,Adaptive Headlights,7,released,100
 A1179,F1179,E03,2025.14.12,Blind Spot Camera on Driver Screen,2,released,100
 A1180,F1180,E05,2025.14.12,Alternative Trip Plans,4,released,100
 A1181,F1181,E05,2025.14.12,Avoid Highways,4,released,100
 A1182,F1182,E08,2025.14.12,Dashcam Update and Side Camera Recording,7,released,100
-A1183,F1183,E04,2025.14.12,Save Trunk Height Based on Location,3,released,100
+A1183,F1183,E09,2025.14.12,Save Trunk Height Based on Location,3,released,100
 A1184,F1184,E01,2025.14.12,Lane Departure Avoidance,1,released,100
-A1185,F1185,E04,2025.14.12,Save Frunk Height Based on Location,3,released,100
+A1185,F1185,E09,2025.14.12,Save Frunk Height Based on Location,3,released,100
 A1186,F1186,E02,2025.14.12,Comfort Drive Mode in Autopilot,1,released,100
 A1187,F1187,E06,2025.14.12,Keyboard Languages,6,released,100
-A1188,F1188,E04,2025.14.12,Keep Accessory Power On,3,released,100
-A1189,F1189,E04,2025.14.12,Minor Updates,3,released,100
-A1190,F1190,E04,2025.14.12,Improvements to Heated Steering Wheel,3,released,100
-A1191,F1191,E04,2025.14.12,Apple Music Improvements,5,released,100
+A1188,F1188,E09,2025.14.12,Keep Accessory Power On,3,released,100
+A1189,F1189,E09,2025.14.12,Minor Updates,3,released,100
+A1190,F1190,E09,2025.14.12,Improvements to Heated Steering Wheel,3,released,100
+A1191,F1191,E10,2025.14.12,Apple Music Improvements,5,released,100
 A1192,F1192,E06,2025.14.12,Language Support,6,released,100
 A1193,F1193,E07,2025.14.12,Sentry Mode Improvement,2,released,100
 A1194,F1194,E01,2025.14.12,Lane Departure Avoidance Updated to FSD,1,released,100
 A1195,F1195,E08,2025.14.12,Improved Dashcam Viewer,7,released,100
 A1196,F1196,E08,2025.14.12,Camera App,7,released,100
-A1197,F1197,E04,2025.14.12,Speedometer,3,released,100
+A1197,F1197,E09,2025.14.12,Speedometer,3,released,100
 A1198,F1198,E03,2025.14.12,Sentry Mode Menu,2,released,100
-A1199,F1199,E04,2025.14.12,Service Mode Release Notes,3,released,100
+A1199,F1199,E09,2025.14.12,Service Mode Release Notes,3,released,100
 A1200,F1200,E02,2025.14.6,FSD (Supervised) v13.2.9,1,released,100
 A1201,F1201,E01,2025.14.6,FSD (Supervised) v13.2.9,1,released,100
 A1202,F1202,E02,2025.14.6,Full Self-Driving (Supervised),1,released,100
-A1203,F1203,E04,2025.14.6,Fix for Battery Drain,3,released,100
+A1203,F1203,E09,2025.14.6,Fix for Battery Drain,3,released,100
 A1204,F1204,E08,2025.14.6,Adaptive Headlights,7,released,100
 A1205,F1205,E07,2025.14.6,Blind Spot Camera on Driver Screen,2,released,100
 A1206,F1206,E05,2025.14.6,Alternative Trip Plans,4,released,100
 A1207,F1207,E05,2025.14.6,Avoid Highways,4,released,100
 A1208,F1208,E08,2025.14.6,Dashcam Update and Side Camera Recording,7,released,100
-A1209,F1209,E04,2025.14.6,Save Trunk Height Based on Location,3,released,100
+A1209,F1209,E09,2025.14.6,Save Trunk Height Based on Location,3,released,100
 A1210,F1210,E01,2025.14.6,Lane Departure Avoidance,1,released,100
-A1211,F1211,E04,2025.14.6,Save Frunk Height Based on Location,3,released,100
+A1211,F1211,E09,2025.14.6,Save Frunk Height Based on Location,3,released,100
 A1212,F1212,E02,2025.14.6,Comfort Drive Mode in Autopilot,1,released,100
 A1213,F1213,E06,2025.14.6,Keyboard Languages,6,released,100
-A1214,F1214,E04,2025.14.6,Keep Accessory Power On,3,released,100
-A1215,F1215,E04,2025.14.6,Minor Updates,3,released,100
-A1216,F1216,E04,2025.14.6,Improvements to Heated Steering Wheel,3,released,100
-A1217,F1217,E04,2025.14.6,Apple Music Improvements,5,released,100
+A1214,F1214,E09,2025.14.6,Keep Accessory Power On,3,released,100
+A1215,F1215,E09,2025.14.6,Minor Updates,3,released,100
+A1216,F1216,E09,2025.14.6,Improvements to Heated Steering Wheel,3,released,100
+A1217,F1217,E10,2025.14.6,Apple Music Improvements,5,released,100
 A1218,F1218,E06,2025.14.6,Language Support,6,released,100
 A1219,F1219,E03,2025.14.6,Sentry Mode Improvement,2,released,100
 A1220,F1220,E01,2025.14.6,Lane Departure Avoidance Updated to FSD,1,released,100
 A1221,F1221,E08,2025.14.6,Improved Dashcam Viewer,7,released,100
 A1222,F1222,E08,2025.14.6,Camera App,7,released,100
-A1223,F1223,E04,2025.14.6,Speedometer,3,released,100
+A1223,F1223,E09,2025.14.6,Speedometer,3,released,100
 A1224,F1224,E07,2025.14.6,Sentry Mode Menu,2,released,100
-A1225,F1225,E04,2025.14.6,Service Mode Release Notes,3,released,100
-A1226,F1226,E04,2025.2.200,Minor Fixes,3,released,100
-A1227,F1227,E04,2025.2.8,Wiper Wash Updates,3,released,100
+A1225,F1225,E09,2025.14.6,Service Mode Release Notes,3,released,100
+A1226,F1226,E09,2025.2.200,Minor Fixes,3,released,100
+A1227,F1227,E09,2025.2.8,Wiper Wash Updates,3,released,100
 A1228,F1228,E08,2025.2.8,Camera Visibility Detection,7,released,100
 A1229,F1229,E02,2025.2.8,FSD (Supervised) v12.6.4,1,released,100
 A1230,F1230,E01,2025.2.8,FSD (Supervised) v13.2.8,1,released,100
 A1231,F1231,E02,2025.2.8,FSD (Supervised) v13.2.8,1,released,100
 A1232,F1232,E01,2025.2.8,Start FSD (Supervised) from Park,1,released,100
 A1233,F1233,E02,2025.2.8,Full Self-Driving (Supervised),1,released,100
-A1234,F1234,E04,2025.2.8,Update to Data Sharing,3,released,100
+A1234,F1234,E09,2025.2.8,Update to Data Sharing,3,released,100
 A1235,F1235,E03,2025.2.8,First-Row Cabin Sensing Update,2,released,100
 A1236,F1236,E05,2025.2.8,Third-Party Fast Charger Preconditioning,4,released,100
 A1237,F1237,E07,2025.2.8,Rear Cross-Traffic Chime,2,released,100
-A1238,F1238,E04,2025.2.8,Hands-Free Trunk Opening for Android,3,released,100
-A1239,F1239,E04,2025.2.8,Hands-Free Trunk or Frunk Opening for Android,3,released,100
-A1240,F1240,E04,2025.2.8,Hands-Free Frunk Opening for Android,3,released,100
+A1238,F1238,E09,2025.2.8,Hands-Free Trunk Opening for Android,3,released,100
+A1239,F1239,E09,2025.2.8,Hands-Free Trunk or Frunk Opening for Android,3,released,100
+A1240,F1240,E09,2025.2.8,Hands-Free Frunk Opening for Android,3,released,100
 A1241,F1241,E08,2025.2.8,Trailer Profiles,7,released,100
-A1242,F1242,E04,2025.2.8,Minor Updates,3,released,100
+A1242,F1242,E09,2025.2.8,Minor Updates,3,released,100
 A1243,F1243,E01,2025.2.8,Autopilot Warnings,1,released,100
 A1244,F1244,E05,2025.2.8,Supercharger Notification,4,released,100
-A1245,F1245,E04,2025.2.8,Recommended Tire Pressure,3,released,100
-A1246,F1246,E04,2025.2.8,Service Mode,3,released,100
-A1247,F1247,E04,2025.2.9,Wiper Wash Updates,3,released,100
+A1245,F1245,E09,2025.2.8,Recommended Tire Pressure,3,released,100
+A1246,F1246,E09,2025.2.8,Service Mode,3,released,100
+A1247,F1247,E09,2025.2.9,Wiper Wash Updates,3,released,100
 A1248,F1248,E08,2025.2.9,Camera Visibility Detection,7,released,100
 A1249,F1249,E03,2025.2.9,First-Row Cabin Sensing Update,2,released,100
 A1250,F1250,E05,2025.2.9,Third-Party Fast Charger Preconditioning,4,released,100
 A1251,F1251,E07,2025.2.9,Rear Cross-Traffic Chime,2,released,100
-A1252,F1252,E04,2025.2.9,Hands-Free Trunk Opening for Android,3,released,100
-A1253,F1253,E04,2025.2.9,Hands-Free Trunk or Frunk Opening for Android,3,released,100
-A1254,F1254,E04,2025.2.9,Hands-Free Frunk Opening for Android,3,released,100
+A1252,F1252,E09,2025.2.9,Hands-Free Trunk Opening for Android,3,released,100
+A1253,F1253,E09,2025.2.9,Hands-Free Trunk or Frunk Opening for Android,3,released,100
+A1254,F1254,E09,2025.2.9,Hands-Free Frunk Opening for Android,3,released,100
 A1255,F1255,E08,2025.2.9,Trailer Profiles,7,released,100
-A1256,F1256,E04,2025.2.9,Minor Updates,3,released,100
+A1256,F1256,E09,2025.2.9,Minor Updates,3,released,100
 A1257,F1257,E02,2025.2.9,Autopilot Warnings,1,released,100
 A1258,F1258,E05,2025.2.9,Supercharger Notification,4,released,100
-A1259,F1259,E04,2025.2.9,Recommended Tire Pressure,3,released,100
-A1260,F1260,E04,2025.2.9,Service Mode,3,released,100
-A1261,F1261,E04,2025.20,Unlatching Charge Cable,3,released,100
+A1259,F1259,E09,2025.2.9,Recommended Tire Pressure,3,released,100
+A1260,F1260,E09,2025.2.9,Service Mode,3,released,100
+A1261,F1261,E09,2025.20,Unlatching Charge Cable,3,released,100
 A1262,F1262,E05,2025.20,Supercharging Live Activity,4,released,100
-A1263,F1263,E04,2025.20,Security Improvements,3,released,100
-A1264,F1264,E04,2025.20,Trunk Open Warning,3,released,100
+A1263,F1263,E09,2025.20,Security Improvements,3,released,100
+A1264,F1264,E09,2025.20,Trunk Open Warning,3,released,100
 A1265,F1265,E04,2025.20,Improved Energy App,3,released,100
 A1266,F1266,E03,2025.20,Orange Dot When Using Voice Commands,2,released,100
 A1267,F1267,E07,2025.20,Blind Spot Camera,2,released,100
 A1268,F1268,E08,2025.20,Dashcam Viewer Multi-Delete,7,released,100
-A1269,F1269,E04,2025.20,Privacy Section Now Lists Microphone,3,released,100
-A1270,F1270,E04,2025.20,Service Mode Improvements,3,released,100
-A1271,F1271,E04,2025.20.100,Minor Fixes,3,released,100
-A1272,F1272,E04,2025.20.100,Minor Fixes,3,released,100
+A1269,F1269,E09,2025.20,Privacy Section Now Lists Microphone,3,released,100
+A1270,F1270,E09,2025.20,Service Mode Improvements,3,released,100
+A1271,F1271,E09,2025.20.100,Minor Fixes,3,released,100
+A1272,F1272,E09,2025.20.100,Minor Fixes,3,released,100
 A1273,F1273,E03,2025.20.100,PIN to Drive,2,released,100
-A1274,F1274,E04,2025.20.100,Trunk Open Warning,3,released,100
+A1274,F1274,E09,2025.20.100,Trunk Open Warning,3,released,100
 A1275,F1275,E04,2025.20.100,Improved Energy App,3,released,100
 A1276,F1276,E07,2025.20.100,Orange Dot When Using Voice Commands,2,released,100
 A1277,F1277,E08,2025.20.100,Dashcam Viewer Wider View,7,released,100
 A1278,F1278,E03,2025.20.100,Blind Spot Camera,2,released,100
 A1279,F1279,E08,2025.20.100,Dashcam Viewer Multi-Delete,7,released,100
-A1280,F1280,E04,2025.20.100,Privacy Section Now Lists Microphone,3,released,100
-A1281,F1281,E04,2025.20.100,Service Mode Improvements,3,released,100
+A1280,F1280,E09,2025.20.100,Privacy Section Now Lists Microphone,3,released,100
+A1281,F1281,E09,2025.20.100,Service Mode Improvements,3,released,100
 A1282,F1282,E07,2025.20.3,Forward Collision Warning Improvements,2,released,100
 A1283,F1283,E08,2025.20.3,Camera Updates,7,released,100
 A1284,F1284,E03,2025.20.3,Child Left Alone Detection,2,released,100
-A1285,F1285,E04,2025.20.3,Unlatching Charge Cable,3,released,100
+A1285,F1285,E09,2025.20.3,Unlatching Charge Cable,3,released,100
 A1286,F1286,E05,2025.20.3,Supercharging Live Activity,4,released,100
-A1287,F1287,E04,2025.20.3,Security Improvements,3,released,100
+A1287,F1287,E09,2025.20.3,Security Improvements,3,released,100
 A1288,F1288,E07,2025.20.3,PIN to Drive,2,released,100
-A1289,F1289,E04,2025.20.3,Trunk Open Warning,3,released,100
+A1289,F1289,E09,2025.20.3,Trunk Open Warning,3,released,100
 A1290,F1290,E04,2025.20.3,Improved Energy App,3,released,100
 A1291,F1291,E03,2025.20.3,Orange Dot When Using Voice Commands,2,released,100
 A1292,F1292,E08,2025.20.3,Dashcam Viewer Wider View,7,released,100
 A1293,F1293,E07,2025.20.3,Blind Spot Camera,2,released,100
 A1294,F1294,E08,2025.20.3,Dashcam Viewer Multi-Delete,7,released,100
-A1295,F1295,E04,2025.20.3,Privacy Section Now Lists Microphone,3,released,100
-A1296,F1296,E04,2025.20.3,Service Mode Improvements,3,released,100
+A1295,F1295,E09,2025.20.3,Privacy Section Now Lists Microphone,3,released,100
+A1296,F1296,E09,2025.20.3,Service Mode Improvements,3,released,100
 A1297,F1297,E06,2025.26,Grok (Beta),6,released,100
 A1298,F1298,E03,2025.26,Child Left Alone Detection,2,released,100
-A1299,F1299,E04,2025.26,Light Sync,5,released,100
+A1299,F1299,E10,2025.26,Light Sync,5,released,100
 A1300,F1300,E08,2025.26,Dashcam Update,7,released,100
-A1301,F1301,E04,2025.26,Site Info at Arrival,3,released,100
-A1302,F1302,E04,2025.26,Audio Settings Update,5,released,100
-A1303,F1303,E04,2025.26,Onboarding Guide,3,released,100
+A1301,F1301,E09,2025.26,Site Info at Arrival,3,released,100
+A1302,F1302,E10,2025.26,Audio Settings Update,5,released,100
+A1303,F1303,E09,2025.26,Onboarding Guide,3,released,100
 A1304,F1304,E07,2025.26,New Lock Alert,2,released,100
 A1305,F1305,E06,2025.26,Mobile Access,6,released,100
-A1306,F1306,E04,2025.26,Battery Health Test Removed,3,released,100
+A1306,F1306,E09,2025.26,Battery Health Test Removed,3,released,100
 A1307,F1307,E03,2025.26,Tow Limit Exceeded,2,released,100
-A1308,F1308,E04,2025.26,Car Wash Mode Improvements,3,released,100
-A1309,F1309,E04,2025.26,Service Mode Improvements,3,released,100
+A1308,F1308,E09,2025.26,Car Wash Mode Improvements,3,released,100
+A1309,F1309,E09,2025.26,Service Mode Improvements,3,released,100
 A1310,F1310,E07,2025.26,Sentry Mode With Ambient Lighting,2,released,100
-A1311,F1311,E04,2025.26.100,Minor Fixes,3,released,100
-A1312,F1312,E04,2025.26.100,Minor Fixes,3,released,100
+A1311,F1311,E09,2025.26.100,Minor Fixes,3,released,100
+A1312,F1312,E09,2025.26.100,Minor Fixes,3,released,100
 A1313,F1313,E03,2025.26.100,New Lock Alert,2,released,100
 A1314,F1314,E06,2025.26.100,Mobile Access,6,released,100
-A1315,F1315,E04,2025.26.100,Battery Health Test Removed,3,released,100
+A1315,F1315,E09,2025.26.100,Battery Health Test Removed,3,released,100
 A1316,F1316,E07,2025.26.100,Tow Limit Exceeded,2,released,100
-A1317,F1317,E04,2025.26.100,Car Wash Mode Improvements,3,released,100
-A1318,F1318,E04,2025.26.100,Service Mode Improvements,3,released,100
+A1317,F1317,E09,2025.26.100,Car Wash Mode Improvements,3,released,100
+A1318,F1318,E09,2025.26.100,Service Mode Improvements,3,released,100
 A1319,F1319,E03,2025.26.100,Sentry Mode With Ambient Lighting,2,released,100
 A1320,F1320,E04,2025.26.11,Visualization Update,3,released,100
 A1321,F1321,E06,2025.26.11,Voice Command Updates,6,released,100
 A1322,F1322,E07,2025.26.11,Cabin Camera,2,released,100
 A1323,F1323,E06,2025.26.11,Voice Command Updates,6,released,100
-A1324,F1324,E04,2025.26.11,Vohico,5,released,100
+A1324,F1324,E10,2025.26.11,Vohico,5,released,100
 A1325,F1325,E08,2025.26.11,Dashcam Update and Side Camera Recording,7,released,100
 A1326,F1326,E08,2025.26.11,Dashcam Update,7,released,100
-A1327,F1327,E04,2025.26.11,Light Sync,5,released,100
-A1328,F1328,E04,2025.26.11,Site Info at Arrival,3,released,100
-A1329,F1329,E04,2025.26.11,Audio Settings Update,5,released,100
-A1330,F1330,E04,2025.26.11,Save Trunk Height Based on Location,3,released,100
+A1327,F1327,E10,2025.26.11,Light Sync,5,released,100
+A1328,F1328,E09,2025.26.11,Site Info at Arrival,3,released,100
+A1329,F1329,E10,2025.26.11,Audio Settings Update,5,released,100
+A1330,F1330,E09,2025.26.11,Save Trunk Height Based on Location,3,released,100
 A1331,F1331,E03,2025.26.11,Rear Cross-Traffic Chime,2,released,100
-A1332,F1332,E04,2025.26.11,Keep Accessory Power On,3,released,100
-A1333,F1333,E04,2025.26.11,Minor Updates,3,released,100
+A1332,F1332,E09,2025.26.11,Keep Accessory Power On,3,released,100
+A1333,F1333,E09,2025.26.11,Minor Updates,3,released,100
 A1334,F1334,E07,2025.26.11,New Lock Alert,2,released,100
 A1335,F1335,E06,2025.26.11,Mobile Access,6,released,100
-A1336,F1336,E04,2025.26.11,Battery Health Test Removed,3,released,100
+A1336,F1336,E09,2025.26.11,Battery Health Test Removed,3,released,100
 A1337,F1337,E03,2025.26.11,Tow Limit Exceeded,2,released,100
-A1338,F1338,E04,2025.26.11,Car Wash Mode Improvements,3,released,100
-A1339,F1339,E04,2025.26.11,Service Mode Improvements,3,released,100
+A1338,F1338,E09,2025.26.11,Car Wash Mode Improvements,3,released,100
+A1339,F1339,E09,2025.26.11,Service Mode Improvements,3,released,100
 A1340,F1340,E07,2025.26.11,Sentry Mode With Ambient Lighting,2,released,100
 A1341,F1341,E01,2025.26.7.10,FSD (Supervised) v13.2.9 Down Under,1,released,100
 A1342,F1342,E02,2025.26.7.10,Full Self-Driving (Supervised) Down Under,1,released,100
 A1343,F1343,E03,2025.26.7.10,Vision-Based Attention Monitoring,2,released,100
 A1344,F1344,E07,2025.26.7.10,New Lock Alert,2,released,100
 A1345,F1345,E06,2025.26.7.10,Mobile Access,6,released,100
-A1346,F1346,E04,2025.26.7.10,Battery Health Test Removed,3,released,100
+A1346,F1346,E09,2025.26.7.10,Battery Health Test Removed,3,released,100
 A1347,F1347,E03,2025.26.7.10,Tow Limit Exceeded,2,released,100
-A1348,F1348,E04,2025.26.7.10,Car Wash Mode Improvements,3,released,100
-A1349,F1349,E04,2025.26.7.10,Service Mode Improvements,3,released,100
+A1348,F1348,E09,2025.26.7.10,Car Wash Mode Improvements,3,released,100
+A1349,F1349,E09,2025.26.7.10,Service Mode Improvements,3,released,100
 A1350,F1350,E07,2025.26.7.10,Sentry Mode With Ambient Lighting,2,released,100
-A1351,F1351,E04,2025.32,Low Power Mode,3,released,100
-A1352,F1352,E04,2025.32,Minor Updates,3,released,100
+A1351,F1351,E09,2025.32,Low Power Mode,3,released,100
+A1352,F1352,E09,2025.32,Minor Updates,3,released,100
 A1353,F1353,E01,2025.32,FSD Strikes,1,released,100
 A1354,F1354,E02,2025.32,Summon Standby,1,released,100
 A1355,F1355,E06,2025.32,Grok Reminder,6,released,100
@@ -1358,8 +1358,8 @@ A1356,F1356,E03,2025.32,PIN to Drive Supports Start FSD From Park,2,released,100
 A1357,F1357,E07,2025.32,Drowsiness Detected,2,released,100
 A1358,F1358,E04,2025.32,Improved Visualizations,3,released,100
 A1359,F1359,E06,2025.32,Bluetooth Audio,6,released,100
-A1360,F1360,E04,2025.32,Service Mode Improvements,3,released,100
-A1361,F1361,E04,2025.32.100,Minor Fixes,3,released,100
+A1360,F1360,E09,2025.32,Service Mode Improvements,3,released,100
+A1361,F1361,E09,2025.32.100,Minor Fixes,3,released,100
 A1362,F1362,E01,2025.32.100,FSD Strikes,1,released,100
 A1363,F1363,E02,2025.32.100,Summon Standby,1,released,100
 A1364,F1364,E06,2025.32.100,Grok Reminder,6,released,100
@@ -1367,11 +1367,11 @@ A1365,F1365,E03,2025.32.100,PIN to Drive Supports Start FSD From Park,2,released
 A1366,F1366,E07,2025.32.100,Drowsiness Detected,2,released,100
 A1367,F1367,E04,2025.32.100,Improved Visualizations,3,released,100
 A1368,F1368,E06,2025.32.100,Bluetooth Audio,6,released,100
-A1369,F1369,E04,2025.32.100,Service Mode Improvements,3,released,100
-A1370,F1370,E04,2025.32.3,Rave Cave,5,released,100
+A1369,F1369,E09,2025.32.100,Service Mode Improvements,3,released,100
+A1370,F1370,E10,2025.32.3,Rave Cave,5,released,100
 A1371,F1371,E03,2025.32.3,Frontal Airbag System Enhancement,2,released,100
-A1372,F1372,E04,2025.32.3,Low Power Mode,3,released,100
-A1373,F1373,E04,2025.32.3,Minor Updates,3,released,100
+A1372,F1372,E09,2025.32.3,Low Power Mode,3,released,100
+A1373,F1373,E09,2025.32.3,Minor Updates,3,released,100
 A1374,F1374,E01,2025.32.3,FSD Strikes,1,released,100
 A1375,F1375,E02,2025.32.3,Summon Standby,1,released,100
 A1376,F1376,E06,2025.32.3,Grok Reminder,6,released,100
@@ -1379,13 +1379,13 @@ A1377,F1377,E07,2025.32.3,PIN to Drive Supports Start FSD From Park,2,released,1
 A1378,F1378,E03,2025.32.3,Drowsiness Detected,2,released,100
 A1379,F1379,E04,2025.32.3,Improved Visualizations,3,released,100
 A1380,F1380,E06,2025.32.3,Bluetooth Audio,6,released,100
-A1381,F1381,E04,2025.32.3,Service Mode Improvements,3,released,100
+A1381,F1381,E09,2025.32.3,Service Mode Improvements,3,released,100
 A1382,F1382,E07,2025.32.6,Child Left Alone Detection,2,released,100
-A1383,F1383,E04,2025.32.6,Security Improvements,3,released,100
-A1384,F1384,E04,2025.32.6,Rave Cave,5,released,100
+A1383,F1383,E09,2025.32.6,Security Improvements,3,released,100
+A1384,F1384,E10,2025.32.6,Rave Cave,5,released,100
 A1385,F1385,E03,2025.32.6,Frontal Airbag System Enhancement,2,released,100
-A1386,F1386,E04,2025.32.6,Low Power Mode,3,released,100
-A1387,F1387,E04,2025.32.6,Minor Updates,3,released,100
+A1386,F1386,E09,2025.32.6,Low Power Mode,3,released,100
+A1387,F1387,E09,2025.32.6,Minor Updates,3,released,100
 A1388,F1388,E01,2025.32.6,FSD Strikes,1,released,100
 A1389,F1389,E02,2025.32.6,Summon Standby,1,released,100
 A1390,F1390,E06,2025.32.6,Grok Reminder,6,released,100
@@ -1393,19 +1393,19 @@ A1391,F1391,E07,2025.32.6,PIN to Drive Supports Start FSD From Park,2,released,1
 A1392,F1392,E03,2025.32.6,Drowsiness Detected,2,released,100
 A1393,F1393,E04,2025.32.6,Improved Visualizations,3,released,100
 A1394,F1394,E06,2025.32.6,Bluetooth Audio,6,released,100
-A1395,F1395,E04,2025.32.6,Service Mode Improvements,3,released,100
+A1395,F1395,E09,2025.32.6,Service Mode Improvements,3,released,100
 A1396,F1396,E01,2025.32.8.10,FSD (Supervised) v14.1.2,1,released,100
 A1397,F1397,E05,2025.32.8.10,Arrival Options,4,released,100
 A1398,F1398,E02,2025.32.8.10,Speed Profiles,1,released,100
-A1399,F1399,E04,2025.32.8.10,UI Improvements,3,released,100
+A1399,F1399,E09,2025.32.8.10,UI Improvements,3,released,100
 A1400,F1400,E07,2025.32.8.10,Brake Confirm,2,released,100
 A1401,F1401,E01,2025.32.8.10,Full Self-Driving (Supervised),1,released,100
 A1402,F1402,E03,2025.32.8.10,Child Left Alone Detection,2,released,100
-A1403,F1403,E04,2025.32.8.10,Rave Cave,5,released,100
+A1403,F1403,E10,2025.32.8.10,Rave Cave,5,released,100
 A1404,F1404,E07,2025.32.8.10,Frontal Airbag System Enhancement,2,released,100
-A1405,F1405,E04,2025.32.8.10,Low Power Mode,3,released,100
-A1406,F1406,E04,2025.32.8.10,Security Improvements,3,released,100
-A1407,F1407,E04,2025.32.8.10,Minor Updates,3,released,100
+A1405,F1405,E09,2025.32.8.10,Low Power Mode,3,released,100
+A1406,F1406,E09,2025.32.8.10,Security Improvements,3,released,100
+A1407,F1407,E09,2025.32.8.10,Minor Updates,3,released,100
 A1408,F1408,E02,2025.32.8.10,FSD Strikes,1,released,100
 A1409,F1409,E01,2025.32.8.10,Summon Standby,1,released,100
 A1410,F1410,E06,2025.32.8.10,Grok Reminder,6,released,100
@@ -1413,19 +1413,19 @@ A1411,F1411,E03,2025.32.8.10,PIN to Drive Supports Start FSD From Park,2,release
 A1412,F1412,E07,2025.32.8.10,Drowsiness Detected,2,released,100
 A1413,F1413,E04,2025.32.8.10,Improved Visualizations,3,released,100
 A1414,F1414,E06,2025.32.8.10,Bluetooth Audio,6,released,100
-A1415,F1415,E04,2025.32.8.10,Service Mode Improvements,3,released,100
+A1415,F1415,E09,2025.32.8.10,Service Mode Improvements,3,released,100
 A1416,F1416,E02,2025.32.8.15,FSD (Supervised) v14.1.3,1,released,100
 A1417,F1417,E03,2025.32.8.15,Child Left Alone Detection,2,released,100
 A1418,F1418,E05,2025.32.8.15,Arrival Options,4,released,100
 A1419,F1419,E01,2025.32.8.15,Speed Profiles,1,released,100
-A1420,F1420,E04,2025.32.8.15,UI Improvements,3,released,100
+A1420,F1420,E09,2025.32.8.15,UI Improvements,3,released,100
 A1421,F1421,E07,2025.32.8.15,Brake Confirm,2,released,100
 A1422,F1422,E02,2025.32.8.15,Full Self-Driving (Supervised),1,released,100
-A1423,F1423,E04,2025.32.8.15,Rave Cave,5,released,100
+A1423,F1423,E10,2025.32.8.15,Rave Cave,5,released,100
 A1424,F1424,E03,2025.32.8.15,Frontal Airbag System Enhancement,2,released,100
-A1425,F1425,E04,2025.32.8.15,Low Power Mode,3,released,100
-A1426,F1426,E04,2025.32.8.15,Security Improvements,3,released,100
-A1427,F1427,E04,2025.32.8.15,Minor Updates,3,released,100
+A1425,F1425,E09,2025.32.8.15,Low Power Mode,3,released,100
+A1426,F1426,E09,2025.32.8.15,Security Improvements,3,released,100
+A1427,F1427,E09,2025.32.8.15,Minor Updates,3,released,100
 A1428,F1428,E01,2025.32.8.15,FSD Strikes,1,released,100
 A1429,F1429,E02,2025.32.8.15,Summon Standby,1,released,100
 A1430,F1430,E06,2025.32.8.15,Grok Reminder,6,released,100
@@ -1433,19 +1433,19 @@ A1431,F1431,E07,2025.32.8.15,PIN to Drive Supports Start FSD From Park,2,release
 A1432,F1432,E03,2025.32.8.15,Drowsiness Detected,2,released,100
 A1433,F1433,E04,2025.32.8.15,Improved Visualizations,3,released,100
 A1434,F1434,E06,2025.32.8.15,Bluetooth Audio,6,released,100
-A1435,F1435,E04,2025.32.8.15,Service Mode Improvements,3,released,100
+A1435,F1435,E09,2025.32.8.15,Service Mode Improvements,3,released,100
 A1436,F1436,E01,2025.32.8.16,FSD (Supervised) v14.1.4,1,released,100
 A1437,F1437,E05,2025.32.8.16,Arrival Options,4,released,100
 A1438,F1438,E02,2025.32.8.16,Speed Profiles,1,released,100
-A1439,F1439,E04,2025.32.8.16,UI Improvements,3,released,100
+A1439,F1439,E09,2025.32.8.16,UI Improvements,3,released,100
 A1440,F1440,E07,2025.32.8.16,Brake Confirm,2,released,100
 A1441,F1441,E01,2025.32.8.16,Full Self-Driving (Supervised),1,released,100
 A1442,F1442,E03,2025.32.8.16,Child Left Alone Detection,2,released,100
-A1443,F1443,E04,2025.32.8.16,Rave Cave,5,released,100
+A1443,F1443,E10,2025.32.8.16,Rave Cave,5,released,100
 A1444,F1444,E07,2025.32.8.16,Frontal Airbag System Enhancement,2,released,100
-A1445,F1445,E04,2025.32.8.16,Low Power Mode,3,released,100
-A1446,F1446,E04,2025.32.8.16,Security Improvements,3,released,100
-A1447,F1447,E04,2025.32.8.16,Minor Updates,3,released,100
+A1445,F1445,E09,2025.32.8.16,Low Power Mode,3,released,100
+A1446,F1446,E09,2025.32.8.16,Security Improvements,3,released,100
+A1447,F1447,E09,2025.32.8.16,Minor Updates,3,released,100
 A1448,F1448,E02,2025.32.8.16,FSD Strikes,1,released,100
 A1449,F1449,E01,2025.32.8.16,Summon Standby,1,released,100
 A1450,F1450,E06,2025.32.8.16,Grok Reminder,6,released,100
@@ -1453,19 +1453,19 @@ A1451,F1451,E03,2025.32.8.16,PIN to Drive Supports Start FSD From Park,2,release
 A1452,F1452,E07,2025.32.8.16,Drowsiness Detected,2,released,100
 A1453,F1453,E04,2025.32.8.16,Improved Visualizations,3,released,100
 A1454,F1454,E06,2025.32.8.16,Bluetooth Audio,6,released,100
-A1455,F1455,E04,2025.32.8.16,Service Mode Improvements,3,released,100
+A1455,F1455,E09,2025.32.8.16,Service Mode Improvements,3,released,100
 A1456,F1456,E02,2025.32.8.5,FSD (Supervised) v14.1,1,released,100
 A1457,F1457,E05,2025.32.8.5,Arrival Options,4,released,100
 A1458,F1458,E01,2025.32.8.5,Speed Profiles,1,released,100
-A1459,F1459,E04,2025.32.8.5,UI Improvements,3,released,100
+A1459,F1459,E09,2025.32.8.5,UI Improvements,3,released,100
 A1460,F1460,E03,2025.32.8.5,Brake Confirm,2,released,100
 A1461,F1461,E02,2025.32.8.5,Full Self-Driving (Supervised),1,released,100
 A1462,F1462,E07,2025.32.8.5,Child Left Alone Detection,2,released,100
-A1463,F1463,E04,2025.32.8.5,Rave Cave,5,released,100
+A1463,F1463,E10,2025.32.8.5,Rave Cave,5,released,100
 A1464,F1464,E03,2025.32.8.5,Frontal Airbag System Enhancement,2,released,100
-A1465,F1465,E04,2025.32.8.5,Low Power Mode,3,released,100
-A1466,F1466,E04,2025.32.8.5,Security Improvements,3,released,100
-A1467,F1467,E04,2025.32.8.5,Minor Updates,3,released,100
+A1465,F1465,E09,2025.32.8.5,Low Power Mode,3,released,100
+A1466,F1466,E09,2025.32.8.5,Security Improvements,3,released,100
+A1467,F1467,E09,2025.32.8.5,Minor Updates,3,released,100
 A1468,F1468,E01,2025.32.8.5,FSD Strikes,1,released,100
 A1469,F1469,E02,2025.32.8.5,Summon Standby,1,released,100
 A1470,F1470,E06,2025.32.8.5,Grok Reminder,6,released,100
@@ -1473,19 +1473,19 @@ A1471,F1471,E07,2025.32.8.5,PIN to Drive Supports Start FSD From Park,2,released
 A1472,F1472,E03,2025.32.8.5,Drowsiness Detected,2,released,100
 A1473,F1473,E04,2025.32.8.5,Improved Visualizations,3,released,100
 A1474,F1474,E06,2025.32.8.5,Bluetooth Audio,6,released,100
-A1475,F1475,E04,2025.32.8.5,Service Mode Improvements,3,released,100
+A1475,F1475,E09,2025.32.8.5,Service Mode Improvements,3,released,100
 A1476,F1476,E01,2025.32.8.6,FSD (Supervised) v14.1.1,1,released,100
 A1477,F1477,E05,2025.32.8.6,Arrival Options,4,released,100
 A1478,F1478,E02,2025.32.8.6,Speed Profiles,1,released,100
-A1479,F1479,E04,2025.32.8.6,UI Improvements,3,released,100
+A1479,F1479,E09,2025.32.8.6,UI Improvements,3,released,100
 A1480,F1480,E07,2025.32.8.6,Brake Confirm,2,released,100
 A1481,F1481,E01,2025.32.8.6,Full Self-Driving (Supervised),1,released,100
 A1482,F1482,E03,2025.32.8.6,Child Left Alone Detection,2,released,100
-A1483,F1483,E04,2025.32.8.6,Rave Cave,5,released,100
+A1483,F1483,E10,2025.32.8.6,Rave Cave,5,released,100
 A1484,F1484,E07,2025.32.8.6,Frontal Airbag System Enhancement,2,released,100
-A1485,F1485,E04,2025.32.8.6,Low Power Mode,3,released,100
-A1486,F1486,E04,2025.32.8.6,Security Improvements,3,released,100
-A1487,F1487,E04,2025.32.8.6,Minor Updates,3,released,100
+A1485,F1485,E09,2025.32.8.6,Low Power Mode,3,released,100
+A1486,F1486,E09,2025.32.8.6,Security Improvements,3,released,100
+A1487,F1487,E09,2025.32.8.6,Minor Updates,3,released,100
 A1488,F1488,E02,2025.32.8.6,FSD Strikes,1,released,100
 A1489,F1489,E01,2025.32.8.6,Summon Standby,1,released,100
 A1490,F1490,E06,2025.32.8.6,Grok Reminder,6,released,100
@@ -1493,291 +1493,291 @@ A1491,F1491,E03,2025.32.8.6,PIN to Drive Supports Start FSD From Park,2,released
 A1492,F1492,E07,2025.32.8.6,Drowsiness Detected,2,released,100
 A1493,F1493,E04,2025.32.8.6,Improved Visualizations,3,released,100
 A1494,F1494,E06,2025.32.8.6,Bluetooth Audio,6,released,100
-A1495,F1495,E04,2025.32.8.6,Service Mode Improvements,3,released,100
+A1495,F1495,E09,2025.32.8.6,Service Mode Improvements,3,released,100
 A1496,F1496,E04,2025.38,3D Buildings,3,released,100
 A1497,F1497,E08,2025.38,Dashcam Viewer Updates,7,released,100
 A1498,F1498,E08,2025.38,Side Cameras Recording,7,released,100
-A1499,F1499,E04,2025.38,New Scroll Wheel Functions,3,released,100
+A1499,F1499,E09,2025.38,New Scroll Wheel Functions,3,released,100
 A1500,F1500,E06,2025.38,Grok (Beta),6,released,100
-A1501,F1501,E04,2025.38,Onboarding Guide,3,released,100
-A1502,F1502,E04,2025.38,Minor Updates,3,released,100
-A1503,F1503,E04,2025.38,Santa Mode,5,released,100
+A1501,F1501,E09,2025.38,Onboarding Guide,3,released,100
+A1502,F1502,E09,2025.38,Minor Updates,3,released,100
+A1503,F1503,E10,2025.38,Santa Mode,5,released,100
 A1504,F1504,E02,2025.38,New FSD Guide,1,released,100
 A1505,F1505,E05,2025.38,More Charging Information,4,released,100
-A1506,F1506,E04,2025.38,Keep Accessory Power On App Control,3,released,100
-A1507,F1507,E04,2025.38,Buy Parts,3,released,100
+A1506,F1506,E09,2025.38,Keep Accessory Power On App Control,3,released,100
+A1507,F1507,E09,2025.38,Buy Parts,3,released,100
 A1508,F1508,E04,2025.38,Charger Visualization,3,released,100
-A1509,F1509,E04,2025.38,Service Mode Improvements,3,released,100
-A1510,F1510,E04,2025.38.3,Tron Mode,5,released,100
+A1509,F1509,E09,2025.38,Service Mode Improvements,3,released,100
+A1510,F1510,E10,2025.38.3,Tron Mode,5,released,100
 A1511,F1511,E04,2025.38.3,3D Buildings,3,released,100
 A1512,F1512,E05,2025.38.3,Satellite View,4,released,100
 A1513,F1513,E08,2025.38.3,Dashcam Viewer Updates,7,released,100
 A1514,F1514,E08,2025.38.3,Side Cameras Recording,7,released,100
-A1515,F1515,E04,2025.38.3,New Scroll Wheel Functions,3,released,100
+A1515,F1515,E09,2025.38.3,New Scroll Wheel Functions,3,released,100
 A1516,F1516,E06,2025.38.3,Grok (Beta),6,released,100
-A1517,F1517,E04,2025.38.3,Onboarding Guide,3,released,100
-A1518,F1518,E04,2025.38.3,Minor Updates,3,released,100
-A1519,F1519,E04,2025.38.3,Santa Mode,5,released,100
+A1517,F1517,E09,2025.38.3,Onboarding Guide,3,released,100
+A1518,F1518,E09,2025.38.3,Minor Updates,3,released,100
+A1519,F1519,E10,2025.38.3,Santa Mode,5,released,100
 A1520,F1520,E01,2025.38.3,New FSD Guide,1,released,100
 A1521,F1521,E05,2025.38.3,More Charging Information,4,released,100
-A1522,F1522,E04,2025.38.3,Keep Accessory Power On App Control,3,released,100
-A1523,F1523,E04,2025.38.3,Buy Parts,3,released,100
+A1522,F1522,E09,2025.38.3,Keep Accessory Power On App Control,3,released,100
+A1523,F1523,E09,2025.38.3,Buy Parts,3,released,100
 A1524,F1524,E04,2025.38.3,Charger Visualization,3,released,100
-A1525,F1525,E04,2025.38.3,Service Mode Improvements,3,released,100
+A1525,F1525,E09,2025.38.3,Service Mode Improvements,3,released,100
 A1526,F1526,E02,2025.38.8.5,FSD (Supervised) v14.1.5,1,released,100
 A1527,F1527,E05,2025.38.8.5,Arrival Options,4,released,100
 A1528,F1528,E01,2025.38.8.5,Speed Profiles,1,released,100
-A1529,F1529,E04,2025.38.8.5,UI Improvements,3,released,100
+A1529,F1529,E09,2025.38.8.5,UI Improvements,3,released,100
 A1530,F1530,E03,2025.38.8.5,Brake Confirm,2,released,100
 A1531,F1531,E02,2025.38.8.5,Full Self-Driving (Supervised),1,released,100
-A1532,F1532,E04,2025.38.8.5,Santa Mode,5,released,100
+A1532,F1532,E10,2025.38.8.5,Santa Mode,5,released,100
 A1533,F1533,E01,2025.38.8.5,New FSD Guide,1,released,100
 A1534,F1534,E05,2025.38.8.5,More Charging Information,4,released,100
-A1535,F1535,E04,2025.38.8.5,Keep Accessory Power On App Control,3,released,100
-A1536,F1536,E04,2025.38.8.5,Buy Parts,3,released,100
+A1535,F1535,E09,2025.38.8.5,Keep Accessory Power On App Control,3,released,100
+A1536,F1536,E09,2025.38.8.5,Buy Parts,3,released,100
 A1537,F1537,E04,2025.38.8.5,Charger Visualization,3,released,100
-A1538,F1538,E04,2025.38.8.5,Service Mode Improvements,3,released,100
+A1538,F1538,E09,2025.38.8.5,Service Mode Improvements,3,released,100
 A1539,F1539,E02,2025.38.8.7,FSD (Supervised) v14.1.7,1,released,100
 A1540,F1540,E05,2025.38.8.7,Arrival Options,4,released,100
 A1541,F1541,E01,2025.38.8.7,Speed Profiles,1,released,100
-A1542,F1542,E04,2025.38.8.7,UI Improvements,3,released,100
+A1542,F1542,E09,2025.38.8.7,UI Improvements,3,released,100
 A1543,F1543,E07,2025.38.8.7,Brake Confirm,2,released,100
 A1544,F1544,E02,2025.38.8.7,Full Self-Driving (Supervised),1,released,100
-A1545,F1545,E04,2025.38.8.7,Tron Mode,5,released,100
+A1545,F1545,E10,2025.38.8.7,Tron Mode,5,released,100
 A1546,F1546,E04,2025.38.8.7,3D Buildings,3,released,100
 A1547,F1547,E05,2025.38.8.7,Satellite View,4,released,100
 A1548,F1548,E08,2025.38.8.7,Dashcam Viewer Updates,7,released,100
 A1549,F1549,E08,2025.38.8.7,Side Cameras Recording,7,released,100
-A1550,F1550,E04,2025.38.8.7,New Scroll Wheel Functions,3,released,100
+A1550,F1550,E09,2025.38.8.7,New Scroll Wheel Functions,3,released,100
 A1551,F1551,E06,2025.38.8.7,Grok (Beta),6,released,100
-A1552,F1552,E04,2025.38.8.7,Onboarding Guide,3,released,100
-A1553,F1553,E04,2025.38.8.7,Minor Updates,3,released,100
-A1554,F1554,E04,2025.38.8.7,Santa Mode,5,released,100
+A1552,F1552,E09,2025.38.8.7,Onboarding Guide,3,released,100
+A1553,F1553,E09,2025.38.8.7,Minor Updates,3,released,100
+A1554,F1554,E10,2025.38.8.7,Santa Mode,5,released,100
 A1555,F1555,E01,2025.38.8.7,New FSD Guide,1,released,100
 A1556,F1556,E05,2025.38.8.7,More Charging Information,4,released,100
-A1557,F1557,E04,2025.38.8.7,Keep Accessory Power On App Control,3,released,100
-A1558,F1558,E04,2025.38.8.7,Buy Parts,3,released,100
+A1557,F1557,E09,2025.38.8.7,Keep Accessory Power On App Control,3,released,100
+A1558,F1558,E09,2025.38.8.7,Buy Parts,3,released,100
 A1559,F1559,E04,2025.38.8.7,Charger Visualization,3,released,100
-A1560,F1560,E04,2025.38.8.7,Service Mode Improvements,3,released,100
+A1560,F1560,E09,2025.38.8.7,Service Mode Improvements,3,released,100
 A1561,F1561,E02,2025.38.9.5,FSD (Supervised) v14.2,1,released,100
 A1562,F1562,E05,2025.38.9.5,Arrival Options,4,released,100
 A1563,F1563,E01,2025.38.9.5,Speed Profiles,1,released,100
-A1564,F1564,E04,2025.38.9.5,UI Improvements,3,released,100
+A1564,F1564,E09,2025.38.9.5,UI Improvements,3,released,100
 A1565,F1565,E03,2025.38.9.5,Brake Confirm,2,released,100
 A1566,F1566,E02,2025.38.9.5,Full Self-Driving (Supervised),1,released,100
-A1567,F1567,E04,2025.38.9.5,Tron Mode,5,released,100
+A1567,F1567,E10,2025.38.9.5,Tron Mode,5,released,100
 A1568,F1568,E04,2025.38.9.5,3D Buildings,3,released,100
 A1569,F1569,E05,2025.38.9.5,Satellite View,4,released,100
 A1570,F1570,E08,2025.38.9.5,Dashcam Viewer Updates,7,released,100
 A1571,F1571,E08,2025.38.9.5,Side Cameras Recording,7,released,100
-A1572,F1572,E04,2025.38.9.5,New Scroll Wheel Functions,3,released,100
+A1572,F1572,E09,2025.38.9.5,New Scroll Wheel Functions,3,released,100
 A1573,F1573,E06,2025.38.9.5,Grok (Beta),6,released,100
-A1574,F1574,E04,2025.38.9.5,Onboarding Guide,3,released,100
-A1575,F1575,E04,2025.38.9.5,Minor Updates,3,released,100
-A1576,F1576,E04,2025.38.9.5,Santa Mode,5,released,100
+A1574,F1574,E09,2025.38.9.5,Onboarding Guide,3,released,100
+A1575,F1575,E09,2025.38.9.5,Minor Updates,3,released,100
+A1576,F1576,E10,2025.38.9.5,Santa Mode,5,released,100
 A1577,F1577,E01,2025.38.9.5,New FSD Guide,1,released,100
 A1578,F1578,E05,2025.38.9.5,More Charging Information,4,released,100
-A1579,F1579,E04,2025.38.9.5,Keep Accessory Power On App Control,3,released,100
-A1580,F1580,E04,2025.38.9.5,Buy Parts,3,released,100
+A1579,F1579,E09,2025.38.9.5,Keep Accessory Power On App Control,3,released,100
+A1580,F1580,E09,2025.38.9.5,Buy Parts,3,released,100
 A1581,F1581,E04,2025.38.9.5,Charger Visualization,3,released,100
-A1582,F1582,E04,2025.38.9.5,Service Mode Improvements,3,released,100
+A1582,F1582,E09,2025.38.9.5,Service Mode Improvements,3,released,100
 A1583,F1583,E02,2025.38.9.6,FSD (Supervised) v14.2.1,1,released,100
 A1584,F1584,E05,2025.38.9.6,Arrival Options,4,released,100
 A1585,F1585,E01,2025.38.9.6,Speed Profiles,1,released,100
-A1586,F1586,E04,2025.38.9.6,UI Improvements,3,released,100
+A1586,F1586,E09,2025.38.9.6,UI Improvements,3,released,100
 A1587,F1587,E07,2025.38.9.6,Brake Confirm,2,released,100
 A1588,F1588,E02,2025.38.9.6,Full Self-Driving (Supervised),1,released,100
-A1589,F1589,E04,2025.38.9.6,Tron Mode,5,released,100
+A1589,F1589,E10,2025.38.9.6,Tron Mode,5,released,100
 A1590,F1590,E04,2025.38.9.6,3D Buildings,3,released,100
 A1591,F1591,E05,2025.38.9.6,Satellite View,4,released,100
 A1592,F1592,E08,2025.38.9.6,Dashcam Viewer Updates,7,released,100
 A1593,F1593,E08,2025.38.9.6,Side Cameras Recording,7,released,100
-A1594,F1594,E04,2025.38.9.6,New Scroll Wheel Functions,3,released,100
+A1594,F1594,E09,2025.38.9.6,New Scroll Wheel Functions,3,released,100
 A1595,F1595,E06,2025.38.9.6,Grok (Beta),6,released,100
-A1596,F1596,E04,2025.38.9.6,Onboarding Guide,3,released,100
-A1597,F1597,E04,2025.38.9.6,Minor Updates,3,released,100
-A1598,F1598,E04,2025.38.9.6,Santa Mode,5,released,100
+A1596,F1596,E09,2025.38.9.6,Onboarding Guide,3,released,100
+A1597,F1597,E09,2025.38.9.6,Minor Updates,3,released,100
+A1598,F1598,E10,2025.38.9.6,Santa Mode,5,released,100
 A1599,F1599,E01,2025.38.9.6,New FSD Guide,1,released,100
 A1600,F1600,E05,2025.38.9.6,More Charging Information,4,released,100
-A1601,F1601,E04,2025.38.9.6,Keep Accessory Power On App Control,3,released,100
-A1602,F1602,E04,2025.38.9.6,Buy Parts,3,released,100
+A1601,F1601,E09,2025.38.9.6,Keep Accessory Power On App Control,3,released,100
+A1602,F1602,E09,2025.38.9.6,Buy Parts,3,released,100
 A1603,F1603,E04,2025.38.9.6,Charger Visualization,3,released,100
-A1604,F1604,E04,2025.38.9.6,Service Mode Improvements,3,released,100
+A1604,F1604,E09,2025.38.9.6,Service Mode Improvements,3,released,100
 A1605,F1605,E08,2025.44,Dashcam Update,7,released,100
-A1606,F1606,E04,2025.44,Radio Traffic Announcements,5,released,100
-A1607,F1607,E04,2025.44,Minor Update,3,released,100
+A1606,F1606,E10,2025.44,Radio Traffic Announcements,5,released,100
+A1607,F1607,E09,2025.44,Minor Update,3,released,100
 A1608,F1608,E06,2025.44,Hebrew Language Added,6,released,100
-A1609,F1609,E04,2025.44,Service Mode Improvements,3,released,100
+A1609,F1609,E09,2025.44,Service Mode Improvements,3,released,100
 A1610,F1610,E06,2025.44.25.1,Grok with Navigation Commands (Beta),6,released,100
-A1611,F1611,E04,2025.44.25.1,Tesla Photobooth,5,released,100
+A1611,F1611,E10,2025.44.25.1,Tesla Photobooth,5,released,100
 A1612,F1612,E03,2025.44.25.1,Dog Mode Live Activity on iOS,2,released,100
 A1613,F1613,E08,2025.44.25.1,Dashcam Viewer Update,7,released,100
-A1614,F1614,E04,2025.44.25.1,Santa Mode Updates,5,released,100
-A1615,F1615,E04,2025.44.25.1,Light Show Update,5,released,100
-A1616,F1616,E04,2025.44.25.1,Paint Shop,5,released,100
+A1614,F1614,E10,2025.44.25.1,Santa Mode Updates,5,released,100
+A1615,F1615,E10,2025.44.25.1,Light Show Update,5,released,100
+A1616,F1616,E10,2025.44.25.1,Paint Shop,5,released,100
 A1617,F1617,E05,2025.44.25.1,Navigation Improvements,4,released,100
 A1618,F1618,E05,2025.44.25.1,Automatic HOV Lanes Routing,4,released,100
 A1619,F1619,E05,2025.44.25.1,Supercharger Site Maps,4,released,100
-A1620,F1620,E04,2025.44.25.1,Phone Left On Wireless Charger,3,released,100
-A1621,F1621,E04,2025.44.25.1,Phone Left Behind,3,released,100
+A1620,F1620,E09,2025.44.25.1,Phone Left On Wireless Charger,3,released,100
+A1621,F1621,E09,2025.44.25.1,Phone Left Behind,3,released,100
 A1622,F1622,E05,2025.44.25.1,Save Charge Limit by Location,4,released,100
-A1623,F1623,E04,2025.44.25.1,SpaceX Docking Simulator,5,released,100
-A1624,F1624,E04,2025.44.25.1,Minor Updates,3,released,100
-A1625,F1625,E04,2025.44.25.1,New Wheel Options,3,released,100
+A1623,F1623,E10,2025.44.25.1,SpaceX Docking Simulator,5,released,100
+A1624,F1624,E09,2025.44.25.1,Minor Updates,3,released,100
+A1625,F1625,E09,2025.44.25.1,New Wheel Options,3,released,100
 A1626,F1626,E05,2025.44.25.1,Express Lanes,4,released,100
 A1627,F1627,E05,2025.44.25.1,Supercharger Live Maps Shows Exact Models,4,released,100
 A1628,F1628,E06,2025.44.25.1,Dashcam Viewer Zoom Support,6,released,100
 A1629,F1629,E08,2025.44.25.1,Camera Visibility Warning Improvement,7,released,100
 A1630,F1630,E05,2025.44.25.1,V4 Supercharger Visualization,4,released,100
-A1631,F1631,E04,2025.44.25.1,Wrap & License Plate Icons,3,released,100
-A1632,F1632,E04,2025.44.25.1,Car Wash Mode Notification,3,released,100
-A1633,F1633,E04,2025.44.25.1,Parking Brake,3,released,100
-A1634,F1634,E04,2025.44.25.1,Car Wash Mode Redesign,3,released,100
+A1631,F1631,E09,2025.44.25.1,Wrap & License Plate Icons,3,released,100
+A1632,F1632,E09,2025.44.25.1,Car Wash Mode Notification,3,released,100
+A1633,F1633,E09,2025.44.25.1,Parking Brake,3,released,100
+A1634,F1634,E09,2025.44.25.1,Car Wash Mode Redesign,3,released,100
 A1635,F1635,E06,2025.44.25.1,Switch to Bluetooth,6,released,100
 A1636,F1636,E04,2025.44.25.1,New Visualizations With Unreal Engine,3,released,100
 A1637,F1637,E08,2025.44.25.1,Air Suspension Controls,7,released,100
-A1638,F1638,E04,2025.44.25.1,Boomerang Fu Game Removed,5,released,100
+A1638,F1638,E10,2025.44.25.1,Boomerang Fu Game Removed,5,released,100
 A1639,F1639,E05,2025.44.25.1,Favorites On Map,4,released,100
 A1640,F1640,E08,2025.44.25.1,View Dashcam Storage,7,released,100
 A1641,F1641,E08,2025.44.25.1,Dashcam Filters,7,released,100
 A1642,F1642,E06,2025.44.25.1,Hebrew Language Added,6,released,100
-A1643,F1643,E04,2025.44.25.1,Service Mode Improvements,3,released,100
+A1643,F1643,E09,2025.44.25.1,Service Mode Improvements,3,released,100
 A1644,F1644,E02,2025.44.25.5,FSD (Supervised) v14.2.1.25,1,released,100
 A1645,F1645,E05,2025.44.25.5,Arrival Options,4,released,100
 A1646,F1646,E01,2025.44.25.5,Speed Profiles,1,released,100
-A1647,F1647,E04,2025.44.25.5,UI Improvements,3,released,100
+A1647,F1647,E09,2025.44.25.5,UI Improvements,3,released,100
 A1648,F1648,E07,2025.44.25.5,Brake Confirm,2,released,100
 A1649,F1649,E02,2025.44.25.5,Full Self-Driving (Supervised),1,released,100
 A1650,F1650,E06,2025.44.25.5,Grok with Navigation Commands (Beta),6,released,100
-A1651,F1651,E04,2025.44.25.5,Tesla Photobooth,5,released,100
+A1651,F1651,E10,2025.44.25.5,Tesla Photobooth,5,released,100
 A1652,F1652,E03,2025.44.25.5,Dog Mode Live Activity on iOS,2,released,100
 A1653,F1653,E08,2025.44.25.5,Dashcam Viewer Update,7,released,100
-A1654,F1654,E04,2025.44.25.5,Santa Mode Updates,5,released,100
-A1655,F1655,E04,2025.44.25.5,Light Show Update,5,released,100
-A1656,F1656,E04,2025.44.25.5,Paint Shop,5,released,100
-A1657,F1657,E04,2025.44.25.5,Paint Shop Upgrade,5,released,100
+A1654,F1654,E10,2025.44.25.5,Santa Mode Updates,5,released,100
+A1655,F1655,E10,2025.44.25.5,Light Show Update,5,released,100
+A1656,F1656,E10,2025.44.25.5,Paint Shop,5,released,100
+A1657,F1657,E10,2025.44.25.5,Paint Shop Upgrade,5,released,100
 A1658,F1658,E05,2025.44.25.5,Navigation Improvements,4,released,100
 A1659,F1659,E05,2025.44.25.5,Automatic HOV Lanes Routing,4,released,100
 A1660,F1660,E05,2025.44.25.5,Supercharger Site Maps,4,released,100
-A1661,F1661,E04,2025.44.25.5,Phone Left On Wireless Charger,3,released,100
-A1662,F1662,E04,2025.44.25.5,Phone Left Behind,3,released,100
+A1661,F1661,E09,2025.44.25.5,Phone Left On Wireless Charger,3,released,100
+A1662,F1662,E09,2025.44.25.5,Phone Left Behind,3,released,100
 A1663,F1663,E05,2025.44.25.5,Save Charge Limit by Location,4,released,100
-A1664,F1664,E04,2025.44.25.5,SpaceX Docking Simulator,5,released,100
-A1665,F1665,E04,2025.44.25.5,Minor Updates,3,released,100
-A1666,F1666,E04,2025.44.25.5,New Wheel Options,3,released,100
+A1664,F1664,E10,2025.44.25.5,SpaceX Docking Simulator,5,released,100
+A1665,F1665,E09,2025.44.25.5,Minor Updates,3,released,100
+A1666,F1666,E09,2025.44.25.5,New Wheel Options,3,released,100
 A1667,F1667,E05,2025.44.25.5,Express Lanes,4,released,100
 A1668,F1668,E05,2025.44.25.5,Supercharger Live Maps Shows Exact Models,4,released,100
 A1669,F1669,E06,2025.44.25.5,Dashcam Viewer Zoom Support,6,released,100
 A1670,F1670,E08,2025.44.25.5,Camera Visibility Warning Improvement,7,released,100
 A1671,F1671,E05,2025.44.25.5,V4 Supercharger Visualization,4,released,100
-A1672,F1672,E04,2025.44.25.5,Wrap & License Plate Icons,3,released,100
-A1673,F1673,E04,2025.44.25.5,Car Wash Mode Notification,3,released,100
-A1674,F1674,E04,2025.44.25.5,Parking Brake,3,released,100
-A1675,F1675,E04,2025.44.25.5,Car Wash Mode Redesign,3,released,100
+A1672,F1672,E09,2025.44.25.5,Wrap & License Plate Icons,3,released,100
+A1673,F1673,E09,2025.44.25.5,Car Wash Mode Notification,3,released,100
+A1674,F1674,E09,2025.44.25.5,Parking Brake,3,released,100
+A1675,F1675,E09,2025.44.25.5,Car Wash Mode Redesign,3,released,100
 A1676,F1676,E06,2025.44.25.5,Switch to Bluetooth,6,released,100
 A1677,F1677,E04,2025.44.25.5,New Visualizations With Unreal Engine,3,released,100
 A1678,F1678,E08,2025.44.25.5,Air Suspension Controls,7,released,100
-A1679,F1679,E04,2025.44.25.5,Boomerang Fu Game Removed,5,released,100
+A1679,F1679,E10,2025.44.25.5,Boomerang Fu Game Removed,5,released,100
 A1680,F1680,E05,2025.44.25.5,Favorites On Map,4,released,100
 A1681,F1681,E08,2025.44.25.5,View Dashcam Storage,7,released,100
 A1682,F1682,E08,2025.44.25.5,Dashcam Filters,7,released,100
 A1683,F1683,E06,2025.44.25.5,Hebrew Language Added,6,released,100
-A1684,F1684,E04,2025.44.25.5,Service Mode Improvements,3,released,100
+A1684,F1684,E09,2025.44.25.5,Service Mode Improvements,3,released,100
 A1685,F1685,E01,2025.8,Standard Ride & Handling in Autopilot,1,released,100
 A1686,F1686,E02,2025.8,Steer-by-wire improvements,1,released,100
 A1687,F1687,E08,2025.8,Adjust Ride Height via Tesla App,7,released,100
-A1688,F1688,E04,2025.8,Minor Updates,3,released,100
+A1688,F1688,E09,2025.8,Minor Updates,3,released,100
 A1689,F1689,E05,2025.8,New Map Icons,4,released,100
-A1690,F1690,E04,2025.8,Additional Tool Tips,3,released,100
+A1690,F1690,E09,2025.8,Additional Tool Tips,3,released,100
 A1691,F1691,E05,2025.8,Destination Charging,4,released,100
 A1692,F1692,E05,2025.8,Navigation Improvements,4,released,100
-A1693,F1693,E04,2025.8,Improved Rainbow Road,3,released,100
-A1694,F1694,E04,2025.8,Service Mode Release Notes,3,released,100
-A1695,F1695,E04,2025.8,Additional Transparency Effects,3,released,100
-A1696,F1696,E04,2025.8,Card Transparency,3,released,100
+A1693,F1693,E09,2025.8,Improved Rainbow Road,3,released,100
+A1694,F1694,E09,2025.8,Service Mode Release Notes,3,released,100
+A1695,F1695,E09,2025.8,Additional Transparency Effects,3,released,100
+A1696,F1696,E09,2025.8,Card Transparency,3,released,100
 A1697,F1697,E04,2025.8,Energy App,3,released,100
 A1698,F1698,E06,2025.8,No Phone Key,6,released,100
 A1699,F1699,E06,2025.8,Bluetooth Player,6,released,100
 A1700,F1700,E04,2025.8,Trips & Odometer,3,released,100
 A1701,F1701,E05,2025.8,Traffic Visualization,4,released,100
-A1702,F1702,E04,2025.8.100,Minor Fixes,3,released,100
+A1702,F1702,E09,2025.8.100,Minor Fixes,3,released,100
 A1703,F1703,E07,2026.2,Child Left Alone Detection,2,released,100
-A1704,F1704,E04,2026.2,Minor Fixes,3,released,100
+A1704,F1704,E09,2026.2,Minor Fixes,3,released,100
 A1705,F1705,E01,2026.2,Autopilot Name Changes,1,released,100
 A1706,F1706,E05,2026.2,Maps Version,4,released,100
 A1707,F1707,E05,2026.2,Supercharger Site Maps Expanded,4,released,100
-A1708,F1708,E04,2026.2,Service Mode Improvements,3,released,100
-A1709,F1709,E04,2026.2.3,Unlatching Charge Cable,3,released,100
+A1708,F1708,E09,2026.2,Service Mode Improvements,3,released,100
+A1709,F1709,E09,2026.2.3,Unlatching Charge Cable,3,released,100
 A1710,F1710,E03,2026.2.3,Child Left Alone Detection,2,released,100
-A1711,F1711,E04,2026.2.3,Minor Fixes,3,released,100
+A1711,F1711,E09,2026.2.3,Minor Fixes,3,released,100
 A1712,F1712,E02,2026.2.3,Autopilot Name Changes,1,released,100
 A1713,F1713,E05,2026.2.3,Maps Version,4,released,100
 A1714,F1714,E05,2026.2.3,Supercharger Site Maps Expanded,4,released,100
-A1715,F1715,E04,2026.2.3,Service Mode Improvements,3,released,100
+A1715,F1715,E09,2026.2.3,Service Mode Improvements,3,released,100
 A1716,F1716,E06,2026.2.6,Grok with Navigation Commands (Beta),6,released,100
-A1717,F1717,E04,2026.2.6,Unlatching Charge Cable,3,released,100
+A1717,F1717,E09,2026.2.6,Unlatching Charge Cable,3,released,100
 A1718,F1718,E07,2026.2.6,Child Left Alone Detection,2,released,100
-A1719,F1719,E04,2026.2.6,Minor Fixes,3,released,100
+A1719,F1719,E09,2026.2.6,Minor Fixes,3,released,100
 A1720,F1720,E01,2026.2.6,Autopilot Name Changes,1,released,100
 A1721,F1721,E05,2026.2.6,Maps Version,4,released,100
 A1722,F1722,E05,2026.2.6,Supercharger Site Maps Expanded,4,released,100
-A1723,F1723,E04,2026.2.6,Service Mode Improvements,3,released,100
-A1724,F1724,E04,2026.2.6.1,Active Road Noise Reduction,3,released,100
+A1723,F1723,E09,2026.2.6,Service Mode Improvements,3,released,100
+A1724,F1724,E09,2026.2.6.1,Active Road Noise Reduction,3,released,100
 A1725,F1725,E06,2026.2.6.1,Grok with Navigation Commands (Beta),6,released,100
-A1726,F1726,E04,2026.2.6.1,Unlatching Charge Cable,3,released,100
+A1726,F1726,E09,2026.2.6.1,Unlatching Charge Cable,3,released,100
 A1727,F1727,E03,2026.2.6.1,Child Left Alone Detection,2,released,100
-A1728,F1728,E04,2026.2.6.1,Minor Fixes,3,released,100
+A1728,F1728,E09,2026.2.6.1,Minor Fixes,3,released,100
 A1729,F1729,E02,2026.2.6.1,Autopilot Name Changes,1,released,100
 A1730,F1730,E05,2026.2.6.1,Maps Version,4,released,100
 A1731,F1731,E05,2026.2.6.1,Supercharger Site Maps Expanded,4,released,100
-A1732,F1732,E04,2026.2.6.1,Service Mode Improvements,3,released,100
+A1732,F1732,E09,2026.2.6.1,Service Mode Improvements,3,released,100
 A1733,F1733,E06,2026.2.6.5,Grok with Navigation Commands (Beta),6,released,100
-A1734,F1734,E04,2026.2.6.5,Unlatching Charge Cable,3,released,100
+A1734,F1734,E09,2026.2.6.5,Unlatching Charge Cable,3,released,100
 A1735,F1735,E01,2026.2.6.5,FSD (Supervised) v13.2.9 Down Under,1,released,100
 A1736,F1736,E02,2026.2.6.5,Full Self-Driving (Supervised) Down Under,1,released,100
 A1737,F1737,E07,2026.2.6.5,Vision-Based Attention Monitoring,2,released,100
 A1738,F1738,E03,2026.2.6.5,Child Left Alone Detection,2,released,100
-A1739,F1739,E04,2026.2.6.5,Minor Fixes,3,released,100
+A1739,F1739,E09,2026.2.6.5,Minor Fixes,3,released,100
 A1740,F1740,E01,2026.2.6.5,Autopilot Name Changes,1,released,100
 A1741,F1741,E05,2026.2.6.5,Maps Version,4,released,100
 A1742,F1742,E05,2026.2.6.5,Supercharger Site Maps Expanded,4,released,100
-A1743,F1743,E04,2026.2.6.5,Service Mode Improvements,3,released,100
-A1744,F1744,E04,2026.2.9,Active Road Noise Reduction,3,released,100
+A1743,F1743,E09,2026.2.6.5,Service Mode Improvements,3,released,100
+A1744,F1744,E09,2026.2.9,Active Road Noise Reduction,3,released,100
 A1745,F1745,E02,2026.2.9,Autopilot Naming Update,1,released,100
 A1746,F1746,E01,2026.2.9,FSD (Supervised) v14.2.2.5,1,released,100
 A1747,F1747,E05,2026.2.9,Arrival Options,4,released,100
 A1748,F1748,E02,2026.2.9,Speed Profiles,1,released,100
-A1749,F1749,E04,2026.2.9,UI Improvements,3,released,100
+A1749,F1749,E09,2026.2.9,UI Improvements,3,released,100
 A1750,F1750,E07,2026.2.9,Brake Confirm,2,released,100
 A1751,F1751,E01,2026.2.9,Full Self-Driving (Supervised),1,released,100
 A1752,F1752,E06,2026.2.9,Grok with Navigation Commands (Beta),6,released,100
-A1753,F1753,E04,2026.2.9,Unlatching Charge Cable,3,released,100
+A1753,F1753,E09,2026.2.9,Unlatching Charge Cable,3,released,100
 A1754,F1754,E03,2026.2.9,Child Left Alone Detection,2,released,100
-A1755,F1755,E04,2026.2.9,Minor Fixes,3,released,100
+A1755,F1755,E09,2026.2.9,Minor Fixes,3,released,100
 A1756,F1756,E02,2026.2.9,Autopilot Name Changes,1,released,100
 A1757,F1757,E05,2026.2.9,Maps Version,4,released,100
 A1758,F1758,E05,2026.2.9,Supercharger Site Maps Expanded,4,released,100
-A1759,F1759,E04,2026.2.9,Service Mode Improvements,3,released,100
+A1759,F1759,E09,2026.2.9,Service Mode Improvements,3,released,100
 A1760,F1760,E01,2026.8,Comfort Braking,1,released,100
-A1761,F1761,E04,2026.8,Minor Updates,3,released,100
-A1762,F1762,E04,2026.8,Minor Fixes,3,released,100
+A1761,F1761,E09,2026.8,Minor Updates,3,released,100
+A1762,F1762,E09,2026.8,Minor Fixes,3,released,100
 A1763,F1763,E08,2026.8,Dashcam Viewer Improvements,7,released,100
-A1764,F1764,E04,2026.8,Driver Profile,3,released,100
+A1764,F1764,E09,2026.8,Driver Profile,3,released,100
 A1765,F1765,E06,2026.8,Slovak Language Support,6,released,100
-A1766,F1766,E04,2026.8,Service Mode Improvements,3,released,100
+A1766,F1766,E09,2026.8,Service Mode Improvements,3,released,100
 A1767,F1767,E02,2026.8.3,Comfort Braking,1,released,100
-A1768,F1768,E04,2026.8.3,Minor Updates,3,released,100
-A1769,F1769,E04,2026.8.3,Security Improvements,3,released,100
-A1770,F1770,E04,2026.8.3,Minor Fixes,3,released,100
+A1768,F1768,E09,2026.8.3,Minor Updates,3,released,100
+A1769,F1769,E09,2026.8.3,Security Improvements,3,released,100
+A1770,F1770,E09,2026.8.3,Minor Fixes,3,released,100
 A1771,F1771,E08,2026.8.3,Dashcam Viewer Improvements,7,released,100
-A1772,F1772,E04,2026.8.3,Driver Profile,3,released,100
+A1772,F1772,E09,2026.8.3,Driver Profile,3,released,100
 A1773,F1773,E06,2026.8.3,Slovak Language Support,6,released,100
-A1774,F1774,E04,2026.8.3,Service Mode Improvements,3,released,100
+A1774,F1774,E09,2026.8.3,Service Mode Improvements,3,released,100
 A1775,F1775,E01,2026.8.6,Comfort Braking,1,release_complete,100
-A1776,F1776,E04,2026.8.6,Minor Updates,3,release_complete,100
-A1777,F1777,E04,2026.8.6,Security Improvements,3,release_complete,100
-A1778,F1778,E04,2026.8.6,Minor Fixes,3,release_complete,100
+A1776,F1776,E09,2026.8.6,Minor Updates,3,release_complete,100
+A1777,F1777,E09,2026.8.6,Security Improvements,3,release_complete,100
+A1778,F1778,E09,2026.8.6,Minor Fixes,3,release_complete,100
 A1779,F1779,E08,2026.8.6,Dashcam Viewer Improvements,7,release_complete,100
-A1780,F1780,E04,2026.8.6,Driver Profile,3,release_complete,100
+A1780,F1780,E09,2026.8.6,Driver Profile,3,release_complete,100
 A1781,F1781,E06,2026.8.6,Slovak Language Support,6,release_complete,100
-A1782,F1782,E04,2026.8.6,Service Mode Improvements,3,release_complete,100
+A1782,F1782,E09,2026.8.6,Service Mode Improvements,3,release_complete,100

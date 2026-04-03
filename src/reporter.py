@@ -254,7 +254,7 @@ def hardware_gap(snap: dict) -> list[str]:
 
     hw3_only, hw4_only, both_hw, no_hw = [], [], [], []
     for f in released:
-        hw = f.get("hardware", "")
+        hw = f.get("hw_requirement") or f.get("hardware", "")
         has3 = "HW3" in hw
         has4 = "HW4" in hw
         if has3 and has4:

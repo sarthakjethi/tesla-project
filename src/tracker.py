@@ -172,7 +172,8 @@ def get_snapshot(date_str: str, data: dict) -> dict:
         "active_versions":   active_versions,
         "upcoming_versions": upcoming_versions,
         "velocity":          velocity,
-        "risks":             data["risks"],
+        "risks":             [r for r in data["risks"]
+                              if not r.get("_raised_dt") or r["_raised_dt"] <= snap],
         "groups":            data["groups"],
         "subgroups":         data["subgroups"],
         "engineers":         data["engineers"],
@@ -288,7 +289,8 @@ def get_comparison(date1_str: str, date2_str: str, data: dict) -> dict:
         "eng_counts":         dict(eng_counts),
         "window_fpm":         window_fpm,
         "overall_fpm":        overall_fpm,
-        "risks":              data["risks"],
+        "risks":              [r for r in data["risks"]
+                               if not r.get("_raised_dt") or r["_raised_dt"] <= dt2],
         "g_names":            snap2["g_names"],
         "eng_map":            snap2["eng_map"],
     }

@@ -79,6 +79,11 @@ def load_all() -> dict:
         sg["subgroup_id"] = int(sg["subgroup_id"])
         sg["group_id"]    = int(sg["group_id"])
 
+    # ── coerce risks ─────────────────────────────────────────────────────────
+    for r in risks:
+        r["_raised_dt"]   = _parse_date(r.get("raised_date", ""))
+        r["_resolved_dt"] = _parse_date(r.get("resolved_date", ""))
+
     # ── coerce assignments ────────────────────────────────────────────────────
     for a in assignments:
         a["group_id"]     = int(a["group_id"])

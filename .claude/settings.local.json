@@ -5,7 +5,12 @@
       "WebFetch(domain:www.notateslaapp.com)",
       "Bash(pip install:*)",
       "Bash(python src/scraper.py)",
-      "Bash(python -)"
+      "Bash(python -)",
+      "Bash(python fix_data.py)",
+      "Bash(python src/main.py 2023-06-01)",
+      "Bash(python src/main.py 2025-02-15)",
+      "Bash(python src/main.py 2024.26 2025.14)",
+      "Bash(rm:*)"
     ]
   }
 }
