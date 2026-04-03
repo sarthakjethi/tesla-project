@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(python src/main.py)"
+      "Bash(python src/main.py)",
+      "WebFetch(domain:www.notateslaapp.com)",
+      "Bash(pip install:*)",
+      "Bash(python src/scraper.py)",
+      "Bash(python -)"
     ]
   }
 }

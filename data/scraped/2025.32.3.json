@@ -1,0 +1,92 @@
+{
+  "version": "2025.32.3",
+  "url": "https://www.notateslaapp.com/software-updates/version/2025.32.3/release-notes",
+  "release_date": "September 2, 2025",
+  "fsd_version": "FSD 12.6.4 & 13.2.9",
+  "features": [
+    {
+      "name": "Rave Cave",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Frontal Airbag System Enhancement",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Low Power Mode",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Minor Updates",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "FSD Strikes",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Summon Standby",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Grok Reminder",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "PIN to Drive Supports Start FSD From Park",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Drowsiness Detected",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Improved Visualizations",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Bluetooth Audio",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Service Mode Improvements",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    }
+  ]
+}

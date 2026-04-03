@@ -1,0 +1,57 @@
+{
+  "version": "2024.44",
+  "url": "https://www.notateslaapp.com/software-updates/version/2024.44/release-notes",
+  "release_date": "November 2, 2024",
+  "fsd_version": "FSD 12.5.4.2",
+  "features": [
+    {
+      "name": "Cold Weather Improvements",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Trailer-Friendly Superchargers",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Other Updates",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Smoother Visualizations",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Steering Angle Visualization",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "FSD Visualizations With A.S.S.",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Service Mode Improvements",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    }
+  ]
+}

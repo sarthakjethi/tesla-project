@@ -1,0 +1,36 @@
+{
+  "version": "2024.2",
+  "url": "https://www.notateslaapp.com/software-updates/version/2024.2/release-notes",
+  "release_date": "January 18, 2024",
+  "fsd_version": "FSD 11.4.9",
+  "features": [
+    {
+      "name": "Adaptive High Beams",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Security Improvements",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Supercharging Tips",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "PIN to Drive",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "version": "2024.26.7",
+  "url": "https://www.notateslaapp.com/software-updates/version/2024.26.7/release-notes",
+  "release_date": "August 11, 2024",
+  "fsd_version": "FSD 12.3.6",
+  "features": [
+    {
+      "name": "Over-the-Air (OTA) Recall",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "YouTube Music",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Go on Green",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Vision Speed Limits",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Amazon Music",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Castle Doombad Classic",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Parental Controls",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Weather Forecast and Air Quality",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Schedule Charge and Preconditioning",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Navigate to Sub-Destinations",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Other Updates",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Security Improvements",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Show Next Preconditioning / Charging Event",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Hide Music Services Per Profile",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Audio Balance Per Profile",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Service Center Tips",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Reduce Fan Speed Hint",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Reduce Fan Speed Option",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "New Key Required Screen",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Improved Front Camera Clarity",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Traffic-Aware Cruise Control Chime",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "New Ambient Lighting Options",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Improved Climate Panel",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    }
+  ]
+}

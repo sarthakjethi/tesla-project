@@ -1,0 +1,148 @@
+{
+  "version": "2024.32.30",
+  "url": "https://www.notateslaapp.com/software-updates/version/2024.32.30/release-notes",
+  "release_date": "October 8, 2024",
+  "fsd_version": "FSD 12.5.6",
+  "features": [
+    {
+      "name": "FSD (Supervised) v12.5.6",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Full Self-Driving (Supervised)",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "ASS (Actually Smart Summon)",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Vision-Based Attention Monitoring",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "AutoPark Shift Change",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Smoother Visualizations",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Vision Autopark",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "LiveOne Powered by Slacker Radio",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Exclude Home When Using Hands-Free Closures",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Exclude Home When Using Automatic and Hands-Free Closures",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Hands-Free Frunk",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Sentry Mode Light Pulsing",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Construction on Your Route",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Predictive Text for Navigation Searches",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Search This Area",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Mobile App Notification for Tire Service",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Security Improvements",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Cancel Lane Change in Autopilot",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Vision Attention Monitoring Icon",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Mirror in Full Screen",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "version": "2025.44",
+  "url": "https://www.notateslaapp.com/software-updates/version/2025.44/release-notes",
+  "release_date": "November 16, 2025",
+  "fsd_version": "FSD 12.6.4 & 13.2.9",
+  "features": [
+    {
+      "name": "Dashcam Update",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Radio Traffic Announcements",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Minor Update",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Hebrew Language Added",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Service Mode Improvements",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    }
+  ]
+}

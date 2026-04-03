@@ -1,0 +1,29 @@
+{
+  "version": "2023.6.100.1",
+  "url": "https://www.notateslaapp.com/software-updates/version/2023.6.100.1/release-notes",
+  "release_date": "April 24, 2023",
+  "fsd_version": null,
+  "features": [
+    {
+      "name": "Regenerative Braking",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Power Meter",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "App Displays the Vehicle's Route",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    }
+  ]
+}

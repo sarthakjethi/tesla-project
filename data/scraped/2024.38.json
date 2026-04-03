@@ -1,0 +1,50 @@
+{
+  "version": "2024.38",
+  "url": "https://www.notateslaapp.com/software-updates/version/2024.38/release-notes",
+  "release_date": "October 3, 2024",
+  "fsd_version": null,
+  "features": [
+    {
+      "name": "Spotify Free",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Custom Mirror Tilted Positions",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "LiveOne Powered by Slacker Radio",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Other Updates",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Service History",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Tesla App Commands",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    }
+  ]
+}

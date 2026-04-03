@@ -1,0 +1,43 @@
+{
+  "version": "2023.44.30.30",
+  "url": "https://www.notateslaapp.com/software-updates/version/2023.44.30.30/release-notes",
+  "release_date": "March 24, 2024",
+  "fsd_version": "FSD 12.3.1",
+  "features": [
+    {
+      "name": "FSD Beta v12.3.1",
+      "category": "New Feature",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Single Pull in FSD Beta",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Removal of TACC with FSD Beta",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "U-Turns",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    },
+    {
+      "name": "Automatic Speed Offset",
+      "category": "Undocumented Change",
+      "models": null,
+      "hardware": [],
+      "description": ""
+    }
+  ]
+}
