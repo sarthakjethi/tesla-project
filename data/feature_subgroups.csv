@@ -1,0 +1,21 @@
+subgroup_id,group_id,subgroup_name,description
+101,1,Speed Control,Cruise control, speed assist, speed offsets, stopping modes and speed profiles
+102,1,Lane Management,Lane departure, lane changes, Autopilot/FSD activation and steer-by-wire
+103,1,Parking and Summon,Autopark, Summon, Smart Summon and vision-based park assist
+104,1,Neural Network,FSD Beta and Supervised neural network model version updates
+201,2,Driver Monitoring,Drowsiness detection, attention warnings, cabin camera and vision-based monitoring
+202,2,Child and Pet Safety,Dog Mode, Child Left Alone Detection and cabin sensing updates
+203,2,Collision Detection,Automatic emergency braking, blind spot warnings, rear cross-traffic and forward collision
+301,3,Dashcam Viewer,In-app dashcam playback, filters, storage management and camera recording controls
+302,3,Visualizations,Driving and parked visualizations, 3D buildings, Unreal engine and map icon updates
+303,3,Themes,Ambient lighting, color modes, display warmth, transparency effects and Easter egg modes
+401,4,Supercharger,Supercharger routing, pricing, live maps, amenities and cold-weather preconditioning
+402,4,Trip Planning,Trip planner, arrival energy, alternative routes, schedule charging and preconditioning
+403,4,Maps,Navigation improvements, satellite view, POI, favorites, search and HOV/toll routing
+501,5,Music Streaming,Spotify, Apple Music, TIDAL, YouTube Music, SiriusXM, TuneIn, Amazon Music and radio
+502,5,Entertainment,Tesla Theater, games, light shows, photobooth and in-car entertainment apps
+601,6,AI Assistant,Grok, voice assistant, voice recognition, voice commands and handwriting input
+602,6,App Integration,Apple Watch, Tesla App, Bluetooth, Wi-Fi, phone calls, Zoom and location sharing
+701,7,Lights,Adaptive headlights, turn signals, ambient lighting controls, sentry lighting and light sync
+702,7,Suspension,Air suspension, ride height adjustment, ride and handling modes and off-road settings
+703,7,Cameras,Reverse camera, sentry cameras, side cameras, front camera clarity and live camera view

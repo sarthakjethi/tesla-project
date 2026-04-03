@@ -1,0 +1,8 @@
+group_id,group_name,description,owner_team
+1,Autopilot,Full Self-Driving and driver-assist features including lane control, speed management, parking and neural network improvements,autopilot-sw
+2,Safety,Driver monitoring, collision detection, child/pet safety and emergency response systems,safety-sw
+3,UI,In-car display interfaces including dashcam viewer, visualizations, themes and control layouts,ui-sw
+4,Navigation,Routing, maps, Supercharger planning and trip management features,nav-sw
+5,Media,Music streaming, entertainment, gaming and in-car theater experiences,ui-sw
+6,Connectivity,AI assistant, voice commands, phone/app integration and wireless features,ai-sw
+7,Hardware,Physical systems including lights, suspension, cameras and actuator controls,hardware-sw

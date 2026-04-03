@@ -1,0 +1,9 @@
+engineer_id,name,team,specialty,seniority
+E01,Alice Chen,autopilot-sw,FSD neural network and end-to-end driving model,senior
+E02,Bob Martinez,autopilot-sw,Speed and lane control TACC and Autopilot UX,mid
+E03,Priya Nair,safety-sw,Driver monitoring vision systems and emergency response,senior
+E04,James Wu,ui-sw,Dashcam viewer visualizations and in-car display,mid
+E05,Sara Okonkwo,nav-sw,Supercharger routing and trip planning algorithms,mid
+E06,Liam Torres,ai-sw,Grok AI integration and voice recognition pipeline,senior
+E07,Maya Patel,firmware,Sentry mode safety firmware and OTA recall systems,mid
+E08,Noah Kim,hardware-sw,Lights suspension controls and camera actuator firmware,junior
