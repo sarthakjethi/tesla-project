@@ -1,10 +1,10 @@
 # Tesla TPM Dashboard
 
-Program management tooling built on real Tesla release data — tracks feature velocity, team ownership, and risk exposure across 118 software versions.
+What does it look like to manage a software release program when you don't have access to internal tooling? I built this to find out.
 
 ## Overview
 
-Scraped from public Tesla release notes and enriched with engineer assignments, lifecycle stages, and risk tags. Supports three query modes: point-in-time snapshot, version diff, and date range rollup. Built to show what cross-functional software tracking looks like when you own it from data to deployment.
+It scrapes real Tesla release notes, then structures that data into an actual program management model — features assigned to teams, lifecycle stages, risks with severities and mitigations. You can query it three ways: snapshot, version diff, or date range. The interesting part is the time-travel engine: pick any date and it reconstructs the exact state of the program on that day. To be clear, this is a simulation built on public data, not internal Tesla tooling — but the model is real.
 
 ## Live Demo
 
@@ -29,6 +29,3 @@ python src/main.py 2024-07-01 2025-04-01         # date range
 
 Python · BeautifulSoup · Flask · Git · Claude Code
 
-## Author
-
-Sarthak Jethi · sarthakjethi.com
