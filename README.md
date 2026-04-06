@@ -1,10 +1,10 @@
 # Tesla TPM Dashboard
 
-What does it look like to manage a software release program when you don't have access to internal tooling? I built this to find out.
+Managing a software release program means knowing what shipped, what is at risk, and who owns what at any point in time. I built tooling to simulate exactly that, using three years of real Tesla Autopilot release data.
 
 ## Overview
 
-It scrapes real Tesla release notes, then structures that data into an actual program management model — features assigned to teams, lifecycle stages, risks with severities and mitigations. You can query it three ways: snapshot, version diff, or date range. The interesting part is the time-travel engine: pick any date and it reconstructs the exact state of the program on that day. To be clear, this is a simulation built on public data, not internal Tesla tooling — but the model is real.
+The dashboard scrapes public Tesla release notes from 2023 to 2026, structures 1,782 features into engineering teams, lifecycle stages, and risk categories, then lets you query the full program state at any date. The core engine reconstructs what was in development, what had shipped, and what risks were open on any given day across 118 software versions. Built end to end from data collection to web deployment using only public information.
 
 ## Live Demo
 
