@@ -17,7 +17,8 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:5000/)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://127.0.0.1:5000/snapshot?date=2024-09-01\")",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://127.0.0.1:5000/compare?v1=2024.26&v2=2025.14\")",
-      "Bash(kill %1)"
+      "Bash(kill %1)",
+      "WebFetch(domain:127.0.0.1)"
     ]
   }
 }

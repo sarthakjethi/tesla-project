@@ -1,11 +1,6 @@
 {% extends "base.html" %}
 {% block title %}Snapshot {{ snap.date_str }} — Tesla TPM{% endblock %}
 
-{% block nav_page %}
-<div class="nav-sep"></div>
-<span class="nav-page">Snapshot</span>
-{% endblock %}
-
 {# ── macros ─────────────────────────────────────────────────────────────── #}
 {% macro sbadge(status) %}
 <span class="badge badge-{{ status }}">
@@ -25,12 +20,12 @@
 {% block content %}
 
 <!-- Page header -->
-<div style="margin-bottom: 2rem;">
+<div style="margin-bottom: 2.5rem;">
   <div class="page-crumb"><a href="/">Dashboard</a> / Snapshot</div>
   <h1 class="page-title">Snapshot <span class="red">{{ snap.date_str }}</span></h1>
   <p class="page-sub">
-    {{ snap.released_versions | length }} versions released &nbsp;·&nbsp;
-    {{ snap.active_engineers | length }} engineers active &nbsp;·&nbsp;
+    {{ snap.released_versions | length }} versions released &nbsp;&middot;&nbsp;
+    {{ snap.active_engineers | length }} engineers active &nbsp;&middot;&nbsp;
     {{ snap.active_versions | length }} versions in flight
   </p>
 </div>
@@ -39,15 +34,15 @@
 {# 1. STATUS OVERVIEW                                                        #}
 {# ══════════════════════════════════════════════════════════════════════════ #}
 <div class="card">
-  <div class="card-title">1 — Program Status Overview</div>
+  <div class="card-title">Program Status</div>
 
   <!-- Status counts row -->
-  <div class="stat-grid" style="grid-template-columns: repeat(5, 1fr); margin-bottom: 1.5rem;">
+  <div class="stat-grid" style="grid-template-columns: repeat(5, 1fr); margin-bottom: 2rem;">
     {% for status in status_order %}
     {% set count = snap.status_counts.get(status, 0) %}
     <div class="stat-cell">
       <span class="stat-value" style="font-size: 28px;">{{ count }}</span>
-      <div style="margin-top: 6px;">{{ sbadge(status) }}</div>
+      <div style="margin-top: 8px;">{{ sbadge(status) }}</div>
     </div>
     {% endfor %}
   </div>
@@ -56,21 +51,21 @@
   <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem;">
     {% set v = snap.velocity %}
     <div>
-      <div style="font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);">Versions Released</div>
-      <div style="font-size: 26px; font-weight: 200; margin-top: 2px;">{{ v.versions_released }}</div>
+      <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted);">Versions Released</div>
+      <div style="font-size: 26px; font-weight: 700; margin-top: 4px;">{{ v.versions_released }}</div>
     </div>
     <div>
-      <div style="font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);">Features Released</div>
-      <div style="font-size: 26px; font-weight: 200; margin-top: 2px;">{{ v.features_released }}</div>
+      <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted);">Features Released</div>
+      <div style="font-size: 26px; font-weight: 700; margin-top: 4px;">{{ v.features_released }}</div>
     </div>
     <div>
-      <div style="font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);">Avg / Release</div>
-      <div style="font-size: 26px; font-weight: 200; margin-top: 2px;">{{ v.avg_features_per_release }}</div>
+      <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted);">Avg / Release</div>
+      <div style="font-size: 26px; font-weight: 700; margin-top: 4px;">{{ v.avg_features_per_release }}</div>
     </div>
     <div>
-      <div style="font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted);">Avg Cycle Time</div>
-      <div style="font-size: 26px; font-weight: 200; margin-top: 2px;">
-        {{ v.avg_cycle_days }}<span style="font-size: 13px; color: var(--muted);"> days</span>
+      <div style="font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted);">Avg Cycle Time</div>
+      <div style="font-size: 26px; font-weight: 700; margin-top: 4px;">
+        {{ v.avg_cycle_days }}<span style="font-size: 13px; font-weight: 500; color: var(--muted);"> days</span>
       </div>
     </div>
   </div>
@@ -80,11 +75,11 @@
 {# 2. RELEASE ROADMAP                                                        #}
 {# ══════════════════════════════════════════════════════════════════════════ #}
 <div class="card">
-  <div class="card-title">2 — Release Roadmap</div>
+  <div class="card-title">Release Roadmap</div>
 
   {% if snap.active_versions %}
-  <div style="margin-bottom: 1.5rem;">
-    <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--red); margin-bottom: 8px; font-weight: 600;">In Flight</div>
+  <div style="margin-bottom: 1.75rem;">
+    <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: #EE352E; margin-bottom: 10px;">In Flight</div>
     <table>
       <thead><tr>
         <th>Version</th><th>Release Date</th><th style="text-align:right;">Features</th><th>FSD</th>
@@ -92,10 +87,10 @@
       <tbody>
       {% for r in snap.active_versions %}
       <tr>
-        <td><code style="color:var(--text); font-size:13px;">{{ r.version }}</code></td>
+        <td><code style="font-size:13px;">{{ r.version }}</code></td>
         <td class="muted">{{ r.release_date or 'TBD' }}</td>
         <td style="text-align:right;">{{ r.feature_count }}</td>
-        <td>{% if r.fsd_version %}<span class="red" style="font-size:12px;">{{ r.fsd_version }}</span>{% endif %}</td>
+        <td>{% if r.fsd_version %}<span class="red" style="font-size:12px; font-weight:700;">{{ r.fsd_version }}</span>{% endif %}</td>
       </tr>
       {% endfor %}
       </tbody>
@@ -103,9 +98,9 @@
   </div>
   {% endif %}
 
-  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.75rem;">
     <div>
-      <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 8px; font-weight: 600;">Recently Released (last 8)</div>
+      <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 10px;">Recently Released (last 8)</div>
       <table>
         <thead><tr>
           <th>Version</th><th>Date</th><th style="text-align:right;">Feat</th>
@@ -113,7 +108,7 @@
         <tbody>
         {% for r in snap.released_versions[-8:] %}
         <tr>
-          <td><code style="color:var(--text); font-size:12px;">{{ r.version }}</code></td>
+          <td><code style="font-size:12px;">{{ r.version }}</code></td>
           <td class="muted" style="font-size:12px;">{{ r.release_date or '—' }}</td>
           <td style="text-align:right; font-size:12px;">{{ r.feature_count }}</td>
         </tr>
@@ -122,7 +117,7 @@
       </table>
     </div>
     <div>
-      <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 8px; font-weight: 600;">Upcoming (next 8)</div>
+      <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 10px;">Upcoming (next 8)</div>
       <table>
         <thead><tr>
           <th>Version</th><th>Date</th><th style="text-align:right;">Feat</th>
@@ -130,7 +125,7 @@
         <tbody>
         {% for r in snap.upcoming_versions[:8] %}
         <tr>
-          <td><code style="color:var(--text); font-size:12px;">{{ r.version }}</code></td>
+          <td><code style="font-size:12px;">{{ r.version }}</code></td>
           <td class="muted" style="font-size:12px;">{{ r.release_date or 'TBD' }}</td>
           <td style="text-align:right; font-size:12px;">{{ r.feature_count }}</td>
         </tr>
@@ -145,7 +140,7 @@
 {# 3. FEATURE EXPLORER                                                       #}
 {# ══════════════════════════════════════════════════════════════════════════ #}
 <div class="card">
-  <div class="card-title">3 — Feature Explorer — by Group &amp; Subgroup</div>
+  <div class="card-title">Feature Explorer</div>
   <table>
     <thead><tr>
       <th style="width:38%;">Group / Subgroup</th>
@@ -160,16 +155,16 @@
     {% for g in feature_tree %}
     <!-- Group header row -->
     <tr style="background: var(--surface2);">
-      <td style="font-weight: 600; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; padding-left: 12px;">
+      <td style="font-weight: 700; font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; padding-left: 12px; background: #0f0f0f;">
         <span class="muted" style="font-size: 10px;">{{ g.id }}</span>&nbsp;
         {{ g.name }}
       </td>
-      <td style="text-align:right; font-weight: 600;">{{ g.total }}</td>
-      <td style="text-align:right; color:var(--green-text); font-weight:600;">{{ g.released or '' }}</td>
-      <td style="text-align:right; color:var(--blue-text);  font-weight:600;">{{ g.rc or '' }}</td>
-      <td style="text-align:right; color:var(--amber-text); font-weight:600;">{{ g.fc or '' }}</td>
-      <td style="text-align:right; color:var(--orange-text);font-weight:600;">{{ g.dev or '' }}</td>
-      <td style="text-align:right; color:var(--gray-text);  font-weight:600;">{{ g.planned or '' }}</td>
+      <td style="text-align:right; font-weight: 700; background: #0f0f0f;">{{ g.total }}</td>
+      <td style="text-align:right; color:var(--green-text); font-weight:700; background: #0f0f0f;">{{ g.released or '' }}</td>
+      <td style="text-align:right; color:var(--blue-text);  font-weight:700; background: #0f0f0f;">{{ g.rc or '' }}</td>
+      <td style="text-align:right; color:var(--amber-text); font-weight:700; background: #0f0f0f;">{{ g.fc or '' }}</td>
+      <td style="text-align:right; color:var(--orange-text);font-weight:700; background: #0f0f0f;">{{ g.dev or '' }}</td>
+      <td style="text-align:right; color:var(--gray-text);  font-weight:700; background: #0f0f0f;">{{ g.planned or '' }}</td>
     </tr>
     <!-- Subgroup rows -->
     {% for sg in g.subgroups %}
@@ -188,9 +183,9 @@
   </table>
 
   <!-- Legend -->
-  <div style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; gap: 10px; flex-wrap: wrap;">
+  <div style="margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--border); display: flex; gap: 10px; flex-wrap: wrap; align-items: center;">
     {% for status in status_order %}{{ sbadge(status) }} {% endfor %}
-    <span class="muted" style="font-size: 11px; align-self: center;">RC = Release Complete &nbsp; FC = Feature Complete</span>
+    <span class="muted" style="font-size: 11px;">RC = Release Complete &nbsp; FC = Feature Complete</span>
   </div>
 </div>
 
@@ -198,21 +193,21 @@
 {# 4. TEAM VIEW                                                              #}
 {# ══════════════════════════════════════════════════════════════════════════ #}
 <div class="card">
-  <div class="card-title">4 — Team View</div>
+  <div class="card-title">Team View</div>
 
   {% if snap.active_engineers %}
-  <div style="margin-bottom: 1.5rem;">
-    <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 10px; font-weight: 600;">Active Engineers</div>
-    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 8px;">
+  <div style="margin-bottom: 1.75rem;">
+    <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 12px;">Active Engineers</div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px;">
       {% for eid in snap.active_engineers | sort %}
       {% set afeats = snap.active_engineers[eid] %}
       {% set eng = snap.eng_map.get(eid, {'name': eid, 'team': '?', 'seniority': '?'}) %}
       {% set dev_n = afeats | selectattr('snap_status', 'eq', 'in_development') | list | length %}
       {% set fc_n  = afeats | selectattr('snap_status', 'eq', 'feature_complete') | list | length %}
-      <div style="background:var(--surface2); border:1px solid var(--border); border-radius:3px; padding:12px;">
-        <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:6px;">
+      <div style="background: #0f0f0f; border: 1px solid var(--border); padding: 14px;">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px;">
           <div>
-            <span style="font-weight:600; font-size:13px;">{{ eng.name }}</span>
+            <span style="font-weight:700; font-size:13px;">{{ eng.name }}</span>
             <span class="muted" style="font-size:11px; margin-left:6px;">{{ eng.team }}</span>
           </div>
           <div style="font-size:11px; color:var(--muted); white-space:nowrap;">
@@ -221,24 +216,24 @@
           </div>
         </div>
         {% for f in afeats[:4] %}
-        <div style="font-size:11px; color:var(--muted); padding:1px 0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
+        <div style="font-size:11px; color:var(--muted); padding:2px 0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">
           {{ sbadge(f.snap_status) }}
           {{ f.feature_name[:50] }}
         </div>
         {% endfor %}
         {% if afeats | length > 4 %}
-        <div style="font-size:11px; color:#555; margin-top:2px;">+{{ afeats | length - 4 }} more</div>
+        <div style="font-size:11px; color:#555555; margin-top:4px;">+{{ afeats | length - 4 }} more</div>
         {% endif %}
       </div>
       {% endfor %}
     </div>
   </div>
   {% else %}
-  <p class="muted" style="font-size:13px; margin-bottom:1.5rem;">No engineers have active work on this date.</p>
+  <p class="muted" style="font-size:13px; margin-bottom:1.75rem;">No engineers have active work on this date.</p>
   {% endif %}
 
   <!-- Full roster table -->
-  <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 10px; font-weight: 600;">Full Roster</div>
+  <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 10px;">Full Roster</div>
   <table>
     <thead><tr>
       <th>Engineer</th><th>Team</th><th>Seniority</th>
@@ -271,7 +266,7 @@
 {# 5. RISK REGISTER                                                          #}
 {# ══════════════════════════════════════════════════════════════════════════ #}
 <div class="card">
-  <div class="card-title">5 — Risk Register</div>
+  <div class="card-title">Risk Register</div>
   {% if snap.risks %}
   <table>
     <thead><tr>
@@ -308,7 +303,7 @@
 {# 6. HARDWARE GAP                                                           #}
 {# ══════════════════════════════════════════════════════════════════════════ #}
 <div class="card">
-  <div class="card-title">6 — Hardware Gap Analysis</div>
+  <div class="card-title">Hardware Gap</div>
   {% set hw = hw_stats %}
   {% set total = hw.total if hw.total else 1 %}
 
@@ -316,19 +311,19 @@
 
     <!-- Distribution bars -->
     <div>
-      <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 12px; font-weight: 600;">
+      <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 14px;">
         Released Feature Distribution
       </div>
       {% for label, key, color in [
-          ('HW3 + HW4 (both)', 'both',     '#86efac'),
-          ('HW4 Only',          'hw4_only', '#fdba74'),
-          ('HW3 Only',          'hw3_only', '#93c5fd'),
-          ('No HW Tag',         'no_hw',    '#9ca3af')
+          ('HW3 + HW4 (both)', 'both',     '#4ade80'),
+          ('HW4 Only',          'hw4_only', '#FF6319'),
+          ('HW3 Only',          'hw3_only', '#60a5fa'),
+          ('No HW Tag',         'no_hw',    '#888888')
         ] %}
       {% set count = hw[key] %}
       {% set pct = ((count / total) * 100) | round(1) %}
-      <div style="margin-bottom: 12px;">
-        <div style="display:flex; justify-content:space-between; font-size:12px; margin-bottom:4px;">
+      <div style="margin-bottom: 14px;">
+        <div style="display:flex; justify-content:space-between; font-size:12px; margin-bottom:5px;">
           <span class="muted">{{ label }}</span>
           <span>
             <span style="color:{{ color }};">{{ count }}</span>
@@ -340,13 +335,13 @@
         </div>
       </div>
       {% endfor %}
-      <p class="muted" style="font-size:11px; margin-top: 8px;">Total released features: {{ hw.total }}</p>
+      <p class="muted" style="font-size:11px; margin-top: 10px;">Total released features: {{ hw.total }}</p>
     </div>
 
     <!-- HW4-exclusive by group -->
     <div>
       {% if hw.hw4_by_group %}
-      <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 12px; font-weight: 600;">
+      <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 14px;">
         HW4-Exclusive by Group
       </div>
       <table>
@@ -364,11 +359,11 @@
         </tbody>
       </table>
       {% if hw.hw4_sample %}
-      <div style="margin-top:1rem;">
-        <div style="font-size:10px; text-transform:uppercase; letter-spacing:0.1em; color:var(--muted); margin-bottom:8px; font-weight:600;">Sample HW4-Only Features</div>
+      <div style="margin-top:1.25rem;">
+        <div style="font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:var(--muted); margin-bottom:8px;">Sample HW4-Only Features</div>
         {% for f in hw.hw4_sample %}
-        <div style="font-size:12px; color:var(--muted); padding:2px 0;">
-          <code style="color:var(--text); font-size:11px;">{{ f.version }}</code>
+        <div style="font-size:12px; color:var(--muted); padding:3px 0;">
+          <code style="font-size:11px;">{{ f.version }}</code>
           &nbsp;{{ f.feature_name[:50] }}
         </div>
         {% endfor %}
@@ -385,15 +380,15 @@
 </div>
 
 {# ══════════════════════════════════════════════════════════════════════════ #}
-{# 7. VELOCITY REPORT  (labelled as view 6 in the dashboard)                #}
+{# 7. VELOCITY REPORT                                                        #}
 {# ══════════════════════════════════════════════════════════════════════════ #}
 <div class="card">
-  <div class="card-title">6b — Velocity Report</div>
+  <div class="card-title">Velocity</div>
   <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem;">
 
     <!-- Top 10 by feature count -->
     <div>
-      <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 8px; font-weight: 600;">Top 10 Releases by Feature Count</div>
+      <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 10px;">Top 10 Releases by Feature Count</div>
       <table>
         <thead><tr>
           <th>Version</th>
@@ -404,8 +399,8 @@
         <tbody>
         {% for r in vel_stats.top_10 %}
         <tr>
-          <td><code style="color:var(--text); font-size:12px;">{{ r.version }}</code></td>
-          <td style="text-align:right; color:var(--red); font-weight:600;">{{ r.count }}</td>
+          <td><code style="font-size:12px;">{{ r.version }}</code></td>
+          <td style="text-align:right; color:var(--red); font-weight:700;">{{ r.count }}</td>
           <td style="text-align:right; color:var(--muted); font-size:12px;">{{ r.avg_cycle }}d</td>
           <td class="muted" style="font-size:12px;">{{ r.date }}</td>
         </tr>
@@ -416,11 +411,11 @@
 
     <!-- Category breakdown -->
     <div>
-      <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 8px; font-weight: 600;">Released Features by Category</div>
+      <div style="font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 10px;">Released Features by Category</div>
       {% set max_cat = vel_stats.categories[0].count if vel_stats.categories else 1 %}
       {% for cat in vel_stats.categories %}
-      <div style="margin-bottom: 8px;">
-        <div style="display:flex; justify-content:space-between; font-size:12px; margin-bottom:3px;">
+      <div style="margin-bottom: 10px;">
+        <div style="display:flex; justify-content:space-between; font-size:12px; margin-bottom:4px;">
           <span class="muted">{{ cat.name }}</span>
           <span>
             {{ cat.count }}
