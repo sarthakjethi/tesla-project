@@ -10,7 +10,14 @@
       "Bash(python src/main.py 2023-06-01)",
       "Bash(python src/main.py 2025-02-15)",
       "Bash(python src/main.py 2024.26 2025.14)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(python -c \"import flask; print\\('Flask', flask.__version__\\)\")",
+      "Bash(timeout 8 python src/app.py)",
+      "Bash(python src/app.py)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:5000/)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://127.0.0.1:5000/snapshot?date=2024-09-01\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" \"http://127.0.0.1:5000/compare?v1=2024.26&v2=2025.14\")",
+      "Bash(kill %1)"
     ]
   }
 }

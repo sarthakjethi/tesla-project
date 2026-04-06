@@ -1,0 +1,206 @@
+{% extends "base.html" %}
+{% block title %}Compare {{ v1 }} → {{ v2 }} — Tesla TPM{% endblock %}
+
+{% block nav_page %}
+<div class="nav-sep"></div>
+<span class="nav-page">Compare</span>
+{% endblock %}
+
+{% macro sevbadge(sev) %}
+<span class="badge badge-{{ sev | lower }}">{{ sev | upper }}</span>
+{% endmacro %}
+
+{% block content %}
+
+<!-- Page header -->
+<div style="margin-bottom: 2rem;">
+  <div class="page-crumb"><a href="/">Dashboard</a> / Compare</div>
+  <h1 class="page-title">
+    <span class="red">{{ v1 }}</span>
+    <span class="muted" style="font-size: 0.55em; margin: 0 14px; vertical-align: middle;">→</span>
+    <span class="red">{{ v2 }}</span>
+  </h1>
+  <p class="page-sub">{{ comp.date1_str }} to {{ comp.date2_str }} &nbsp;·&nbsp; {{ comp.days }} days</p>
+</div>
+
+{# ── Top stat row ─────────────────────────────────────────────────────── #}
+<div class="stat-grid" style="grid-template-columns: repeat(4, 1fr); margin-bottom: 1.5rem;">
+  <div class="stat-cell">
+    <span class="stat-value">{{ comp.released_in_window | length }}</span>
+    <div class="stat-label">Features Shipped</div>
+  </div>
+  <div class="stat-cell">
+    <span class="stat-value">{{ comp.versions_in_window | length }}</span>
+    <div class="stat-label">Versions Released</div>
+  </div>
+  <div class="stat-cell">
+    <span class="stat-value" style="font-size: 18px; padding-top: 10px; letter-spacing: 0;">
+      {{ comp.fsd_at_start or 'N/A' }}
+      <span class="muted" style="font-size: 14px;">&rarr;</span>
+      {{ comp.fsd_at_end or 'N/A' }}
+    </span>
+    <div class="stat-label">FSD Progression</div>
+  </div>
+  <div class="stat-cell">
+    <span class="stat-value">{{ comp.window_fpm | round(1) }}</span>
+    <div class="stat-label">Features / Month</div>
+  </div>
+</div>
+
+{# ── Two-column row: Groups + Engineers ──────────────────────────────── #}
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem;">
+
+  <!-- Features shipped by group -->
+  <div class="card" style="margin-bottom: 0;">
+    <div class="card-title">Features Shipped by Group</div>
+    {% if display.group_list %}
+    <table>
+      <thead><tr>
+        <th>Group</th>
+        <th style="text-align:right;">Shipped</th>
+      </tr></thead>
+      <tbody>
+      {% for g in display.group_list %}
+      <tr>
+        <td style="font-size:13px;">{{ g.name }}</td>
+        <td style="text-align:right; color:var(--red); font-weight:600;">{{ g.count }}</td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <p class="muted" style="font-size:13px;">No features shipped in this window.</p>
+    {% endif %}
+  </div>
+
+  <!-- Engineer productivity -->
+  <div class="card" style="margin-bottom: 0;">
+    <div class="card-title">Engineer Productivity in Window</div>
+    {% if display.eng_list %}
+    <table>
+      <thead><tr>
+        <th>Engineer</th>
+        <th style="text-align:right;">Shipped</th>
+      </tr></thead>
+      <tbody>
+      {% for e in display.eng_list %}
+      <tr>
+        <td style="font-weight:500;">{{ e.name }}</td>
+        <td style="text-align:right; color:var(--red); font-weight:600;">{{ e.count }}</td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <p class="muted" style="font-size:13px;">No engineer activity recorded.</p>
+    {% endif %}
+  </div>
+
+</div>
+
+{# ── Two-column row: Versions + Transitions + Velocity ───────────────── #}
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem;">
+
+  <!-- Versions released in window -->
+  <div class="card" style="margin-bottom: 0;">
+    <div class="card-title">Versions Released in Window</div>
+    {% if comp.versions_in_window %}
+    <div style="display: flex; flex-wrap: wrap; gap: 6px;">
+      {% for v in comp.versions_in_window %}
+      <code style="background:var(--surface2); border:1px solid var(--border); padding:4px 10px; border-radius:3px; font-size:12px; color:var(--text);">{{ v.version }}</code>
+      {% endfor %}
+    </div>
+    {% else %}
+    <p class="muted" style="font-size:13px;">No versions released in this window.</p>
+    {% endif %}
+  </div>
+
+  <!-- Transitions + Velocity -->
+  <div class="card" style="margin-bottom: 0;">
+    <div class="card-title">Status Transitions &amp; Velocity</div>
+
+    <!-- Transitions -->
+    {% set trans_labels = [
+        ('planned',          'Planned'),
+        ('in_development',   'In Development'),
+        ('feature_complete', 'Feature Complete'),
+        ('release_complete', 'Release Complete')
+    ] %}
+    {% set any_trans = namespace(found=false) %}
+    {% for key, label in trans_labels %}
+      {% set n = comp.transitions.get(key, 0) %}
+      {% if n %}{% set any_trans.found = true %}{% endif %}
+    {% endfor %}
+
+    {% if any_trans.found %}
+    <div style="margin-bottom: 1rem;">
+      <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 8px; font-weight: 600;">Transitions → Released</div>
+      {% for key, label in trans_labels %}
+      {% set n = comp.transitions.get(key, 0) %}
+      {% if n %}
+      <div style="display:flex; justify-content:space-between; font-size:13px; margin-bottom:4px;">
+        <span class="muted">{{ label }}</span>
+        <span>{{ n }}</span>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    <!-- Velocity -->
+    <div style="padding-top: {% if any_trans.found %}0.75rem; border-top: 1px solid var(--border);{% else %}0;{% endif %} ">
+      <div style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 8px; font-weight: 600;">Velocity Comparison</div>
+      <div style="display:flex; justify-content:space-between; font-size:13px; margin-bottom:4px;">
+        <span class="muted">Window pace</span>
+        <span>{{ comp.window_fpm | round(1) }} f/month</span>
+      </div>
+      <div style="display:flex; justify-content:space-between; font-size:13px; margin-bottom:4px;">
+        <span class="muted">Overall avg</span>
+        <span>{{ comp.overall_fpm | round(1) }} f/month</span>
+      </div>
+      <div style="display:flex; justify-content:space-between; font-size:13px;">
+        <span class="muted">Assessment</span>
+        <span style="font-weight:600;
+          color:{% if display.pace == 'faster' %}var(--green-text)
+                {% elif display.pace == 'slower' %}#fca5a5
+                {% else %}var(--text){% endif %};">
+          {{ display.pace | upper }}
+        </span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+{# ── Active risks ────────────────────────────────────────────────────── #}
+{% if display.open_risks %}
+<div class="card">
+  <div class="card-title">Active Risks During Window</div>
+  <table>
+    <thead><tr>
+      <th style="width:11%;">Severity</th>
+      <th style="width:28%;">Title</th>
+      <th style="width:13%;">Owner</th>
+      <th style="width:10%;">Probability</th>
+      <th style="width:38%;">Description</th>
+    </tr></thead>
+    <tbody>
+    {% for r in display.open_risks %}
+    <tr>
+      <td>{{ sevbadge(r.severity) }}</td>
+      <td style="font-weight:500; font-size:13px;">{{ r.title }}</td>
+      <td class="muted" style="font-size:12px;">{{ r.owner_team }}</td>
+      <td>
+        <span class="badge badge-{{ r.probability | lower }}" style="font-size:9px;">{{ r.probability }}</span>
+      </td>
+      <td class="muted" style="font-size:12px;">
+        {{ r.description[:130] }}{% if r.description | length > 130 %}…{% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
+
+{% endblock %}

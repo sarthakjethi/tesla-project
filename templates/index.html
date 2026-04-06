@@ -1,0 +1,93 @@
+{% extends "base.html" %}
+{% block title %}Tesla TPM Dashboard{% endblock %}
+
+{% block content %}
+
+<!-- Hero -->
+<div style="text-align: center; padding: 4rem 0 3rem;">
+  <div style="font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase; color: var(--muted); margin-bottom: 16px;">
+    Tesla Program Management
+  </div>
+  <h1 style="font-size: 52px; font-weight: 200; letter-spacing: -0.025em; line-height: 1;">
+    TPM <span class="red">Dashboard</span>
+  </h1>
+  <p style="color: var(--muted); font-size: 14px; margin-top: 12px; letter-spacing: 0.02em;">
+    Time-travel visibility across 3 years of Tesla software releases
+  </p>
+</div>
+
+{% if error %}
+<div class="alert" style="max-width: 680px; margin: 0 auto 2rem;">{{ error }}</div>
+{% endif %}
+
+<!-- Key stats -->
+<div class="stat-grid" style="grid-template-columns: repeat(4, 1fr); max-width: 680px; margin: 0 auto 3rem;">
+  <div class="stat-cell">
+    <span class="stat-value">{{ stats.versions }}</span>
+    <div class="stat-label">Versions</div>
+  </div>
+  <div class="stat-cell">
+    <span class="stat-value">{{ stats.features }}</span>
+    <div class="stat-label">Features</div>
+  </div>
+  <div class="stat-cell">
+    <span class="stat-value">{{ stats.engineers }}</span>
+    <div class="stat-label">Engineers</div>
+  </div>
+  <div class="stat-cell">
+    <span class="stat-value">{{ stats.risks }}</span>
+    <div class="stat-label">Risks</div>
+  </div>
+</div>
+
+<!-- Mode cards -->
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; max-width: 680px; margin: 0 auto;">
+
+  <!-- Snapshot mode -->
+  <div class="card" style="margin-bottom: 0;">
+    <div class="card-title">Snapshot Mode</div>
+    <p style="color: var(--muted); font-size: 13px; margin-bottom: 1.25rem; line-height: 1.65;">
+      View the full program state on any date — status, team load, risks, and velocity.
+    </p>
+    <form action="/snapshot" method="get" style="display: flex; flex-direction: column; gap: 12px;">
+      <div>
+        <label style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); display: block; margin-bottom: 6px;">Date</label>
+        <input type="date" name="date" value="2024-09-01">
+      </div>
+      <button type="submit" class="btn">View Snapshot</button>
+    </form>
+  </div>
+
+  <!-- Compare mode -->
+  <div class="card" style="margin-bottom: 0;">
+    <div class="card-title">Compare Mode</div>
+    <p style="color: var(--muted); font-size: 13px; margin-bottom: 1.25rem; line-height: 1.65;">
+      Compare two versions or dates — what shipped, who built it, and velocity.
+    </p>
+    <form action="/compare" method="get" style="display: flex; flex-direction: column; gap: 12px;">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px;">
+        <div>
+          <label style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); display: block; margin-bottom: 6px;">From</label>
+          <input type="text" name="v1" placeholder="2024.26">
+        </div>
+        <div>
+          <label style="font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); display: block; margin-bottom: 6px;">To</label>
+          <input type="text" name="v2" placeholder="2025.14">
+        </div>
+      </div>
+      <button type="submit" class="btn">Compare Versions</button>
+    </form>
+  </div>
+
+</div>
+
+<!-- Hint -->
+<p style="text-align: center; color: var(--muted); font-size: 12px; margin-top: 2rem;">
+  Use version strings like
+  <code style="color: var(--text); background: var(--surface); border: 1px solid var(--border); padding: 1px 6px; border-radius: 2px;">2024.26</code>
+  or date strings like
+  <code style="color: var(--text); background: var(--surface); border: 1px solid var(--border); padding: 1px 6px; border-radius: 2px;">2024-07-01</code>
+  in Compare mode
+</p>
+
+{% endblock %}

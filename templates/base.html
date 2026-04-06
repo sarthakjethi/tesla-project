@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Tesla TPM Dashboard{% endblock %}</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #000000;
+      --surface:  #111111;
+      --surface2: #1a1a1a;
+      --border:   #2a2a2a;
+      --text:     #ffffff;
+      --muted:    #888888;
+      --red:      #EE352E;
+      --green-bg: #14532d; --green-text: #86efac;
+      --blue-bg:  #1e3a5f; --blue-text:  #93c5fd;
+      --amber-bg: #451a03; --amber-text: #fcd34d;
+      --orange-bg:#431407; --orange-text:#fdba74;
+      --gray-bg:  #1f2937; --gray-text:  #9ca3af;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* ── Nav ──────────────────────────────────────────── */
+    nav {
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 0 2.5rem;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    .nav-t-logo {
+      width: 18px;
+      height: 18px;
+      fill: var(--red);
+    }
+
+    .nav-label {
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .nav-sep {
+      width: 1px;
+      height: 20px;
+      background: var(--border);
+    }
+
+    .nav-page {
+      font-size: 12px;
+      letter-spacing: 0.06em;
+      color: var(--text);
+    }
+
+    /* ── Layout ───────────────────────────────────────── */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem 2.5rem;
+    }
+
+    /* ── Cards ────────────────────────────────────────── */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .card-title {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      padding-bottom: 0.75rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    /* ── Tables ───────────────────────────────────────── */
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+
+    th {
+      text-align: left;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      padding: 7px 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    td {
+      padding: 8px 12px;
+      border-bottom: 1px solid #1c1c1c;
+      vertical-align: top;
+    }
+
+    tr:last-child td { border-bottom: none; }
+    tr:hover td      { background: var(--surface2); }
+
+    /* ── Badges ───────────────────────────────────────── */
+    .badge {
+      display: inline-block;
+      padding: 2px 7px;
+      border-radius: 3px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .badge-released         { background: var(--green-bg);  color: var(--green-text);  }
+    .badge-release_complete { background: var(--blue-bg);   color: var(--blue-text);   }
+    .badge-feature_complete { background: var(--amber-bg);  color: var(--amber-text);  }
+    .badge-in_development   { background: var(--orange-bg); color: var(--orange-text); }
+    .badge-planned          { background: var(--gray-bg);   color: var(--gray-text);   }
+
+    .badge-critical { background: #7f1d1d; color: #fca5a5; }
+    .badge-high     { background: var(--orange-bg); color: var(--orange-text); }
+    .badge-medium   { background: var(--amber-bg);  color: var(--amber-text);  }
+    .badge-low      { background: var(--gray-bg);   color: var(--gray-text);   }
+
+    /* ── Stat grid ────────────────────────────────────── */
+    .stat-grid {
+      display: grid;
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    .stat-cell {
+      background: var(--surface);
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    .stat-value {
+      font-size: 36px;
+      font-weight: 200;
+      letter-spacing: -0.02em;
+      display: block;
+      line-height: 1.1;
+    }
+
+    .stat-label {
+      font-size: 10px;
+      font-weight: 500;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-top: 6px;
+    }
+
+    /* ── Forms ────────────────────────────────────────── */
+    input[type="date"],
+    input[type="text"] {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 10px 14px;
+      border-radius: 3px;
+      font-family: inherit;
+      font-size: 14px;
+      outline: none;
+      width: 100%;
+      -webkit-appearance: none;
+    }
+
+    input[type="date"]::-webkit-calendar-picker-indicator {
+      filter: invert(1) opacity(0.4);
+      cursor: pointer;
+    }
+
+    input:focus { border-color: var(--red); }
+
+    .btn {
+      display: inline-block;
+      background: var(--red);
+      color: #fff;
+      border: none;
+      padding: 10px 22px;
+      border-radius: 3px;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.15s;
+      width: 100%;
+      text-align: center;
+    }
+
+    .btn:hover { background: #d42b24; }
+
+    /* ── Progress bar ─────────────────────────────────── */
+    .progress {
+      height: 3px;
+      background: var(--border);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: var(--red);
+      border-radius: 2px;
+    }
+
+    /* ── Misc ─────────────────────────────────────────── */
+    .red         { color: var(--red); }
+    .muted       { color: var(--muted); }
+    code         { font-family: "Helvetica Neue", Helvetica, monospace; }
+
+    .page-crumb {
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 10px;
+    }
+
+    .page-crumb a { color: inherit; text-decoration: none; }
+    .page-crumb a:hover { color: var(--text); }
+
+    .page-title {
+      font-size: 32px;
+      font-weight: 200;
+      letter-spacing: -0.01em;
+      line-height: 1.2;
+    }
+
+    .page-sub {
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 4px;
+    }
+
+    .alert {
+      background: #3b0000;
+      border: 1px solid #7f1d1d;
+      color: #fca5a5;
+      padding: 12px 16px;
+      border-radius: 3px;
+      margin-bottom: 1.5rem;
+      font-size: 13px;
+    }
+
+    /* ── Responsive ───────────────────────────────────── */
+    @media (max-width: 700px) {
+      .container { padding: 1rem; }
+      .page-title { font-size: 24px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-brand">
+    <!-- Tesla T mark (simplified path) -->
+    <svg class="nav-t-logo" viewBox="0 0 342 512" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 57.3L57 0h228l57 57.3-57 .3c-1.9 37.2-5.8 72.7-14.5 106.8l-55 330.1-55-330.1
+               C151.8 130.3 147.9 94.8 146 57.6L57 57.3z"/>
+    </svg>
+    <span class="nav-label">TPM Dashboard</span>
+    {% block nav_page %}{% endblock %}
+  </a>
+</nav>
+
+<div class="container">
+  {% block content %}{% endblock %}
+</div>
+
+</body>
+</html>
