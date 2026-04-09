@@ -47,6 +47,40 @@
     {% endfor %}
   </div>
 
+  <!-- Subway pipeline -->
+  <div style="position:relative; margin: 1.5rem 0 2rem 0;">
+    <div style="position:absolute; top:50%; left:0; right:0; height:3px;
+      background: linear-gradient(to right,
+        #27AE60 0%, #27AE60 25%,
+        #2980B9 25%, #2980B9 50%,
+        #2980B9 50%, #2980B9 75%,
+        #E67E22 75%, #E67E22 87.5%,
+        #888888 87.5%, #888888 100%);
+      transform:translateY(-50%); z-index:0;">
+    </div>
+    <div style="position:relative; z-index:1; display:flex;
+      justify-content:space-between; align-items:center;">
+      {% set stage_colors = {
+        'released': '#27AE60',
+        'rc': '#2980B9',
+        'fc': '#2980B9',
+        'in_development': '#E67E22',
+        'planned': '#888888'
+      } %}
+      {% for status in status_order %}
+      {% set count = snap.status_counts.get(status, 0) %}
+      {% set color = stage_colors.get(status, '#888888') %}
+      <div class="pipeline-dot"
+        style="width:22px;height:22px;border-radius:50%;
+          background:{{ color }};cursor:pointer;
+          transition:transform 0.15s ease, box-shadow 0.15s ease;
+          position:relative;"
+        title="{{ status | replace('_',' ') | title }}: {{ count }}">
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
   <!-- Velocity numbers -->
   <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem;">
     {% set v = snap.velocity %}
