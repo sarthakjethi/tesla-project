@@ -1,6 +1,6 @@
 # Tesla TPM Dashboard
 
-Managing a software release program means knowing what shipped, what is at risk, and who owns what at any point in time. I built tooling to simulate exactly that, using three years of real Tesla Autopilot release data.
+Managing a software release program means knowing what shipped, what is at risk, and who owns what at any point in time. I built tooling to simulate exactly that, using three years of real Tesla vehicle software update data.
 
 ## Overview
 
